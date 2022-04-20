@@ -1,10 +1,10 @@
 import TED
+import VSM
 import xml.etree.ElementTree as ET
 
-TED
-doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
-doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
-print("TED Similarity: ",TED.TED(doc1,doc2))
+# doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
+# doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
+# print("TED Similarity: ",TED.TED(doc1,doc2))
 
 # ! i) text document pre-processing
 # ? In this step, we will be differenciating between input XML file and textual files/simple queries.
@@ -16,12 +16,15 @@ print("TED Similarity: ",TED.TED(doc1,doc2))
 # ! ii) document vector representation
 # ? In this step, we will be transforming each document to a vector representation.
 # ? But first, we need to tokenize, stem, lemmatize
-# * Tokenization
-#  TODO using libraries (sltk)
-# * Stop word removal, stemming
-# TODO 
-# * Lemmatization
-####
+
+# cleaned = VSM.clean_text("This is Sara. Sara is having the best IDPA experience!")
+# print(cleaned)
+# vectorized = VSM.vectorizer(cleaned)
+# print(vectorized)
+# # print([e for e in arr])
+
+print(VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"]))
+
 # ? Optional: User can choose which of the following 3 approches to use
 # TODO
 # * Augmented Vectors
