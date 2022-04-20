@@ -1,9 +1,21 @@
+from xmlrpc.client import boolean
+
+from yaml import parse
 import TED
 import xml.etree.ElementTree as ET
 
-TED
-doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
-doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
+#TED
+with open("Documents/XML1.xml",'r') as file1:
+    str1 = file1.read()
+with open("Documents/XML2.xml",'r') as file2:
+    str2 = file2.read()
+
+tree1 = ET.fromstring(str1)
+tree2 = ET.fromstring(str2)
+
+doc1 = TED.preprocessing(tree1)
+doc2 = TED.preprocessing(tree2)
+
 print("TED Similarity: ",TED.TED(doc1,doc2))
 
 # ! i) text document pre-processing
@@ -12,6 +24,16 @@ print("TED Similarity: ",TED.TED(doc1,doc2))
 #  TODO using XML validator
 # * If input is .txt/query
 #  TODO
+
+def isXML(value):
+    try:
+        ET.fromstring(value)
+    except ET.ParseError:
+        return False
+    return True
+
+print(isXML(str1))
+
 
 # ! ii) document vector representation
 # ? In this step, we will be transforming each document to a vector representation.
