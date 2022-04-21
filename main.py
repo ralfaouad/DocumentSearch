@@ -3,18 +3,22 @@ import VSM
 import xml.etree.ElementTree as ET
 
 #TED
-with open("Documents/XML1.xml",'r') as file1:
-    str1 = file1.read()
-with open("Documents/XML2.xml",'r') as file2:
-    str2 = file2.read()
+# with open("Documents/XML1.xml",'r') as file1:
+#     str1 = file1.read()
+# with open("Documents/XML2.xml",'r') as file2:
+#     str2 = file2.read()
 
-tree1 = ET.fromstring(str1)
-tree2 = ET.fromstring(str2)
+# tree1 = ET.fromstring(str1)
+# tree2 = ET.fromstring(str2)
 
-doc1 = TED.preprocessing(tree1)
-doc2 = TED.preprocessing(tree2)
+treeA = TED.preprocessing(ET.parse("XML1.xml").getroot())
+treeB = TED.preprocessing(ET.parse("XML2.xml").getroot())
 
-print("TED Similarity: ",TED.TED(doc1,doc2))
+# doc1 = TED.preprocessing(tree1)
+# doc2 = TED.preprocessing(tree2)
+
+print(TED.contained_in(treeA, treeB))
+# print("TED Similarity: ",TED.TED(treeA,treeB))
 # doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
 # doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
 # print("TED Similarity: ",TED.TED(doc1,doc2))
@@ -33,8 +37,6 @@ def isXML(value):
         return False
     return True
 
-print(isXML(str1))
-
 
 # ! ii) document vector representation
 # ? In this step, we will be transforming each document to a vector representation.
@@ -46,7 +48,7 @@ print(isXML(str1))
 # print(vectorized)
 # # print([e for e in arr])
 
-print(VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"]))
+# print(VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"]))
 
 # ? Optional: User can choose which of the following 3 approches to use
 # TODO
