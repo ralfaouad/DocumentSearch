@@ -29,3 +29,4 @@ def wagner_fischer(word_1, word_2):
         B[i,j] = (deletion==mo, substitution==mo, insertion==mo)
         D[i,j] = mo
     return D, B
+    
