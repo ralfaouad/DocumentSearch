@@ -1,4 +1,3 @@
-from turtle import delay
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 import regex as re
