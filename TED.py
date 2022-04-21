@@ -74,14 +74,30 @@ def contained_in(treeA, treeB):
             return True
 
         if get_size(treeA) > 1:
+            a = True
+
+            children_A = []
+            for child_A in treeA:
+                children_A.append(child_A)
+
             children_B = []
             for child_B in treeB:
                 children_B.append(child_B)
+
             for child_A in treeA:
+                if(not children_B):
+                    a = False
+                    break
                 while(children_B):
-                    if re.split('@|#|&',child_A.tag)[1] == re.split('@|#|&',children_B.pop(0).tag)[1] :
+                    if re.split('@|#|&',child_A.tag)[1] == re.split('@|#|&',children_B[0].tag)[1] :
+                        a = a and contained_in(child_A,children_B[0])
+                        children_A.pop(0)
+                        children_B.pop(0)
                         break
-                if(children_B): return contained_in(child_A,treeB)
+                    children_B.pop(0)
+            
+            if(children_A): a = False
+            return a
     
     a = False
     for child_B in treeB:
