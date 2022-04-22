@@ -20,7 +20,7 @@ with open("Documents/XML2.xml",'r') as file2:
 treeA = TED.preprocessing(ET.parse("XML1.xml").getroot())
 treeB = TED.preprocessing(ET.parse("XML2.xml").getroot())
 
-print("TED Similarity: ",TED.TED(doc1,doc2))
+# print("TED Similarity: ",TED.TED(doc1,doc2))
 
 # doc1 = TED.preprocessing(tree1)
 # doc2 = TED.preprocessing(tree2)
