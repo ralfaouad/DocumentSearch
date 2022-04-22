@@ -1,6 +1,7 @@
 import TED
 import VSM
 import xml.etree.ElementTree as ET
+from utils import cosine, euclidian, manhattan, tanimoto
 
 #TED
 with open("Documents/XML1.xml",'r') as file1:
