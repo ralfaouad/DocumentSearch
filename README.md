@@ -9,7 +9,6 @@ pip install -r requirements.txt
 * Sara Karam - [@saraakaram](https://github.com/saraakaram)
 * Karen Estephan - [@KarenEstephan](https://github.com/KarenEstephan)
 
-
 ## Contact
 
 You can reach me at <ralph.a.aouad@gmail.com>.

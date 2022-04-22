@@ -9,6 +9,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+import pandas as pd
 
 vocab = {}
 vectors = []
@@ -53,4 +54,11 @@ def TF_IDF(arr):
     # ! Encode the document
     csr_matrices = vectorizer.transform(arr)
     vectors = csr_matrices.toarray()
-    return csr_matrices # >>> CSR matrix will be the input of our cosine similarity function
+    doc_term_matrix = csr_matrices.todense()
+    print(doc_term_matrix)
+
+    # print table
+    df = pd.DataFrame(doc_term_matrix, columns=vectorizer.get_feature_names_out())
+    print(df)
+
+    return csr_matrices # >>> CSR matrices will be the input for the sim measures

@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from utils import cosine, euclidian, manhattan, tanimoto
 
 #TED
+# TODO replace both document with input from GUI
 with open("Documents/XML1.xml",'r') as file1:
     str1 = file1.read()
 with open("Documents/XML2.xml",'r') as file2:
@@ -16,6 +17,7 @@ doc1 = TED.preprocessing(tree1)
 doc2 = TED.preprocessing(tree2)
 
 print("TED Similarity: ",TED.TED(doc1,doc2))
+
 # doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
 # doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
 # print("TED Similarity: ",TED.TED(doc1,doc2))
@@ -34,7 +36,7 @@ def isXML(value):
         return False
     return True
 
-print(isXML(str1))
+# print(isXML(str1))
 
 
 # ! ii) document vector representation
@@ -47,7 +49,15 @@ print(isXML(str1))
 # print(vectorized)
 # # print([e for e in arr])
 
-print(VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"]))
+
+# TODO add clean method before TF-IDF step
+output = VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"])
+
+# cosim = cosine(output[0],output[1])
+# print(cosim)
+
+# pcc = tanimoto(output[0],output[1])
+# print(pcc)
 
 # ? Optional: User can choose which of the following 3 approches to use
 # TODO
@@ -71,6 +81,8 @@ print(VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "th
 # ? Needed: User can choose which measure to use.
 # * Cosine
 # TODO
+    
+
 # * PCC
 # TODO
 # * Euclidian, Manhattan, Tanimoto & Dice
