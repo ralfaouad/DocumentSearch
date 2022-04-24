@@ -1,4 +1,7 @@
 import nltk
+import math
+import json
+import os
 # nltk.download('punkt')
 # nltk.download('stopwords')
 # nltk.download('wordnet')
@@ -37,6 +40,36 @@ def TF(str):
             TF[word] = 1
     return TF
 
+def IDF(term, corpus_path):
+    occurrences = 0
+    size = 0
+
+    for filename in os.listdir(corpus_path):
+        size += 1
+        with open(corpus_path + "/" + filename,'r') as file:
+            str = file.read()
+        # str = clean_text(str) 
+
+        if(term in str.split()):
+            occurrences += 1
+
+    print("log(",size,"/",occurrences,")")
+    return math.log(size/occurrences,10)
+
+def TF_IDF(term, document, corpus_path):
+    dict = {}
+    TF_IDF = {}
+
+    with open(corpus_path + "/" + document,'r') as file:
+            str = file.read()
+    
+    dict = TF(str)
+    TF_IDF[term] = dict[term] * IDF(term, corpus_path)
+
+    return TF_IDF[term]
+
+# Insert here Vectorizing function
+
 # def TF2(arr):
 #     # Equivalent to term count
 #     # ! Create the transform
@@ -64,10 +97,10 @@ def TF(str):
 #     print(doc_term_matrix)
 
     # print table
-    df = pd.DataFrame(doc_term_matrix, columns=vectorizer.get_feature_names_out())
-    print(df)
+    # df = pd.DataFrame(doc_term_matrix, columns=vectorizer.get_feature_names_out())
+    # print(df)
 
-    return csr_matrices # >>> CSR matrices will be the input for the sim measures
+    # return csr_matrices # >>> CSR matrices will be the input for the sim measures
 
 
 # VSM text files
