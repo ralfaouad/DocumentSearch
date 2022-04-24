@@ -1,0 +1,35 @@
+{
+  "lau": {
+    "sample1.txt": 1
+  },
+  "american": {
+    "sample1.txt": 2
+  },
+  "university": {
+    "sample1.txt": 2,
+    "sample2.txt": 2
+  },
+  "located": {
+    "sample1.txt": 1
+  },
+  "lebanon": {
+    "sample1.txt": 2,
+    "sample2.txt": 2
+  },
+  "one": {
+    "sample1.txt": 1
+  },
+  "leading": {
+    "sample1.txt": 1,
+    "sample2.txt": 1
+  },
+  "usj": {
+    "sample2.txt": 1
+  },
+  "french": {
+    "sample2.txt": 1
+  },
+  "founded": {
+    "sample2.txt": 1
+  }
+}
