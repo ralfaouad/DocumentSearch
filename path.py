@@ -27,7 +27,7 @@ def root_path(tree, path=[], all=[]):
             root_path(child)
         path.pop()
     
-    # If we reach a leaf node, store the current path in all and remove the last added node
+    # If we reach a leaf node, store the current path in all and remove the last added node (go up in the tree)
     else:
         copy_path = copy(path)
         all.append(copy_path)
