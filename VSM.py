@@ -31,7 +31,7 @@ def clean_text(text):
     lemmatized = [wnl.lemmatize(word) for word in words]
     return (" ").join(lemmatized)
 
-def term_count_vectorizer(arr):
+def TF(arr):
     # Equivalent to term count
     # ! Create the transform
     vectorizer = CountVectorizer()
@@ -62,3 +62,26 @@ def TF_IDF(arr):
     print(df)
 
     return csr_matrices # >>> CSR matrices will be the input for the sim measures
+
+def TF_to_dict(matrix):
+    # d = dict(matrix.todok())
+    # print("d: ",d)
+    # dense = matrix.todense()
+    # print("dense: ",dense)
+    # toReturn = {}
+    print("matr: ",matrix)
+    arr = matrix.tolil()
+    print("array: ",arr)
+    # print("dense: ",matrix.todense())
+    # print("lil: ", matrix.tolil(), type(matrix.tolil()))
+    # print(" todok: ", matrix.todok())
+    
+    
+
+# def get_key(val):
+#     for key, value in my_dict.items():
+#          if val == value:
+#              return key
+
+output = TF(["the quick brown fox jumped over the lazy dog","fuck off"])
+TF_to_dict(output)
