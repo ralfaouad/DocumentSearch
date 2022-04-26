@@ -3,33 +3,28 @@ import VSM
 import xml.etree.ElementTree as ET
 from utils import cosine, euclidian, manhattan, tanimoto
 
-#TED
+# Similarity between 2 Docs
 # TODO replace both document with input from GUI
+
 with open("Documents/XML1.xml",'r') as file1:
     str1 = file1.read()
 with open("Documents/XML2.xml",'r') as file2:
     str2 = file2.read()
-# with open("Documents/XML1.xml",'r') as file1:
-#     str1 = file1.read()
-# with open("Documents/XML2.xml",'r') as file2:
-#     str2 = file2.read()
+
+if(file1.endswith(".xml") and file2.endswith(".xml")):
+    treeA = TED.preprocessing(ET.parse("XML1.xml").getroot())
+    treeB = TED.preprocessing(ET.parse("XML2.xml").getroot())
+    print("N&J Similarity: ", TED.TED(treeA, treeB))
+    print("VSM Similarity: ") # VSM EXTENDED TO XML
+
+else:
+    print("WF Similarity: ")
+    print("VSM Similarity: ") # VSM Normal
+
 
 # tree1 = ET.fromstring(str1)
 # tree2 = ET.fromstring(str2)
 
-treeA = TED.preprocessing(ET.parse("XML1.xml").getroot())
-treeB = TED.preprocessing(ET.parse("XML2.xml").getroot())
-
-# print("TED Similarity: ",TED.TED(doc1,doc2))
-
-# doc1 = TED.preprocessing(tree1)
-# doc2 = TED.preprocessing(tree2)
-
-print(TED.contained_in(treeA, treeB))
-# print("TED Similarity: ",TED.TED(treeA,treeB))
-# doc1 = TED.preprocessing(ET.parse(open("Documents/XML1.xml",'r')).getroot())
-# doc2 = TED.preprocessing(ET.parse(open("Documents/XML2.xml",'r')).getroot())
-# print("TED Similarity: ",TED.TED(doc1,doc2))
 
 # ! i) text document pre-processing
 # ? In this step, we will be differenciating between input XML file and textual files/simple queries.
@@ -47,20 +42,8 @@ def isXML(value):
 
 # print(isXML(str1))
 
-
-# ! ii) document vector representation
-# ? In this step, we will be transforming each document to a vector representation.
-# ? But first, we need to tokenize, stem, lemmatize
-
-# cleaned = VSM.clean_text("This is Sara. Sara is having the best IDPA experience!")
-# print(cleaned)
-# vectorized = VSM.vectorizer(cleaned)
-# print(vectorized)
-# # print([e for e in arr])
-
-
 # TODO add clean method before TF-IDF step
-output = VSM.TF_IDF(["the quick brown fox jumped over the lazy dog", "the dog", "the fox"])
+print(VSM.TF(["the quick brown fox jumped over the lazy dog"]))
 
 # cosim = cosine(output[0],output[1])
 # print(cosim)
