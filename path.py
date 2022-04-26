@@ -1,5 +1,7 @@
 from copy import copy
 import xml.etree.ElementTree as ET
+
+from matplotlib.style import context
 import TED
 
 doc1 = open("Documents/XML1.xml",'r')
@@ -40,11 +42,23 @@ def tag_based(tree):
     # Returning all elements in the tree.
     return [TED.element_name(x.tag) for x in tree.iter()]
 
-    
+def term_context(tree):
+    rp = root_path(tree)
+    tc = []
+    for path in rp:
+        p = path.split("/")
+        term =  p.pop()
+        context = p
+        tc.append([term,context])
+    return tc
+        
             
 # x = root_path(treeA)
 # print(x)
 
 # x = tag_based(treeA)
+# print(x)
+
+# x = term_context(treeA)
 # print(x)
 
