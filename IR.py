@@ -64,3 +64,14 @@ user = input("Enter query: ")
 method = input("Enter 1 for TF, or 2 for TF-IDF")
 
 print(IR_with_indexing(user, method))
+
+def KNN(k,dict):
+    neighbors=[]
+    arr = sorted(dict.keys(),reverse=True)
+    
+    for i in range(k):
+       neighbors.append(dict[arr[i]])
+    
+    return neighbors
+
+    
