@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
-from werkzeug.utils import secure_filename
+from werkzeug.piputils import secure_filename
 import TED
 import xml.etree.ElementTree as ET 
 import os
