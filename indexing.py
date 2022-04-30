@@ -1,12 +1,30 @@
 import os
-import json
+import json, TED, path
+import xml.etree.ElementTree as ET
+import regex as re
 from VSM import clean_text, TF
 directory = 'C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents'
 
 indexing_table = {}
 corpus_size = 0
 
-def process(filename):
+def process_XML(filename):
+    doc = open(directory + "/" + filename,'r')
+    tree = TED.preprocessing(ET.parse(doc).getroot())
+
+    terms = path.TC(tree)
+
+    for term in terms:
+        word = re.split(',',term)[0]
+        pth = re.split(',',term)[1]
+        if(word in indexing_table):
+            if(filename in indexing_table[word]):
+                indexing_table[word][filename].append(pth)
+            else: indexing_table[word][filename] = [pth]
+        else:
+            indexing_table[word] = { filename : [pth] }
+
+def process_TXT(filename):
     with open(directory + "/" + filename,'r') as file:
         str = file.read()
 
@@ -25,7 +43,7 @@ def save_toJSON(indexing_table):
 
 # Add file to directory -> Update Indexing Table
 def add(filename):
-    process(filename)
+    process_XML(filename)
     save_toJSON(indexing_table)
 
 # Delete file from directory -> Update Indexing Table
@@ -33,12 +51,11 @@ def add(filename):
 #     for(key in indexing_table.keys()):
         
 for filename in os.listdir(directory):
-    if filename.endswith(".txt"):
-      process(filename)
-      corpus_size += 1
-      continue
-    else:
-        continue
+    if filename.endswith(".xml"):
+        process_XML(filename)
+        # corpus_size += 1
+
+
 save_toJSON(indexing_table)
 
 # for row in indexing_table.items():

@@ -119,12 +119,18 @@ def get_tree(path,tree):
     else: return get_tree(".".join(path_list[1:]) , children[target])
 
 def path(element):
-    return re.split('.@|.#|.&',element)[0]
+    return re.split('.@|.#|.&',element.tag)[0]
 
 def element_name(element):
-    l = str(element).split(".")
-    return l[-1]   
+    l = (element.tag).split(".")
+    return l[-1]  
 
+def element_type(element):
+    if('@' in element.tag):
+        return "attribute"
+    elif('&' in element.tag):
+        return "element"
+    else: return "text"
 
 def calculcate_costs(treeA,treeB):
     for subA in treeA.iter():

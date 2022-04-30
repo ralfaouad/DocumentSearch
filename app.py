@@ -30,6 +30,7 @@ def compare():
         treeA = TED.preprocessing(ET.parse(path1).getroot())
         treeB = TED.preprocessing(ET.parse(path2).getroot())
         tedsim = TED.TED(treeA,treeB)
+        vsmsim = VSM.VSM_xml(treeA,treeB)
     else:
         return render_template("compare.html", tedsim="")
     return render_template("compare.html",tedsim=tedsim)
