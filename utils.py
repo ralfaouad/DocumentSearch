@@ -46,5 +46,16 @@ def manhattan(v1,v2):
     return 1/(1+dist)
 
 
+def jaccard(v1,v2):
+    num=v1.intersection(v2)
+    denom=v1.union(v2)
 
-    
+    similarity=len(num)/len(denom)
+
+    return similarity
+
+def dice(v1,v2):
+    num=2*(v1.intersection(v2))
+    denom=(abs(v1)+abs(v2))    
+    similarity=num/denom
+    return similarity

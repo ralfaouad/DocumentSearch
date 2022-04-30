@@ -1,35 +1,24 @@
 {
-  "lau": {
-    "sample1.txt": 1
+  "John": {
+    "XML1.xml": [
+      "Department/Professor",
+      "Department/Student"
+    ]
   },
-  "american": {
-    "sample1.txt": 2
+  "Cramer": {
+    "XML1.xml": [
+      "Department/Professor"
+    ],
+    "XML2.xml": [
+      "Department/Student"
+    ]
   },
-  "university": {
-    "sample1.txt": 2,
-    "sample2.txt": 2
-  },
-  "located": {
-    "sample1.txt": 1
-  },
-  "lebanon": {
-    "sample1.txt": 2,
-    "sample2.txt": 2
-  },
-  "one": {
-    "sample1.txt": 1
-  },
-  "leading": {
-    "sample1.txt": 1,
-    "sample2.txt": 1
-  },
-  "usj": {
-    "sample2.txt": 1
-  },
-  "french": {
-    "sample2.txt": 1
-  },
-  "founded": {
-    "sample2.txt": 1
+  "Takagi": {
+    "XML1.xml": [
+      "Department/Student"
+    ],
+    "XML2.xml": [
+      "Department/Student"
+    ]
   }
 }

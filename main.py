@@ -15,11 +15,11 @@ if(file1.endswith(".xml") and file2.endswith(".xml")):
     treeA = TED.preprocessing(ET.parse("XML1.xml").getroot())
     treeB = TED.preprocessing(ET.parse("XML2.xml").getroot())
     print("N&J Similarity: ", TED.TED(treeA, treeB))
-    print("VSM Similarity: ") # VSM EXTENDED TO XML
+    print("VSM Similarity: ", VSM.VSM_xml(treeA,treeB)) # VSM EXTENDED TO XML
 
 else:
-    print("WF Similarity: ")
-    print("VSM Similarity: ") # VSM Normal
+    print("WF Similarity: ") # TO DO
+    print("VSM Similarity: ", VSM.VSM.VSM_txt(str1,str2)) # VSM Normal
 
 
 # tree1 = ET.fromstring(str1)

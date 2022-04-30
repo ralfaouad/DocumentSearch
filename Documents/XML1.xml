@@ -1,14 +1,4 @@
-<a>
-<b>
-<c></c>
-<d>
-<e></e>
-<f></f>
-<g></g>
-</d>
-</b>
-<m>
-<x></x>
-<y></y>
-</m>
-</a>
+<Department>
+<Professor> John Cramer </Professor>
+<Student> John Takagi </Student>
+</Department>
