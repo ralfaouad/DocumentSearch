@@ -134,7 +134,7 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     print("V2: ", vector2)
 
     if m == 0:
-        similarity = utils.e_cosine(vector1, vector2)
+        similarity = utils.e_cosine(dimensions, vector1, vector2)
     elif m == 1:
         similarity = utils.PCC(vector1, vector2)
     elif m == 2:
@@ -165,8 +165,6 @@ tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
 sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
 print(sim)
-sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
-print(sim2)
-
-
+# sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
+# print(sim2)
 

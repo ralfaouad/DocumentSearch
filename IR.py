@@ -13,7 +13,7 @@ def IR_with_indexing(query, method):
 
     for word in query.split():
         if(index[word]):    # Suggestion: Binary Search for optimzation
-            docs.add(index[word])
+            docs.add(index[word].g)
 
     for doc in docs:
         sims[VSM(query, doc, method)] = doc
@@ -52,7 +52,7 @@ def VSM(query, document, method):
             vectorq.append(TFq.get(dimension) or 0)
             
             if(dimension in TFd):
-                vectord.append(VSM.TF_IDF(dimension, doc, corpus))
+                vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus))
             else: vectord.append(0.0)
 
     print(dimensions)

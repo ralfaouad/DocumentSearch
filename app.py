@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
-from werkzeug.piputils import secure_filename
-import TED
+from werkzeug.utils import secure_filename
+import TED, VSM
 import xml.etree.ElementTree as ET 
 import os
 
@@ -30,10 +30,10 @@ def compare():
         treeA = TED.preprocessing(ET.parse(path1).getroot())
         treeB = TED.preprocessing(ET.parse(path2).getroot())
         tedsim = TED.TED(treeA,treeB)
-        vsmsim = VSM.VSM_xml(treeA,treeB)
+        vsmsim = VSM.VSM_xml(treeA, treeB, [file1,file2], 0, 0)
     else:
-        return render_template("compare.html", tedsim="")
-    return render_template("compare.html",tedsim=tedsim)
+        return render_template("compare.html", tedsim="", vsmsim="")
+    return render_template("compare.html",tedsim=tedsim, vsmsim=vsmsim)
     
 @app.route("/search.html", methods = ['GET','POST'])
 def search():
