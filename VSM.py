@@ -1,9 +1,4 @@
-import nltk
-import math
-import json
-import os
-import path
-import TED
+import math, json, path, TED, utils
 import xml.etree.ElementTree as ET
 # nltk.download('punkt')
 # nltk.download('stopwords')
@@ -19,11 +14,11 @@ import pandas as pd
 
 def clean_text(text):
     text = text.lower()
-    # ! Tokenization
+    # Tokenization
     tokens = word_tokenize(text)
-    # ! Removing non alphabetic tokens
+    # Removing non alphabetic tokens
     words = [word for word in tokens if word.isalpha()]
-    # ! Stop word removal
+    # Stop word removal
     stop_words = set(stopwords.words('english'))
     words = [w for w in words if not w in stop_words]
     wnl = WordNetLemmatizer()
@@ -39,34 +34,45 @@ def TF(text):
             TF[word] = 1
     return TF
 
-def IDF(term, corpus):
+def IDF(term, corpus, input="xml"):
     occurrences = 0
 
-    for file in corpus:
-        with open(file,'r') as file:
-            str = file.read()
-        if(term in clean_text(str).split()):
-            occurrences += 1
+    if input == "xml":
+        for document in corpus:
+            doc = open(document, 'r')
+            tree = TED.preprocessing(ET.parse(doc).getroot())
+            if(term in path.TC(tree)):
+                occurrences += 1
+    else:
+        for document in corpus:
+            with open(document,'r') as file:
+                str = document.read()
+            if(term in clean_text(str).split()):
+                occurrences += 1
 
     print("log(",len(corpus),"/",occurrences,")")
 
     return math.log(len(corpus)/occurrences,10)
 
-def TF_IDF(term, document, corpus):
+def TF_IDF(term, document, corpus, input="xml"):
     dict = {}
     TF_IDF = {}
 
-    with open(document,'r') as file:
-        str = file.read()
+    if input == "xml":
+        doc = open(document, 'r')
+        tree = TED.preprocessing(ET.parse(doc).getroot())
+        dict = TF((" ").join(path.TC(tree)))
+    else:
+        with open(document,'r') as file:
+            str = file.read()
+        dict = TF(clean_text(str))
     
-    dict = TF(clean_text(str))
     TF_IDF[term] = dict[term] * IDF(term, corpus)
 
     return TF_IDF[term]
 
 def VSM_txt(text1, text2, corpus, i = 1, m = 0):
     # i: 0 (TF), 1 (TF IDF)
-    # m: 0 (cosine), 1 (pcc), 2 (euclidian), 3 (manhattan), 4 (tanimoto)
     vector1 = []
     vector2 = []
     dimensions = {}
@@ -95,14 +101,14 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
         # print(vector1)
         # print(vector2)
 
-def VSM_xml(treeA,treeB,corpus, i = 1, m = 0):
+def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     vector1 = []
     vector2 = []
     dimensions = {}
     # Content will be cleaned in the preprocessing
 
-    tc1 = path.term_context(treeA)
-    tc2 = path.term_context(treeB)
+    tc1 = path.TC(treeA)
+    tc2 = path.TC(treeB)
 
     TCF1 = TF(" ".join(tc1))
     TCF2 = TF(" ".join(tc2))
@@ -123,25 +129,42 @@ def VSM_xml(treeA,treeB,corpus, i = 1, m = 0):
                 vector2.append(TF_IDF(dimension, corpus[1], corpus))
             else: vector2.append(0.0)
 
+    print(dimensions)
+    print("V1: ", vector1)
+    print("V2: ", vector2)
+
+    if m == 0:
+        similarity = utils.cosine(vector1, vector2)
+    elif m == 1:
+        similarity = utils.PCC(vector1, vector2)
+    elif m == 2:
+        similarity = utils.euclidian(vector1, vector2)
+    elif m == 3:
+        similarity = utils.manhattan(vector1, vector2)
+    elif m == 4:
+        similarity = utils.jaccard(vector1, vector2)
+    else: similarity = utils.dice(vector1, vector2)
+
+    return similarity
+   
 
 # VSM text files
-# with open("C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents/sample1.txt",'r') as file1:
+# with open("Documents/sample1.txt",'r') as file1:
 #         str1 = file1.read()
-
-# with open("C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents/sample2.txt",'r') as file2:
+# with open("Documents/sample2.txt",'r') as file2:
 #         str2 = file2.read()
-
 
 # print(VSM_txt(str1, str2, ["Documents/sample1.txt", "Documents/sample2.txt"], 1, 1))
 
-with open("C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents/XML1.xml",'r') as file1:
-        str1 = file1.read()
+# VSM XML
+doc1 = open("Documents/XML1.xml", 'r')
+doc2 = open("Documents/XML2.xml", 'r')
 
-with open("C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents/XML2.xml",'r') as file2:
-        str2 = file2.read()
+tree1 = TED.preprocessing(ET.parse(doc1).getroot())
+tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
+sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
+print(sim)
 
-# VSM_xml(TED.preprocessing(ET.parse("Documents/XML1.xml").getroot()),TED.preprocessing(ET.parse("Documents/XML2.xml").getroot()))
-#     return csr_matrices # >>> CSR matrices will be the input for the sim measures
 
 
