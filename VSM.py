@@ -25,13 +25,13 @@ def clean_text(text):
     lemmatized = [wnl.lemmatize(word) for word in words]
     return (" ").join(lemmatized)
 
-def TF(text):
+def TF(str):
     TF = {}
-    for word in text.split():
-        if(word in TF):
-            TF[word] += 1
+    for term in str.split():
+        if(term in TF):
+            TF[term] += 1
         else:
-            TF[word] = 1
+            TF[term] = 1
     return TF
 
 def IDF(term, corpus, input="xml"):
@@ -52,7 +52,7 @@ def IDF(term, corpus, input="xml"):
 
     print("log(",len(corpus),"/",occurrences,")")
 
-    return math.log(len(corpus)/occurrences,10)
+    return math.log((len(corpus)+1)/occurrences,10) # Adding 1 to the size of corpus <=> Adding dummy file
 
 def TF_IDF(term, document, corpus, input="xml"):
     dict = {}
@@ -67,7 +67,7 @@ def TF_IDF(term, document, corpus, input="xml"):
             str = file.read()
         dict = TF(clean_text(str))
     
-    TF_IDF[term] = dict[term] * IDF(term, corpus)
+    TF_IDF[term] = dict[term] * IDF(term, corpus, input)
 
     return TF_IDF[term]
 
@@ -90,11 +90,11 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
     else:
         for dimension in dimensions:
             if(dimension in TF1):
-                vector1.append(TF_IDF(dimension, corpus[0], corpus))
+                vector1.append(TF_IDF(dimension, corpus[0], corpus, "text"))
             else: vector1.append(0.0)
             
             if(dimension in TF2):
-                vector2.append(TF_IDF(dimension, corpus[1], corpus))
+                vector2.append(TF_IDF(dimension, corpus[1], corpus, "text"))
             else: vector2.append(0.0)
     
         # print(dimensions)
@@ -112,7 +112,7 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
 
     TCF1 = TF(" ".join(tc1))
     TCF2 = TF(" ".join(tc2))
-    dimensions = TCF1.keys() | TCF2.keys()
+    dimensions = list(TCF1.keys() | TCF2.keys())
 
     if(i == 0):
         for dimension in dimensions:
@@ -122,11 +122,11 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     else:
         for dimension in dimensions:
             if(dimension in TCF1):
-                vector1.append(TF_IDF(dimension, corpus[0], corpus))
+                vector1.append(TCF1[dimension] * IDF(dimension, corpus))
             else: vector1.append(0.0)
             
             if(dimension in TCF2):
-                vector2.append(TF_IDF(dimension, corpus[1], corpus))
+                vector2.append(TCF2[dimension] * IDF(dimension, corpus))
             else: vector2.append(0.0)
 
     print(dimensions)
@@ -134,7 +134,7 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     print("V2: ", vector2)
 
     if m == 0:
-        similarity = utils.cosine(vector1, vector2)
+        similarity = utils.e_cosine(vector1, vector2)
     elif m == 1:
         similarity = utils.PCC(vector1, vector2)
     elif m == 2:
@@ -165,6 +165,8 @@ tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
 sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
 print(sim)
+sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
+print(sim2)
 
 
 

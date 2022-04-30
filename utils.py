@@ -12,7 +12,7 @@ def cosine(v1, v2):
         denom2+= v2[i]**2
     denom = math.sqrt(denom1*denom2)
     # print(num,"/",denom)
-    return num/denom
+    return float(num/denom)
 
 # print(cosine([1,1,1,1,0,0,0,0,0],[1,0,2,2,1,1,0,0,0]))
     

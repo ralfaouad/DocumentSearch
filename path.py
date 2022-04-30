@@ -70,7 +70,7 @@ def root_path(element, tree):
 
     return ("/").join(toReturn)
 
-tc = TC(treeA)
-print(tc)
+# tc = TC(treeA)
+# print(tc)
 
 
