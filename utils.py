@@ -59,3 +59,4 @@ def dice(v1,v2):
     denom=(abs(v1)+abs(v2))    
     similarity=num/denom
     return similarity
+
