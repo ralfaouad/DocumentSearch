@@ -1,3 +1,4 @@
+# from isort import file
 from flask import Flask, render_template, request, redirect, url_for, flash
 from werkzeug.utils import secure_filename
 import TED, VSM
@@ -26,6 +27,14 @@ def compare():
             path2 = os.path.join(app.config['UPLOAD_FOLDER'],filename2)
             file2.save(path2)
         
+        if filename1.endswith((".txt",".doc",".docx")) and filename2.endswith((".txt",".doc",".docx")):
+            with open(path1,"r") as f1:
+               str1 =  f1.read()
+            with open(path2,"r") as f2:
+               str2 =  f2.read()
+            weight = int(request.form['i'])
+            vsmsim = VSM.VSM_txt(str1,str2,[path1,path2],weight,0)
+            return render_template("compare.html", tedsim="",vsmsim=vsmsim)
 
         treeA = TED.preprocessing(ET.parse(path1).getroot())
         treeB = TED.preprocessing(ET.parse(path2).getroot())

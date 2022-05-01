@@ -1,9 +1,9 @@
 import math, json, path, TED, utils
 import xml.etree.ElementTree as ET
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
@@ -97,9 +97,19 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
                 vector2.append(TF_IDF(dimension, corpus[1], corpus, "text"))
             else: vector2.append(0.0)
     
-        # print(dimensions)
-        # print(vector1)
-        # print(vector2)
+    if m == 0:
+        similarity = utils.cosine(vector1, vector2)
+    elif m == 1:
+        similarity = utils.PCC(vector1, vector2)
+    elif m == 2:
+        similarity = utils.euclidian(vector1, vector2)
+    elif m == 3:
+        similarity = utils.manhattan(vector1, vector2)
+    elif m == 4:
+        similarity = utils.jaccard(vector1, vector2)
+    else: similarity = utils.dice(vector1, vector2)
+    
+    return similarity
 
 def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     vector1 = []
