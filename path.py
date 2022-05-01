@@ -39,7 +39,7 @@ treeB = TED.preprocessing(tree2)
 # Tag-based Approach
 def tag_based(tree):
     # Returning all elements in the tree.
-    return [TED.element_name(x.tag) for x in tree.iter()]
+    return [TED.element_name(x)[1:] for x in tree.iter()]
 
 def term_context(tree):
     rp = root_path(tree)
