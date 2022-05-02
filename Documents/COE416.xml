@@ -1,0 +1,17 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE416"> Software Engineering 
+            <Instructors>
+                <Instructor> Joe Tekli </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course covers the analysis, development, design and documentation of software.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE312"> Data Structures </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

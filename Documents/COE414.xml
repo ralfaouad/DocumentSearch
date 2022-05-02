@@ -1,0 +1,22 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE414"> Operating Systems
+            <Instructors>
+                <Instructor> Zahi Nakad </Instructor>
+                <Instructor> Jennifer Rizkallah </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course provides an overview of operating systems and provide the basic structure
+                and architecture of some operating systems in the market. This course covers the process
+                creation, management, synchronization, communications, and scheduling. Memory management
+                and protection.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE323"> Microprocessors </Course>
+                <Course ID = "COE312 "> Data Structures </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

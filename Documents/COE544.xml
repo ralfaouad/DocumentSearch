@@ -1,0 +1,25 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE544"> Intelligent Engineering Algorithms
+            <Instructors>
+                <Instructor> Joe Tekli </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course allows students to acquire basic knowledge of algorithms and methods of
+                Artificial Intelligence, geared toward developing intelligent engineering solutions.
+                The course covers concepts ranging over intelligent agents, fuzzy logic, neural networks,
+                and genetic algorithms. A series of exercises, a set of simulations/ projects on computers,
+                and a set of academic presentations (prepared in part by students) will allow students to
+                better cover course materials, while concurrently developing applied projects. By the end of
+                the course, students should be able to create software agents with intelligent features
+                (intelligently perceiving surrounding environment, noise resistance, approximate (fuzzy)
+                data processing, and simulating human behavior).
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE312"> Data Structures </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

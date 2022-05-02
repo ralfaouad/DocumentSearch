@@ -1,0 +1,22 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE521"> Embedded Systems
+            <Instructors>
+                <Instructor> Zahi Nakad </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course provides an introduction to the design of embedded systems including both
+                their hardware and software. Topics ranging from simple circuit design to computer
+                architecture will be discussed. Different types of processors will be presented along
+                with interfacing to memories, I/O devices, and other processors. The 68HC12 or PIC
+                microcontrollers will be used as an example processor for assignments and the course
+                project.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE323"> Microprocessors </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

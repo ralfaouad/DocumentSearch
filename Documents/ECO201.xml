@@ -1,0 +1,19 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Economics
+        <Course ID = "ECO201"> Microeconomics
+            <Instructors>
+                <Instructor> Tania Kallab </Instructor>
+                <Instructor> Wissam Fahed </Instructor>
+
+            </Instructors>
+            
+            <Description>
+                This course is an introductory course dealing with the nature and scope of economics,
+                consumer behavior, theory of the firm, price determination and allocation of resources.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

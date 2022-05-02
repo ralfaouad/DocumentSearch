@@ -1,0 +1,19 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Economics
+        <Course ID = "HOM231"> Food And Bevarage Concept Development
+            <Instructors>
+                <Instructor> Habib El Khoury </Instructor>
+            </Instructors>
+            
+            <Description>
+                In this course, the students are exposed to a broad range of food and beverage concepts.
+                Emphasis is given to the planning and operations of a restaurant or a food service
+                operation in areas such as yield management, food production system equipment and cost
+                control. Food and beverage purchasing is covered at an introductory level.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

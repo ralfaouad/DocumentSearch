@@ -1,0 +1,20 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE424"> Digital Systems
+            <Instructors>
+                <Instructor> Maria Abi Saad </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course is an introduction to digital systems design and covers timing concepts,
+                area-delay tradeoffs, pipelining, and synthesis. Register transfer notation and VHDL
+                are introduced to model, simulate, and verify designs. Topics include field-programmable
+                gate arrays, technology mapping, layout synthesis, and routing.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE323"> Microprocessors </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

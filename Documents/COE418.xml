@@ -1,0 +1,18 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE418"> Database Systems 
+            <Instructors>
+                <Instructor> Joe Tekli </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course covers the data modeling, relational database, SQL, query
+                languages, object oriented databases, and client-server databases.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE211"> Computer Programming </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>
