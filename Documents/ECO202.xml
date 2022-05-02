@@ -1,0 +1,21 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Economics
+        <Course ID = "ECO202"> Macroeconomics
+            <Instructors>
+                <Instructor> Tania Kallab </Instructor>
+                <Instructor> Wissam Fahed </Instructor>
+
+            </Instructors>
+            
+            <Description>
+                This course is an introductory course dealing with the principles of national income
+                accounting, national income determination, macroeconomics objectives and policy
+                instruments, and the relative effectiveness of fiscal and monetary policies in
+                stabilizing the economy.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

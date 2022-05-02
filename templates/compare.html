@@ -21,23 +21,28 @@
 
     <form method="POST" enctype="multipart/form-data" class="row align-items-stretch">
         <div class="col-md-6 ">
-            <label class="form-label">Choose your first XML file</label>
+            <label class="form-label">Choose your first XML (or TXT) file</label>
             <input class="form-control form-control-lg" type="file" name="in1" />
         </div>
         <div class="col-md-6 ">
-            <label class="form-label">Choose your second XML file</label>
+            <label class="form-label">Choose your second XML (or TXT) file</label>
             <input class="form-control form-control-lg" type="file" name="in2" />
+        </div>
+        <div class="col-md-6">
+            <input type="radio" name="i" value="0"> TF
+            <input type="radio" name="i" value="1"> TF - IDF
         </div>
         <div class="col-md-6 ">
             <input class="btn btn-lg btn-outline-secondary" type="submit" style="margin-top: 35px;" />
         </div>
+
     </form>
 
     <div class="row align-items-md-stretch">
         <div class="col-md-6">
             <div class="h-100 p-5 text-white bg-dark rounded-3">
-                <h2>IR Method</h2>
-                <p>Text Here</p>
+                <h2>VSM Method</h2>
+                <p>VSM Similarity: {{vsmsim}}</p>
             </div>
         </div>
         <div class="col-md-6">
@@ -46,5 +51,9 @@
                 <p>TED Similarity: {{tedsim}}</p>
             </div>
         </div>
+    </div>
+    <div>
+
+
     </div>
 </body>

@@ -1,0 +1,19 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE423"> Computer Architecture 
+            <Instructors>
+                <Instructor> Maria Abi Saad </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course introduces computer components and systems. Topics include evolution of
+                computer systems, bus interconnections, I/O mechanisms, memory management and
+                hierarchy, instruction set design, and basic pipelined techniques.
+            </Description>
+
+            <Prerequisites>
+                <Course ID = "COE323"> Microprocessors </Course>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

@@ -1,0 +1,23 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE526">VLSI Design Automation
+			<Instructors>
+				<Instructor> 
+					Dani Tannir
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course covers the algorithms and methodologies 
+			for the synthesis, analysis, and verification of digital systems, 
+			silicon compilation, high-level synthesis, logic synthesis, and layout 
+			synthesis, hardware description languages and their use in the synthesis
+			process, fault simulation and coverage analysis, and the extensive 
+			use of electronic design automation Tools.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="COE321">Logic Design</Course>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

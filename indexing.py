@@ -5,10 +5,7 @@ import regex as re
 from VSM import clean_text, TF
 directory = 'C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents'
 
-indexing_table = {}
-corpus_size = 0
-
-def process_XML(filename):
+def process_XML(filename, indexing_table):
     doc = open(directory + "/" + filename,'r')
     tree = TED.preprocessing(ET.parse(doc).getroot())
 
@@ -24,18 +21,18 @@ def process_XML(filename):
         else:
             indexing_table[word] = { filename : [pth] }
 
-def process_TXT(filename):
-    with open(directory + "/" + filename,'r') as file:
-        str = file.read()
+# def process_TXT(filename):
+#     with open(directory + "/" + filename,'r') as file:
+#         str = file.read()
 
-    terms = clean_text(str).split()
-    term_freq = TF(" ".join(terms))
+#     terms = clean_text(str).split()
+#     term_freq = TF(" ".join(terms))
 
-    for term in terms:
-        if(term in indexing_table):
-            indexing_table[term][filename] =  term_freq[term]
-        else:
-            indexing_table[term] = {filename : term_freq[term]}
+#     for term in terms:
+#         if(term in indexing_table):
+#             indexing_table[term][filename] =  term_freq[term]
+#         else:
+#             indexing_table[term] = {filename : term_freq[term]}
 
 def save_toJSON(indexing_table):
     with open('IndexingTable.json', 'w') as f:
@@ -43,22 +40,29 @@ def save_toJSON(indexing_table):
 
 # Add file to directory -> Update Indexing Table
 def add(filename):
-    process_XML(filename)
+    with open('IndexingTable.json', 'r') as f:
+        indexing_table = json.loads(f.read())
+    process_XML(filename, indexing_table)
     save_toJSON(indexing_table)
 
 # Delete file from directory -> Update Indexing Table
-# def delete(filename):
-#     for(key in indexing_table.keys()):
-        
-for filename in os.listdir(directory):
-    if filename.endswith(".xml"):
-        process_XML(filename)
-        # corpus_size += 1
+def delete(filename):
+    with open('IndexingTable.json', 'r') as f:
+        indexing_table = json.loads(f.read())
 
+    for key in indexing_table:
+        if(indexing_table[key][filename]):
+            indexing_table[key].pop(filename)
 
-save_toJSON(indexing_table)
+    save_toJSON(indexing_table)
 
-# for row in indexing_table.items():
-#     print(row)
+# Compute Indexing Table with the available corpus in file "Documents"
+def compute_indexing_table():
+    indexing_table = {}      
+    for filename in os.listdir(directory):
+        if filename.endswith(".xml"):
+            process_XML(filename, indexing_table)
+    
+    save_toJSON(indexing_table)
 
-
+add("XML3.xml")

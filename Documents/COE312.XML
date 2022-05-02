@@ -1,0 +1,23 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Computer Engineering
+            <Course ID="COE211"> Data Structures and Algorithms
+                <Instructors>
+                    <Instructor>
+                        Wissam Fawaz
+                    </Instructor>
+                    <Instructor>
+                        Jennifer Rizkallah
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    This course covers a high-level programming language syntax, 
+                    structured programming, basic constructs, arrays, object programming, 
+                    case studies, and projects tailored towards solving engineering and 
+                    mathematically-oriented problems.
+                </Description>
+                <Prerequisites>
+                    <Course ID="COE211">Computer Programming</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

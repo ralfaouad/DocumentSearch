@@ -1,0 +1,24 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE555">Queueing Theory
+			<Instructors>
+				<Instructor> 
+				Wissam Fawwaz
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course introduces two modeling techniques,
+				 namely simulation and queuing modeling techniques.
+				 The following topics are discussed in this regard: single queue
+				 Markovian systems, semi-Markovian queuing systems, open queueing
+				 networks, closed queueing networks, pseudo-random number generation,
+				 estimation techniques for analyzing endogenously created data, and 
+				validation of a simulation design.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="GNE331">Probability & Statistics.</Course>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

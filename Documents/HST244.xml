@@ -1,0 +1,27 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Humanities
+        <Course ID = "HST244"> History of the Arab-Israeli Conflict
+            <Instructors>
+                <Instructor> Elie Elias </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course focuses on the emerging clash between the nascent Zionist project starting
+                in the 19th century and the gradual dispossession of the Arab inhabit¬ants of Palestine
+                culminating in the 1948 creation of the state of Israel. It aims to shed light on the
+                historical progression of the conflict and the external players impacting its development.
+                The course also assesses the Arab responses to Israel as well as the internal evolution of
+                the Jewish state from frontier kibbutzim to nuclear power. Among events and developments
+                leading up to 1948 the course may zoom in on the conception of Zionism, relationships
+                between Zionists and the British and Ottoman Empires, early migration into Palestine and the
+                impact of the two World Wars and the Holocaust. It will also address international responses
+                to the existence of Israel arising from Arab and Palestinian nation¬alism, the Arab-Israeli
+                wars, the emergence of the Palestinian Fedayeen and the Palestine Liberation Organization,
+                the impact of Israel on surrounding Arab states and the Islamist factor.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

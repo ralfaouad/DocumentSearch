@@ -1,0 +1,28 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE732">Networks Security
+			<Instructors>
+				<Instructor>
+				Joumana Haddad
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course is an introduction to network security,
+			 including developing an understanding of security engineering,
+			 cryptography, mechanisms to protect private communication over
+			 public network, and techniques to protect networked computer systems. 
+			This course considers the technical, operational, and managerial issues
+			of computer systems, and network security in an operational environment.
+			The course will address the threats to computer security, including 
+			schemes for breaking security, and techniques for detecting and preventing 
+			security violations. Emphasis will be on instituting safeguards, examining 
+			the different types of security systems, and applying the appropriate level
+			 of security for the perceived risk.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="COE431">Computer Networks</Course>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

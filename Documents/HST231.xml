@@ -1,0 +1,25 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Humanities
+        <Course ID = "HST231"> History of Lebanon, from the Imarah to the 1975-1990 War
+            <Instructors>
+                <Instructor> Elie Elias </Instructor>
+            </Instructors>
+            
+            <Description>
+                Tracing the history of Lebanon from the rise of the Imarah to the 1989 Taif agreement,
+                this course focuses on the formation of the Lebanese polity and identity and its place
+                in the wider Arab world. It may deal with piv-otal figures such as Fakhr Ed-Deen and
+                Emir Bachir, the role of the Maronites and their relations with France and the Vatican,
+                the Ottoman period, the impact of the Tanzimat and the rise of the Mutasarrifiya. Key
+                events and developments in the 20th century include the First World War, the French
+                Mandate, Lebanese independ-ence in 1943, the National Pact, the 1958 events, and the
+                1975-1990 War. How could the initial years of pros-perity lead to the outbreak of war in
+                1975? The interaction between internal factions and communities and outside powers will
+                be emphasized.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

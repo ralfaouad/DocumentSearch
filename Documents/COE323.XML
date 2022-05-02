@@ -1,0 +1,20 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Computer Engineering
+            <Course ID="COE323"> Microprocessors
+                <Instructors>
+                    <Instructor>
+                        Zahi Nakad
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    This course covers the internals of the microprocessor and assembly language, 
+                    storing, manipulating, moving data, basics of control flow, 
+                    interfacing to other devices, basics of writing good assembly 
+                    code using the stacks and position independent codes.
+                </Description>
+                <Prerequisites>
+                    <Course ID="COE321">Logic Design</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

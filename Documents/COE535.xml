@@ -1,0 +1,25 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE535">Optical Networks
+			<Instructors>
+				<Instructor> 
+				Wissam Fawwaz
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course covers the fundamentals of optical
+			networking. In particular, it touches on the following topics:
+			the building blocks of optical wavelength division multiplexed networks,
+			wavelength division multiplexing (WDM) and its enabling technologies,
+			WDM-based access and metro optical network architectures, 
+			wavelength-routed optical wavelength division multiplexed 
+			networks used for wide area coverage, optical burst switched 
+			networks, and optical packet switched networks.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="COE312">Data Structures</Course>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

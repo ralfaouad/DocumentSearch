@@ -1,0 +1,18 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE599">Topics in Computer Engineering
+			<Instructors>
+				<Instructor> Lina Karam
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course covers the treatment of new 
+			developments in various areas of computer engineering.
+			</Description>
+							
+			<Prerequisites>
+				 <Requirement>Fifth year standing</Requirement>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>
