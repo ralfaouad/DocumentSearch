@@ -1,0 +1,21 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Economics
+        <Course ID = "HOM231"> Wine, Spirits and Cigars
+            <Instructors>
+                <Instructor> Habib El Khoury </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course focuses on the appreciation of wine, spirits and cigars and includes wine
+                tasting and flavor components. It concentrates on the quality, origin, vintage and other
+                characteristics that make a good wine superior. It covers major wine producing regions in
+                the world and gives an understanding of how to purchase wine at retail stores and
+                restaurants as well as pairing food with wine, spirits and cigars production and storage
+                procedures, and wine etiquette.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>

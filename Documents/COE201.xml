@@ -1,0 +1,19 @@
+<University abbrev = "LAU"> Lebanese American University
+    <Deparment> Computer Engineering
+        <Course ID = "COE414"> Computer Proficiency
+            <Instructors>
+                <Instructor> Ronald Kfouri </Instructor>
+                <Instructor> Rami Challita </Instructor>
+                <Instructor> Ehab Shayya </Instructor>
+            </Instructors>
+            
+            <Description>
+                This course covers word processing, spreadsheet, presentation software, internet,
+                e-mail, database, and web design.
+            </Description>
+
+            <Prerequisites>
+            </Prerequisites>
+        </Course>
+    </Deparment>
+</University>
