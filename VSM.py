@@ -1,9 +1,9 @@
 import math, json, path, TED, utils
 import xml.etree.ElementTree as ET
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
@@ -34,24 +34,28 @@ def TF(str):
             TF[term] = 1
     return TF
 
-def IDF(term, corpus, input="xml"):
+def IDF(term, corpus, input="xml", approach="TC"):
     occurrences = 0
 
-    if input == "xml":
+    if input == "xml": # XML Input
         for document in corpus:
             doc = open(document, 'r')
             tree = TED.preprocessing(ET.parse(doc).getroot())
-            if(term in path.TC(tree)):
-                occurrences += 1
-    else:
+
+            if approach == "TC": # Term Context Approach
+                if(term in path.TC(tree)):
+                    occurrences += 1
+            else:
+                if(term in path.tag_based(tree)): # Tag Based Approach (when dealing with query)
+                    occurrences += 1
+    else: # Text Input
         for document in corpus:
             with open(document,'r') as file:
-                str = document.read()
+                str = file.read()
             if(term in clean_text(str).split()):
                 occurrences += 1
 
-    print("log(",len(corpus),"/",occurrences,")")
-
+    # print("log(",len(corpus),"/",occurrences,")")
     return math.log((len(corpus)+1)/occurrences,10) # Adding 1 to the size of corpus <=> Adding dummy file
 
 def TF_IDF(term, document, corpus, input="xml"):
@@ -96,6 +100,9 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
             if(dimension in TF2):
                 vector2.append(TF_IDF(dimension, corpus[1], corpus, "text"))
             else: vector2.append(0.0)
+    print(dimensions)
+    print("V1: ", vector1)
+    print("V2: ", vector2)
     
     if m == 0:
         similarity = utils.cosine(vector1, vector2)
@@ -167,14 +174,14 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
 # print(VSM_txt(str1, str2, ["Documents/sample1.txt", "Documents/sample2.txt"], 1, 1))
 
 # VSM XML
-doc1 = open("Documents/XML1.xml", 'r')
-doc2 = open("Documents/XML2.xml", 'r')
+# doc1 = open("Documents/XML1.xml", 'r')
+# doc2 = open("Documents/XML2.xml", 'r')
 
-tree1 = TED.preprocessing(ET.parse(doc1).getroot())
-tree2 = TED.preprocessing(ET.parse(doc2).getroot())
+# tree1 = TED.preprocessing(ET.parse(doc1).getroot())
+# tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
-sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
-print(sim)
+# sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
+# print(sim)
 # sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
 # print(sim2)
 

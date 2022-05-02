@@ -3,6 +3,10 @@
     "XML1.xml": [
       "Department/Professor",
       "Department/Student"
+    ],
+    "XML3.xml": [
+      "Department/Professor",
+      "Department/Student"
     ]
   },
   "Cramer": {
@@ -11,6 +15,9 @@
     ],
     "XML2.xml": [
       "Department/Student"
+    ],
+    "XML3.xml": [
+      "Department/Professor"
     ]
   },
   "Takagi": {
@@ -18,6 +25,9 @@
       "Department/Student"
     ],
     "XML2.xml": [
+      "Department/Student"
+    ],
+    "XML3.xml": [
       "Department/Student"
     ]
   }

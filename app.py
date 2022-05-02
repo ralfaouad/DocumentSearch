@@ -27,7 +27,7 @@ def compare():
             path2 = os.path.join(app.config['UPLOAD_FOLDER'],filename2)
             file2.save(path2)
         
-        if filename1.endswith((".txt",".doc",".docx")) and filename2.endswith((".txt",".doc",".docx")):
+        if filename1.endswith(".txt") and filename2.endswith(".txt"):
             with open(path1,"r") as f1:
                str1 =  f1.read()
             with open(path2,"r") as f2:
