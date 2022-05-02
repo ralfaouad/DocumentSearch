@@ -1,14 +1,4 @@
 {
-  "John": {
-    "XML1.xml": [
-      "Department/Professor",
-      "Department/Student"
-    ],
-    "XML3.xml": [
-      "Department/Professor",
-      "Department/Student"
-    ]
-  },
   "Cramer": {
     "XML1.xml": [
       "Department/Professor"
@@ -18,6 +8,16 @@
     ],
     "XML3.xml": [
       "Department/Professor"
+    ]
+  },
+  "John": {
+    "XML1.xml": [
+      "Department/Professor",
+      "Department/Student"
+    ],
+    "XML3.xml": [
+      "Department/Professor",
+      "Department/Student"
     ]
   },
   "Takagi": {

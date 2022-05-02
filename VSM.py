@@ -146,7 +146,7 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
                 vector2.append(TCF2[dimension] * IDF(dimension, corpus))
             else: vector2.append(0.0)
 
-    print(dimensions)
+    print("dimensions: ", dimensions)
     print("V1: ", vector1)
     print("V2: ", vector2)
 
@@ -174,14 +174,14 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
 # print(VSM_txt(str1, str2, ["Documents/sample1.txt", "Documents/sample2.txt"], 1, 1))
 
 # VSM XML
-# doc1 = open("Documents/XML1.xml", 'r')
-# doc2 = open("Documents/XML2.xml", 'r')
+doc1 = open("Documents/XML1.xml", 'r')
+doc2 = open("Documents/XML2.xml", 'r')
 
-# tree1 = TED.preprocessing(ET.parse(doc1).getroot())
-# tree2 = TED.preprocessing(ET.parse(doc2).getroot())
+tree1 = TED.preprocessing(ET.parse(doc1).getroot())
+tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
-# sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
-# print(sim)
+sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
+print(sim)
 # sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
 # print(sim2)
 

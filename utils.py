@@ -78,20 +78,18 @@ def e_cosine(dimensions, v1 , v2):
         dimension = dimensions[i]
         term = dimension.split(",")[0]
         context = dimension.split(",")[1]
-
+        numc = 0
         print(term, context)
         for key, val in dict[term].items():
             b = sim_context(context, key)
             print(v1[i], "*", v2[val], "*", b, "+")
-
-            num += v1[i] * v2[val] * b
-
-    denom = denom1 = denom2 = 0
+            numc += (v1[i] * v2[val] * b)
+        num+=numc
 
     for i in range(len(v1)):
-        denom1+= v1[i]**2
-        denom2+= v2[i]**2
-        denom = math.sqrt(denom1*denom2)
+        denom1+= float(v1[i])**2
+        denom2+= float(v2[i])**2
+    denom = math.sqrt(denom1*denom2)
     print(num,"/",denom)
     return num/denom
     
@@ -126,5 +124,20 @@ def costIns(a):
 def costDel(b):
     return 1
 
-# print(sim_context("Department/Student","Department/Professor"))
+def binarySearch(L, target):
+    start = 0
+    end = len(L) - 1
+
+    while start <= end:
+        middle = (start + end)// 2
+        midpoint = L[middle]
+        if midpoint > target:
+            end = middle - 1
+        elif midpoint < target:
+            start = middle + 1
+        else:
+            return middle
+
+# print(e_cosine())
+# print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
 

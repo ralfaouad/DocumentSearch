@@ -11,10 +11,18 @@ def IR_with_indexing(query, method):
     with open("IndexingTable.json",'r') as file:
         index = json.load(file)
 
+    # for word in query.split():
+    #     if(word in index.keys()):    # Suggestion: Binary Search for optimzation
+    #         for doc in index[word].keys():
+    #             docs.add(os.path.join("Documents", doc))
+
+    # BinarySearch for each term of the query in the Indexing Table
     for word in query.split():
-        if(word in index.keys()):    # Suggestion: Binary Search for optimzation
+        if utils.binarySearch(list(index.keys()),word) is not None:
             for doc in index[word].keys():
-                docs.add(os.path.join("Documents", doc))
+                docs.add(os.path.join("Documents",doc))
+        else:
+            print("Term not found")
         
     if(not docs): return None
     for doc in docs:
@@ -66,4 +74,4 @@ def VSM_query(query, document, method):
 # user = input("Enter query: ")
 # method = input("Enter 1 for TF, or 2 for TF-IDF")
 
-print(IR_with_indexing("John", 1))
+# print(IR_with_indexing("hh", 1))

@@ -3,7 +3,9 @@ import json, TED, path
 import xml.etree.ElementTree as ET
 import regex as re
 from VSM import clean_text, TF
-directory = 'C:/Users/User/Desktop/Sara/LAU ELE/Spring2022/IDPA/Project 2/DocumentSearch/Documents'
+import collections
+
+directory = 'Documents'
 
 def process_XML(filename, indexing_table):
     doc = open(directory + "/" + filename,'r')
@@ -20,7 +22,8 @@ def process_XML(filename, indexing_table):
             else: indexing_table[word][filename] = [pth]
         else:
             indexing_table[word] = { filename : [pth] }
-
+    sorted_index = collections.OrderedDict(sorted(indexing_table.items()))
+    return sorted_index
 # def process_TXT(filename):
 #     with open(directory + "/" + filename,'r') as file:
 #         str = file.read()
@@ -42,8 +45,8 @@ def save_toJSON(indexing_table):
 def add(filename):
     with open('IndexingTable.json', 'r') as f:
         indexing_table = json.loads(f.read())
-    process_XML(filename, indexing_table)
-    save_toJSON(indexing_table)
+    new_indexing_table = process_XML(filename, indexing_table)
+    save_toJSON(new_indexing_table)
 
 # Delete file from directory -> Update Indexing Table
 def delete(filename):
@@ -61,8 +64,9 @@ def compute_indexing_table():
     indexing_table = {}      
     for filename in os.listdir(directory):
         if filename.endswith(".xml"):
-            process_XML(filename, indexing_table)
+            tr = process_XML(filename, indexing_table)
     
-    save_toJSON(indexing_table)
+    save_toJSON(tr)
 
-add("XML3.xml")
+# delete("XML3.xml")
+compute_indexing_table()

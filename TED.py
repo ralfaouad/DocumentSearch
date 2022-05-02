@@ -137,13 +137,13 @@ def calculcate_costs(treeA,treeB):
         path = re.split('@|#|&',subA.tag)[0]
         cdel = cost_del_tree(subA,treeB)
         costs_del[path] = cdel
-    # print(costs_del)
+    print(costs_del)
 
     for subB in treeB.iter():
         path = re.split('@|#|&',subB.tag)[0]
         cins = cost_ins_tree(subB,treeA)
         costs_ins[path] = cins
-    # print(costs_ins)
+    print(costs_ins)
 
 
 
@@ -191,17 +191,38 @@ def TED_Nierman(A,B):
                 delete = int(Dist[i-1][j])+int(costs_del[re.split('@|#|&',listA[i-2].tag)[0]])
                 insert = int(Dist[i][j-1])+int(costs_ins[re.split('@|#|&',listB[j-2].tag)[0]])
                 Dist[i][j] = min(insert,delete)
+    # for i  in range(len(Dist)):
+    #     for j in range(len(Dist[i])):
+    #         print( Dist[i][j],end="\t"*2)
+    #     print()
+
     return(int(Dist[M+1][N+1]))
 
 def TED(A,B):
     start = time.time()
     calculcate_costs(A,B)
     distance = TED_Nierman(A,B)
+    print("dist: ",distance)
     end = time.time()
     similarity = str(float(1/(1+distance)))
     delay = end-start
-    print(delay)
+    print("t",delay)
     return similarity
+
+doc1 = open("UploadedDocuments/SampleDoc1_original_v1.xml", 'r')
+doc2 = open("UploadedDocuments/SampleDoc1_original.xml", 'r')
+
+tree1 = preprocessing(ET.parse(doc1).getroot())
+tree2 = preprocessing(ET.parse(doc2).getroot())
+
+# for x in tree1.iter():
+#     print(x)
+
+# for x in tree2.iter():
+#     print(x)
+# print("CD: ",costs_del)
+# print("CI: ",costs_ins)
+print(TED(tree1,tree2))
 
 
 
