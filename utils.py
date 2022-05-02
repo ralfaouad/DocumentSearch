@@ -141,3 +141,4 @@ def binarySearch(L, target):
 # print(e_cosine())
 # print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
 
+    print(dict)
