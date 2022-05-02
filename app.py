@@ -41,10 +41,11 @@ def compare():
                     str1 =  f1.read()
                 with open(path2,"r") as f2:
                     str2 =  f2.read()
+                weight = int(request.form['i'])
                 treeA = TED.preprocessing(ET.parse(path1).getroot())
                 treeB = TED.preprocessing(ET.parse(path2).getroot())
                 tedsim = TED.TED(treeA,treeB)
-                vsmsim = VSM.VSM_xml(treeA, treeB, [file1,file2], 0, 0)
+                vsmsim = VSM.VSM_xml(treeA, treeB, [path1,path2], weight, 0)
     else:
         return render_template("compare.html", tedsim="", vsmsim="")
     return render_template("compare.html",tedsim=tedsim, vsmsim=vsmsim)
