@@ -1,0 +1,23 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Electrical Engineering
+            <Course ID="ELE430"> Signals and Systems
+                <Instructors>
+                    <Instructor>
+                        Chadi Abou Rjeily
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    Signal and system modeling concepts; 
+                    system modeling and analysis in time domain; 
+                    the Fourier series; the Fourier transform and its applications; 
+                    the Laplace transformation and its applications; 
+                    discrete-time signals and systems; z-transform; 
+                    analysis and design of digital filters; DFT and FFT.
+                </Description>
+                <Prerequisites>
+                    <Course ID="MTH206">Calculus IV</Course>
+                    <Course ID="ELE302">Electrical circuits II</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

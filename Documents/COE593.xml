@@ -1,0 +1,29 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE593">COE Application
+			<Instructors>
+				<Instructor> 
+				Maria Abi Saad
+				</Instructor>
+				<Instructor> 
+				Wissam Fawwaz
+				</Instructor>
+
+			</Instructors>
+			<Description>
+			This course allows COE graduates to acquire 
+			the technical skills that are required to match a specific
+			industry-related need. In particular, it exposes students 
+			to the techniques, which can improve their chances of gaining
+			employment in jobs aligned with the considered need. This exposure 
+			is reinforced by an extensive hands-on experience that is brought into 
+			classroom through small-scale projects pertaining to problems inspired
+			from the identified need.
+			</Description>
+							
+			<Prerequisites>
+				 <Requirement>Fourth Year Standing</Requirement>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

@@ -1,0 +1,29 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Computer Engineering
+            <Course ID="COE321"> Logic Design
+                <Instructors>
+                    <Instructor>
+                        Bilal Hammoud
+                    </Instructor>
+                    <Instructor>
+                        Zahi Nakad
+                    </Instructor>
+                    <Instructor>
+                        Maria Abi Saad
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    This course provides an introduction to digital logic circuits and 
+                    covers binary number representations, combinational logic design, 
+                    Boolean algebra, arithmetic circuits, regular logic, programmable logic devices, 
+                    flip flops, registers, counters, sequential state machines, and 
+                    asynchronous and synchronous logic.
+                </Description>
+                <Prerequisites>
+                    <Course ID="COE201">Computer Proficiency</Course>
+                    <Course ID="COE211">Computer Programming</Course>
+                    <Course ID="MTH207">Discrete Structures I</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

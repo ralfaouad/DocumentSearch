@@ -1,0 +1,21 @@
+<University abbrev="AUB"> American University of Beirut
+    <Department> Electrical and Computer Engineering
+            <Course ID="EECE421"> Signals and Systems
+                <Instructors>
+                    <Instructor>
+                        Karim Karaki
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    This course covers basic concepts and methods related to continuous and discrete-time
+                    signals and systems. The course includes: signals and systems and their properties,
+                    linear time-invariant systems, stability analysis, sampling of continuous-time signals,
+                    z-transform, discrete Fourier transform, time and frequency domain representations
+                    of discrete-time signals and systems, and introductory concepts in communications.
+                </Description>
+                <Prerequisites>
+                    <Course ID="EECE390">Analog Signal Processing</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

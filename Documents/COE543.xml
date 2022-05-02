@@ -1,0 +1,26 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE543">Intelligent Data Processing and Applications
+			<Instructors>
+				<Instructor> 
+				Joe Tekli
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course provides an overview on state of the 
+			art algorithms and techniques allowing semi-structured and 
+			semantic-aware data processing, forming the main building blocks
+			 of the Semantic (Intelligent) Web vision. It covers semantic
+			 data descriptions and knowledge bases (taxonomies and ontologies),
+			 XML-based data representation and manipulation technologies
+			(e.g., SVG, MPEG-7, RDF, OWL, etc.), structure and semantic similarity,
+			 Web information retrieval and related applications.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="COE312">Data Structures</Course>
+				 <Course ID="COE418">Database Systems</Course>
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

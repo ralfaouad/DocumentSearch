@@ -1,0 +1,23 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE753">Heuristic Optimization
+			<Instructors>
+				<Instructor>
+				Mirna Imad
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course covers the basic heuristic optimization
+			techniques in computing. This course describes a variety of heuristic
+			search methods including serial simulated annealing, Tabu search,
+			genetic algorithms, ant algorithms, derandomized evolution strategy, 
+			and random walk. Algorithms will be described in serial as well as in 
+			parallel fashion. Students can select application projects from a range 
+			of application areas. The advantages and disadvantages of heuristic search 
+			methods, for both serial and parallel computation, are discussed in comparison 
+			to other optimization algorithms.
+			</Description>
+		
+		</Course>
+	</Department>
+</University>

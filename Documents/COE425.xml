@@ -1,0 +1,20 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE425">Digital Systems Lab
+			<Instructors>
+				<Instructor>
+					Antoine el Khoury
+				</Instructor>
+			</Instructors>
+			<Description>
+			This laboratory course provides hands-on 
+			experience implementing complex digital systems using modern 
+			computer-aided design tools, FPGA-based boards, 
+			and various I/O devices.
+			</Description>
+			<Prerequisites>
+			
+			</Prerequisites>
+		</Course>
+	</Department>
+</University>

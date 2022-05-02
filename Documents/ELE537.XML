@@ -1,0 +1,21 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Electrical Engineering
+            <Course ID="ELE537"> Communication Systems
+                <Instructors>
+                    <Instructor>
+                        Chadi Abou Rjeily
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    Basic principles of point-to-point communication link design and analysis, 
+                    introduction to the theory and principles of modern communication systems, 
+                    overview of the currently used analog and digital communication techniques 
+                    and their relative advantages and disadvantages, analog modulation and 
+                    demodulation, component parts used in analog and digital transceivers.
+                </Description>
+                <Prerequisites>
+                    <Course ID="ELE430">Signals and Systems</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

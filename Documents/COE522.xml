@@ -1,0 +1,26 @@
+<University abbrev="LAU"> Lebanese American University
+	<Department>Computer Engineering
+		<Course ID="COE522">High Performance Computer Architecture
+			<Instructors>
+				<Instructor> 
+					Maria Abi Saad
+				</Instructor>
+			</Instructors>
+			<Description>
+			This course covers topics in advanced pipelined 
+			techniques and scheduling, instruction level parallelism, 
+			and dynamic scheduling. Advanced processor design techniques 
+			are introduced such as superscalar, super-pipelined, VLIW,
+			multiprocessing, multithreading, and supercomputing architectures.
+			In addition, relationships between high-performance computing and 
+			interconnection networks, embedded systems, advanced storage systems,
+			and cloud computing examples are established.
+			</Description>
+							
+			<Prerequisites>
+				 <Course ID="COE423">Computer Architecture</Course>
+			</Prerequisites>
+			
+		</Course>
+	</Department>
+</University>

@@ -1,0 +1,22 @@
+<University abbrev="AUB"> American University of Beirut
+    <Department> Electrical and Computer Engineering
+            <Course ID="EECE430"> Software Engineering
+                <Instructors>
+                    <Instructor>
+                        Ali Costantine
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    A course that teaches students modern processes and tools for working on software
+                    projects, including the design, development, testing, and deployment of software
+                    systems. They will understand and use agile development methodologies and tools,
+                    including lo-fi UI sketching, user stories, behavior-driven development, and version
+                    control for team-based development, management tools, and design patterns. The
+                    course requires the completion of a group-based real-life software project. 
+                </Description>
+                <Prerequisites>
+                    <Course ID="EECE330">Data Structures and Algorithms</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

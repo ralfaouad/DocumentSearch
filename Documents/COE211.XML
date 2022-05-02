@@ -1,0 +1,23 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Computer Engineering
+            <Course ID="COE211"> Computer Programming
+                <Instructors>
+                    <Instructor>
+                        Wissam Fawaz
+                    </Instructor>
+                    <Instructor>
+                        Joe Tekli
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    This course covers a high-level programming language syntax, 
+                    structured programming, basic constructs, arrays, object programming, 
+                    case studies, and projects tailored towards solving engineering and 
+                    mathematically-oriented problems.
+                </Description>
+                <Prerequisites>
+                    <Course ID="COE201">Computer Proficiency</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

@@ -1,0 +1,21 @@
+<University abbrev="LAU"> Lebanese American University 
+    <Department> Electrical Engineering
+            <Course ID="ELE537"> Information and Coding Theory
+                <Instructors>
+                    <Instructor>
+                        Chadi Abou Rjeily
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    Information theory applied to communication systems. 
+                    It covers digital signals and streams, information measures, 
+                    data compression, error-correcting codes, block codes, convolutional codes, 
+                    Viterbi algorithm, noise, maximum-entropy, Markov chains, 
+                    channel capacity formalism and Shannons theorem.
+                </Description>
+                <Prerequisites>
+                    
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>

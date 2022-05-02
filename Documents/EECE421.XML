@@ -1,0 +1,23 @@
+<University abbrev="AUB"> American University of Beirut
+    <Department> Electrical and Computer Engineering
+            <Course ID="EECE421"> Computer Architecture
+                <Instructors>
+                    <Instructor>
+                        Hassan Bazzi
+                    </Instructor>
+                </Instructors>
+                <Description>
+                    A course on the principles, techniques and trade-offs used in designing modern
+                    processor core architectures. Topics include: benchmarking and performance evaluation;
+                    hardware instruction level parallelism techniques (pipelining, superscalar, out-of-order
+                    execution, branch prediction); software instruction level parallelism techniques (loop
+                    unrolling, software pipelining, predicated execution, EPIC architecture), virtual memory
+                    and high performance memory systems. Students will work on a VHDL design project of
+                    a 2-wide superscalar microprocessor core.
+                </Description>
+                <Prerequisites>
+                    <Course ID="EECE321">Computer Organization</Course>
+                </Prerequisites>
+            </Course>
+    </Department>
+</University>
