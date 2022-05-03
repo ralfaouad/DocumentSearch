@@ -1,4 +1,5 @@
 import collections
+import audio
 import time
 from unittest import result
 from flask import Flask, render_template, request, send_file
@@ -149,8 +150,9 @@ def getfile(filename):
 @app.route("/Speak",methods=["GET","POST"])
 def speak():
     if request.method == "POST":
-        print("WORKINGGGG")
-    return "Clicked"
+        query = audio.speech2text()
+        print(query)
+    return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
 
 if __name__ == '__main__':
     app.run()    

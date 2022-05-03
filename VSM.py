@@ -1,5 +1,6 @@
 import math, json, path, TED, utils, os
 import xml.etree.ElementTree as ET
+import pandas as pd
 
 def TF(str):
     TF = {}
@@ -133,10 +134,22 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
                 vector2.append(TCF2[dimension] * IDF(dimension, corpus))
             else: vector2.append(0.0)
 
-    print("dimensions: ", dimensions)
-    print("V1: ", vector1)
-    print("V2: ", vector2)
+    # print("dimensions: ", dimensions)
+    # print("V1: ", vector1)
+    # print("V2: ", vector2)
+    df = pd.DataFrame(list(zip(vector1, vector2)), index = dimensions, columns =['Vector1', 'Vector2'])
+    print("Original DataFrame :")
+    df      
+    
+    result = df.to_html()
+    # HTML(df.to_html(classes='table table-stripped'))
+    print(result)
+    # display(df)
 
+    # print("dimensions: ", dimensions)
+    # print("V1: ", vector1)
+    # print("V2: ", vector2)
+    print(df)
     if m == 0:
         similarity = utils.e_cosine(dimensions, vector1, vector2)
     elif m == 1:
