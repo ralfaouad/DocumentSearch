@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Computer Engineering
+    <Department> Computer Engineering
         <Course ID = "COE521"> Embedded Systems
             <Instructors>
                 <Instructor> Zahi Nakad </Instructor>
@@ -18,5 +18,5 @@
                 <Course ID = "COE323"> Microprocessors </Course>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

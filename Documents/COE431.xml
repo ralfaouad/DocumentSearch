@@ -1,20 +1,18 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Computer Engineering
+    <Department> Computer Engineering
         <Course ID = "COE431"> Computer Networks
             <Instructors>
                 <Instructor> Wissam Fawwaz </Instructor>
                 <Instructor> Louma Chaddad </Instructor>
             </Instructors>
-            
             <Description>
                 This course covers the topologies, installation and configuration, testing, modeling
                 and simulation of networks. In addition to: protocols, standards, TCP/IP, and socket
                 programming.
             </Description>
-
             <Prerequisites>
-                <Requirement> Fourth year standing </Course>
+                <Requirement> Fourth year standing </Requirement>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

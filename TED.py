@@ -2,21 +2,23 @@ import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 import regex as re
 import time
+import utils
+
 
 
 # STEP 1: Document Preprocessing
 def preprocessing(elt,depth=0,path=""):
     if elt is None:
         return None
-    newtree = Element(path + str(depth) + ".&" + str(elt.tag))
+    newtree = Element(path + str(depth) + ".&" + str(elt.tag.lower()))
 
     new_path = path + str(depth) + "." 
     d = 0
 
     for key,value in sorted(elt.attrib.items()):
         attr_path = new_path + str(d) + "."
-        attr_key = SubElement(newtree, attr_path + "@" + str(key))
-        attr_value = SubElement(attr_key, attr_path + "0." + "#" + str(value))
+        attr_key = SubElement(newtree, attr_path + "@" + str(key.lower()))
+        attr_value = SubElement(attr_key, attr_path + "0." + "#" + str(value.lower()))
         d += 1
     
     for child in elt:
@@ -24,7 +26,8 @@ def preprocessing(elt,depth=0,path=""):
         d += 1
 
     if elt.text is not None:
-        tokens = elt.text.split()
+        txt = utils.clean_text(elt.text)
+        tokens = txt.split()
         for token in tokens:
             tk = SubElement(newtree, new_path + str(d) + ".#" + str(token))
             d+=1
@@ -209,11 +212,11 @@ def TED(A,B):
     print("t",delay)
     return similarity
 
-doc1 = open("UploadedDocuments/SampleDoc1_original_v1.xml", 'r')
-doc2 = open("UploadedDocuments/SampleDoc1_original.xml", 'r')
+# doc1 = open("UploadedDocuments/SampleDoc1_original_v1.xml", 'r')
+# doc2 = open("UploadedDocuments/SampleDoc1_original.xml", 'r')
 
-tree1 = preprocessing(ET.parse(doc1).getroot())
-tree2 = preprocessing(ET.parse(doc2).getroot())
+# tree1 = preprocessing(ET.parse(doc1).getroot())
+# tree2 = preprocessing(ET.parse(doc2).getroot())
 
 # for x in tree1.iter():
 #     print(x)
@@ -222,7 +225,7 @@ tree2 = preprocessing(ET.parse(doc2).getroot())
 #     print(x)
 # print("CD: ",costs_del)
 # print("CI: ",costs_ins)
-print(TED(tree1,tree2))
+# print(TED(tree1,tree2))
 
 
 

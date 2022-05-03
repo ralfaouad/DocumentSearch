@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Computer Engineering
+    <Department> Computer Engineering
         <Course ID = "COE414"> Computer Proficiency
             <Instructors>
                 <Instructor> Ronald Kfouri </Instructor>
@@ -15,5 +15,5 @@
             <Prerequisites>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

@@ -1,34 +1,5810 @@
 {
-  "Cramer": {
-    "XML1.xml": [
-      "Department/Professor"
+  "abi": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
     ],
-    "XML2.xml": [
-      "Department/Student"
+    "COE423.xml": [
+      "university/department/course/instructors/instructor"
     ],
-    "XML3.xml": [
-      "Department/Professor"
+    "COE424.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE522.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE593.xml": [
+      "university/department/course/instructors/instructor"
     ]
   },
-  "John": {
-    "XML1.xml": [
-      "Department/Professor",
-      "Department/Student"
-    ],
-    "XML3.xml": [
-      "Department/Professor",
-      "Department/Student"
+  "able": {
+    "COE544.xml": [
+      "university/department/course/description"
     ]
   },
-  "Takagi": {
-    "XML1.xml": [
-      "Department/Student"
+  "abou": {
+    "ELE430.XML": [
+      "university/department/course/instructors/instructor"
     ],
-    "XML2.xml": [
-      "Department/Student"
+    "ELE535.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ELE537.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "academic": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "access": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "accounting": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "acquire": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "addition": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "address": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "advanced": {
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "advantage": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "agent": {
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "agile": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "agreement": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "aim": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "algebra": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "algorithm": {
+    "COE312.XML": [
+      "university/department/course"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "ali": {
+    "EECE430.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "aligned": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "allocation": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "allow": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "allowing": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "allows": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "along": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "also": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "american": {
+    "COE201.xml": [
+      "university"
+    ],
+    "COE211.XML": [
+      "university"
+    ],
+    "COE312.XML": [
+      "university"
+    ],
+    "COE321.XML": [
+      "university"
+    ],
+    "COE323.XML": [
+      "university"
+    ],
+    "COE414.xml": [
+      "university"
+    ],
+    "COE416.xml": [
+      "university"
+    ],
+    "COE418.xml": [
+      "university"
+    ],
+    "COE423.xml": [
+      "university"
+    ],
+    "COE424.xml": [
+      "university"
+    ],
+    "COE425.xml": [
+      "university"
+    ],
+    "COE431.xml": [
+      "university"
+    ],
+    "COE521.xml": [
+      "university"
+    ],
+    "COE522.xml": [
+      "university"
+    ],
+    "COE526.xml": [
+      "university"
+    ],
+    "COE535.xml": [
+      "university"
+    ],
+    "COE543.xml": [
+      "university"
+    ],
+    "COE544.xml": [
+      "university"
+    ],
+    "COE555.xml": [
+      "university"
+    ],
+    "COE593.xml": [
+      "university"
+    ],
+    "COE599.xml": [
+      "university"
+    ],
+    "COE732.xml": [
+      "university"
+    ],
+    "COE753.xml": [
+      "university"
+    ],
+    "ECO201.xml": [
+      "university"
+    ],
+    "ECO202.xml": [
+      "university"
+    ],
+    "EECE340.XML": [
+      "university"
+    ],
+    "EECE421.XML": [
+      "university"
+    ],
+    "EECE430.XML": [
+      "university"
+    ],
+    "ELE430.XML": [
+      "university"
+    ],
+    "ELE535.XML": [
+      "university"
+    ],
+    "ELE537.XML": [
+      "university"
+    ],
+    "HOM203.xml": [
+      "university"
+    ],
+    "HOM231.xml": [
+      "university"
+    ],
+    "HST231.xml": [
+      "university"
+    ],
+    "HST244.xml": [
+      "university"
+    ]
+  },
+  "among": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "analog": {
+    "EECE340.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "analysis": {
+    "COE416.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "analyzing": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "annealing": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ant": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "antoine": {
+    "COE425.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "application": {
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE593.xml": [
+      "university/department/course"
+    ],
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "applied": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "applying": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "appreciation": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "appropriate": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "approximate": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "arab": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "architecture": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "area": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "arising": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "arithmetic": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "array": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "art": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "artificial": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ass": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "assembly": {
+    "COE323.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "assignment": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "asynchronous": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "aub": {
+    "EECE340.XML": [
+      "university/abbrev"
+    ],
+    "EECE421.XML": [
+      "university/abbrev"
+    ],
+    "EECE430.XML": [
+      "university/abbrev"
+    ]
+  },
+  "automation": {
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "bachir": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "base": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "basic": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE323.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "bazzi": {
+    "EECE421.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "behavior": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "beirut": {
+    "EECE340.XML": [
+      "university"
+    ],
+    "EECE421.XML": [
+      "university"
+    ],
+    "EECE430.XML": [
+      "university"
+    ]
+  },
+  "benchmarking": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "better": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "bevarage": {
+    "HOM203.xml": [
+      "university/department/course"
+    ]
+  },
+  "beverage": {
+    "HOM203.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "bilal": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "binary": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "block": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "board": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "boolean": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "branch": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "breaking": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "british": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "broad": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "brought": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "building": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "burst": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "bus": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "calculus": {
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "capacity": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "case": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "century": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "chaddad": {
+    "COE431.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "chadi": {
+    "ELE430.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ELE535.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ELE537.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "chain": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "challita": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "chance": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "channel": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "characteristic": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "cigar": {
+    "HOM231.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "circuit": {
+    "COE321.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "clash": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "classroom": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "closed": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "cloud": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "code": {
+    "COE323.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "coding": {
+    "ELE535.XML": [
+      "university/department/course"
+    ]
+  },
+  "coe": {
+    "COE593.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "coe201": {
+    "COE211.XML": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe211": {
+    "COE211.XML": [
+      "university/department/course/id"
+    ],
+    "COE312.XML": [
+      "university/department/course/id",
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE418.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe312": {
+    "COE416.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE535.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE543.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE544.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe312 ": {
+    "COE414.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe321": {
+    "COE321.XML": [
+      "university/department/course/id"
+    ],
+    "COE323.XML": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE526.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe323": {
+    "COE323.XML": [
+      "university/department/course/id"
+    ],
+    "COE414.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE423.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE424.xml": [
+      "university/department/course/prerequisites/course/id"
+    ],
+    "COE521.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe414": {
+    "COE201.xml": [
+      "university/department/course/id"
+    ],
+    "COE414.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe416": {
+    "COE416.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe418": {
+    "COE418.xml": [
+      "university/department/course/id"
+    ],
+    "COE543.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe423": {
+    "COE423.xml": [
+      "university/department/course/id"
+    ],
+    "COE522.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe424": {
+    "COE424.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe425": {
+    "COE425.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe431": {
+    "COE431.xml": [
+      "university/department/course/id"
+    ],
+    "COE732.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "coe521": {
+    "COE521.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe522": {
+    "COE522.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe526": {
+    "COE526.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe535": {
+    "COE535.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe543": {
+    "COE543.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe544": {
+    "COE544.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe555": {
+    "COE555.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe593": {
+    "COE593.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe599": {
+    "COE599.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe732": {
+    "COE732.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "coe753": {
+    "COE753.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "combinational": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "communication": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "community": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "comparison": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "compilation": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "completion": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "complex": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "component": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "compression": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "computation": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "computer": {
+    "COE201.xml": [
+      "university/department/course",
+      "university/department"
+    ],
+    "COE211.XML": [
+      "university/department/course/prerequisites/course",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE312.XML": [
+      "university/department/course/prerequisites/course",
+      "university/department"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course",
+      "university/department/course/prerequisites/course",
+      "university/department"
+    ],
+    "COE323.XML": [
+      "university/department"
+    ],
+    "COE414.xml": [
+      "university/department"
+    ],
+    "COE416.xml": [
+      "university/department"
+    ],
+    "COE418.xml": [
+      "university/department/course/prerequisites/course",
+      "university/department"
+    ],
+    "COE423.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE424.xml": [
+      "university/department"
+    ],
+    "COE425.xml": [
+      "university/department"
+    ],
+    "COE431.xml": [
+      "university/department/course",
+      "university/department"
+    ],
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "COE522.xml": [
+      "university/department/course/prerequisites/course",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE526.xml": [
+      "university/department"
+    ],
+    "COE535.xml": [
+      "university/department"
+    ],
+    "COE543.xml": [
+      "university/department"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "COE555.xml": [
+      "university/department"
+    ],
+    "COE593.xml": [
+      "university/department"
+    ],
+    "COE599.xml": [
+      "university/department/course/description",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department"
+    ],
+    "COE753.xml": [
+      "university/department"
+    ],
+    "EECE340.XML": [
+      "university/department"
+    ],
+    "EECE421.XML": [
+      "university/department/course/prerequisites/course",
+      "university/department/course",
+      "university/department"
+    ],
+    "EECE430.XML": [
+      "university/department"
+    ]
+  },
+  "computing": {
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "concentrate": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "concept": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "conception": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "concurrently": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "configuration": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "conflict": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "considered": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "considers": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "construct": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "consumer": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "continuous": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "control": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "convolutional": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "core": {
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "cost": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "costantine": {
+    "EECE430.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "could": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "counter": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "course": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE414.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE416.xml": [
+      "university/department/course/description"
+    ],
+    "COE418.xml": [
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ECO201.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ECO202.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "cover": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE416.xml": [
+      "university/department/course/description"
+    ],
+    "COE418.xml": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "coverage": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "covered": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "cramer": {
+    "XML1.xml": [
+      "department/professor"
     ],
     "XML3.xml": [
-      "Department/Student"
+      "department/professor"
+    ]
+  },
+  "create": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "created": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "creation": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "cryptography": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "culminating": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "currently": {
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "dani": {
+    "COE526.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "data": {
+    "COE312.XML": [
+      "university/department/course"
+    ],
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE414.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE416.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE418.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "database": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE418.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE543.xml": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "deal": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "dealing": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ],
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "demodulation": {
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "deployment": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "derandomized": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "described": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "describes": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "description": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "design": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE321.XML": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE323.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE416.xml": [
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "designing": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "detecting": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "determination": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ],
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "developing": {
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "development": {
+    "COE416.xml": [
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "device": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "dft": {
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "different": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "digital": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE425.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "disadvantage": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "discrete": {
+    "COE321.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "discussed": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "dispossession": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "division": {
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "documentation": {
+    "COE416.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "domain": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "dynamic": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "early": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "eco201": {
+    "ECO201.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "eco202": {
+    "ECO202.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "economics": {
+    "ECO201.xml": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "ECO202.xml": [
+      "university/department"
+    ],
+    "HOM203.xml": [
+      "university/department"
+    ],
+    "HOM231.xml": [
+      "university/department"
+    ]
+  },
+  "economy": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "eece321": {
+    "EECE421.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "eece330": {
+    "EECE430.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "eece390": {
+    "EECE340.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "eece421": {
+    "EECE340.XML": [
+      "university/department/course/id"
+    ],
+    "EECE421.XML": [
+      "university/department/course/id"
+    ]
+  },
+  "eece430": {
+    "EECE430.XML": [
+      "university/department/course/id"
+    ]
+  },
+  "effectiveness": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ehab": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "el": {
+    "COE425.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HOM203.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HOM231.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "ele302": {
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "ele430": {
+    "ELE430.XML": [
+      "university/department/course/id"
+    ],
+    "ELE537.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "ele537": {
+    "ELE535.XML": [
+      "university/department/course/id"
+    ],
+    "ELE537.XML": [
+      "university/department/course/id"
+    ]
+  },
+  "electrical": {
+    "EECE340.XML": [
+      "university/department"
+    ],
+    "EECE421.XML": [
+      "university/department"
+    ],
+    "EECE430.XML": [
+      "university/department"
+    ],
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course",
+      "university/department"
+    ],
+    "ELE535.XML": [
+      "university/department"
+    ],
+    "ELE537.XML": [
+      "university/department"
+    ]
+  },
+  "electronic": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "elia": {
+    "HST231.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HST244.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "elie": {
+    "HST231.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HST244.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "embedded": {
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "emergence": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "emerging": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "emir": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "emphasis": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "emphasized": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "empire": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "employment": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "enabling": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "end": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "endogenously": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "engineering": {
+    "COE201.xml": [
+      "university/department"
+    ],
+    "COE211.XML": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "COE312.XML": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "COE321.XML": [
+      "university/department"
+    ],
+    "COE323.XML": [
+      "university/department"
+    ],
+    "COE414.xml": [
+      "university/department"
+    ],
+    "COE416.xml": [
+      "university/department/course",
+      "university/department"
+    ],
+    "COE418.xml": [
+      "university/department"
+    ],
+    "COE423.xml": [
+      "university/department"
+    ],
+    "COE424.xml": [
+      "university/department"
+    ],
+    "COE425.xml": [
+      "university/department"
+    ],
+    "COE431.xml": [
+      "university/department"
+    ],
+    "COE521.xml": [
+      "university/department"
+    ],
+    "COE522.xml": [
+      "university/department"
+    ],
+    "COE526.xml": [
+      "university/department"
+    ],
+    "COE535.xml": [
+      "university/department"
+    ],
+    "COE543.xml": [
+      "university/department"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE555.xml": [
+      "university/department"
+    ],
+    "COE593.xml": [
+      "university/department"
+    ],
+    "COE599.xml": [
+      "university/department/course/description",
+      "university/department/course",
+      "university/department"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department"
+    ],
+    "COE753.xml": [
+      "university/department"
+    ],
+    "EECE340.XML": [
+      "university/department"
+    ],
+    "EECE421.XML": [
+      "university/department"
+    ],
+    "EECE430.XML": [
+      "university/department/course",
+      "university/department"
+    ],
+    "ELE430.XML": [
+      "university/department"
+    ],
+    "ELE535.XML": [
+      "university/department"
+    ],
+    "ELE537.XML": [
+      "university/department"
+    ]
+  },
+  "environment": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "epic": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "equipment": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "established": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "estimation": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "etc": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "etiquette": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "evaluation": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "event": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "evolution": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "examining": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "example": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "execution": {
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "exercise": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "existence": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "experience": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "expose": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "exposed": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "exposure": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "extensive": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "external": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "faction": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "factor": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fahed": {
+    "ECO201.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ECO202.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "fakhr": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fashion": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fault": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fawaz": {
+    "COE211.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE312.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "fawwaz": {
+    "COE431.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE535.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE555.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE593.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "feature": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fedayeen": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fft": {
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "fifth": {
+    "COE599.xml": [
+      "university/department/course/prerequisites/requirement"
+    ]
+  },
+  "figure": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "filter": {
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "firm": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "first": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fiscal": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "flavor": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "flip": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "flop": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "flow": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "focus": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "following": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "food": {
+    "HOM203.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "formalism": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "formation": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "forming": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fourier": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "fourth": {
+    "COE431.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "COE593.xml": [
+      "university/department/course/prerequisites/requirement"
+    ]
+  },
+  "france": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "french": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "frequency": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "frontier": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fundamental": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "fuzzy": {
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "gaining": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "gate": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "geared": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "generation": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "genetic": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "give": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "given": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "gne331": {
+    "COE555.xml": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "good": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "gradual": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "graduate": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "habib": {
+    "HOM203.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HOM231.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "haddad": {
+    "COE732.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "hammoud": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "hardware": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "hassan": {
+    "EECE421.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "heuristic": {
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "hierarchy": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "high": {
+    "COE522.xml": [
+      "university/department/course"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "historical": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "history": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "HST244.xml": [
+      "university/department/course"
+    ]
+  },
+  "holocaust": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "hom231": {
+    "HOM203.xml": [
+      "university/department/course/id"
+    ],
+    "HOM231.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "hst231": {
+    "HST231.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "hst244": {
+    "HST244.xml": [
+      "university/department/course/id"
+    ]
+  },
+  "human": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "humanity": {
+    "HST231.xml": [
+      "university/department"
+    ],
+    "HST244.xml": [
+      "university/department"
+    ]
+  },
+  "identified": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "identity": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ii": {
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "imad": {
+    "COE753.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "imarah": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "impact": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "impacting": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "implementing": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "improve": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "include": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "includes": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "including": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "income": {
+    "ECO202.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "independent": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "information": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "initial": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "inspired": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "installation": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "instituting": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "instruction": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "instrument": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "intelligence": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "intelligent": {
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "intelligently": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "interaction": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "interconnection": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "interfacing": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "internal": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "internals": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "international": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "internet": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "introduced": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "introduces": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "introduction": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "introductory": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ],
+    "ECO202.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "islamist": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "israel": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "issue": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "iv": {
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "jennifer": {
+    "COE312.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE414.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "jewish": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "job": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "joe": {
+    "COE211.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE416.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE418.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE543.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE544.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "john": {
+    "XML1.xml": [
+      "department/professor",
+      "department/student"
+    ],
+    "XML2.xml": [
+      "department/student"
+    ],
+    "XML3.xml": [
+      "department/professor",
+      "department/student"
+    ]
+  },
+  "joumana": {
+    "COE732.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "kallab": {
+    "ECO201.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ECO202.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "karaki": {
+    "EECE340.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "karam": {
+    "COE599.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "karim": {
+    "EECE340.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "key": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "kfouri": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "khoury": {
+    "COE425.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HOM203.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "HOM231.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "kibbutz": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "knowledge": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "lab": {
+    "COE425.xml": [
+      "university/department/course"
+    ]
+  },
+  "laboratory": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "language": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE418.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "laplace": {
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "lau": {
+    "COE201.xml": [
+      "university/abbrev"
+    ],
+    "COE211.XML": [
+      "university/abbrev"
+    ],
+    "COE312.XML": [
+      "university/abbrev"
+    ],
+    "COE321.XML": [
+      "university/abbrev"
+    ],
+    "COE323.XML": [
+      "university/abbrev"
+    ],
+    "COE414.xml": [
+      "university/abbrev"
+    ],
+    "COE416.xml": [
+      "university/abbrev"
+    ],
+    "COE418.xml": [
+      "university/abbrev"
+    ],
+    "COE423.xml": [
+      "university/abbrev"
+    ],
+    "COE424.xml": [
+      "university/abbrev"
+    ],
+    "COE425.xml": [
+      "university/abbrev"
+    ],
+    "COE431.xml": [
+      "university/abbrev"
+    ],
+    "COE521.xml": [
+      "university/abbrev"
+    ],
+    "COE522.xml": [
+      "university/abbrev"
+    ],
+    "COE526.xml": [
+      "university/abbrev"
+    ],
+    "COE535.xml": [
+      "university/abbrev"
+    ],
+    "COE543.xml": [
+      "university/abbrev"
+    ],
+    "COE544.xml": [
+      "university/abbrev"
+    ],
+    "COE555.xml": [
+      "university/abbrev"
+    ],
+    "COE593.xml": [
+      "university/abbrev"
+    ],
+    "COE599.xml": [
+      "university/abbrev"
+    ],
+    "COE732.xml": [
+      "university/abbrev"
+    ],
+    "COE753.xml": [
+      "university/abbrev"
+    ],
+    "ECO201.xml": [
+      "university/abbrev"
+    ],
+    "ECO202.xml": [
+      "university/abbrev"
+    ],
+    "ELE430.XML": [
+      "university/abbrev"
+    ],
+    "ELE535.XML": [
+      "university/abbrev"
+    ],
+    "ELE537.XML": [
+      "university/abbrev"
+    ],
+    "HOM203.xml": [
+      "university/abbrev"
+    ],
+    "HOM231.xml": [
+      "university/abbrev"
+    ],
+    "HST231.xml": [
+      "university/abbrev"
+    ],
+    "HST244.xml": [
+      "university/abbrev"
+    ]
+  },
+  "layout": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "lead": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "leading": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "lebanese": {
+    "COE201.xml": [
+      "university"
+    ],
+    "COE211.XML": [
+      "university"
+    ],
+    "COE312.XML": [
+      "university"
+    ],
+    "COE321.XML": [
+      "university"
+    ],
+    "COE323.XML": [
+      "university"
+    ],
+    "COE414.xml": [
+      "university"
+    ],
+    "COE416.xml": [
+      "university"
+    ],
+    "COE418.xml": [
+      "university"
+    ],
+    "COE423.xml": [
+      "university"
+    ],
+    "COE424.xml": [
+      "university"
+    ],
+    "COE425.xml": [
+      "university"
+    ],
+    "COE431.xml": [
+      "university"
+    ],
+    "COE521.xml": [
+      "university"
+    ],
+    "COE522.xml": [
+      "university"
+    ],
+    "COE526.xml": [
+      "university"
+    ],
+    "COE535.xml": [
+      "university"
+    ],
+    "COE543.xml": [
+      "university"
+    ],
+    "COE544.xml": [
+      "university"
+    ],
+    "COE555.xml": [
+      "university"
+    ],
+    "COE593.xml": [
+      "university"
+    ],
+    "COE599.xml": [
+      "university"
+    ],
+    "COE732.xml": [
+      "university"
+    ],
+    "COE753.xml": [
+      "university"
+    ],
+    "ECO201.xml": [
+      "university"
+    ],
+    "ECO202.xml": [
+      "university"
+    ],
+    "ELE430.XML": [
+      "university"
+    ],
+    "ELE535.XML": [
+      "university"
+    ],
+    "ELE537.XML": [
+      "university"
+    ],
+    "HOM203.xml": [
+      "university"
+    ],
+    "HOM231.xml": [
+      "university"
+    ],
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university"
+    ],
+    "HST244.xml": [
+      "university"
+    ]
+  },
+  "lebanon": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "level": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "liberation": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "light": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "lina": {
+    "COE599.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "linear": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "link": {
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "logic": {
+    "COE321.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE323.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "loop": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "louma": {
+    "COE431.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "machine": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "macroeconomics": {
+    "ECO202.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "main": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "major": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "make": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "management": {
+    "COE414.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "managerial": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "mandate": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "manipulating": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "manipulation": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "mapping": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "maria": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE423.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE424.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE522.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE593.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "market": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "markov": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "markovian": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "maronites": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "match": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "material": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "may": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "measure": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "mechanism": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "memory": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "method": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "methodology": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "metro": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "microcontrollers": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "microeconomics": {
+    "ECO201.xml": [
+      "university/department/course"
+    ]
+  },
+  "microprocessor": {
+    "COE323.XML": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE414.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE423.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE424.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE521.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "migration": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "mirna": {
+    "COE753.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "model": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "modeling": {
+    "COE418.xml": [
+      "university/department/course/description"
+    ],
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "modern": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "modulation": {
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "monetary": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "moving": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "mth206": {
+    "ELE430.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "mth207": {
+    "COE321.XML": [
+      "university/department/course/prerequisites/course/id"
+    ]
+  },
+  "multiplexed": {
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "multiplexing": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "multiprocessing": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "multithreading": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "mutasarrifiya": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "nakad": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE323.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE414.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE521.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "namely": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "nascent": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "national": {
+    "ECO202.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "nature": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "need": {
+    "COE593.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "network": {
+    "COE431.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ]
+  },
+  "networked": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "networking": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "neural": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "new": {
+    "COE599.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "noise": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "notation": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "nuclear": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "number": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "object": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE418.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "objective": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ontology": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "open": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "operating": {
+    "COE414.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "operation": {
+    "HOM203.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "operational": {
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "optical": {
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "optimization": {
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "organization": {
+    "EECE421.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "oriented": {
+    "COE418.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "origin": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ottoman": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "outbreak": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "outside": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "overview": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "owl": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "packet": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pact": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pairing": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "palestine": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "palestinian": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "parallel": {
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "parallelism": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "part": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "particular": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pattern": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "perceived": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "perceiving": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "performance": {
+    "COE522.xml": [
+      "university/department/course"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "period": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pertaining": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pic": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pipelined": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "pipelining": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "place": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "planning": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "player": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "policy": {
+    "ECO202.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "polity": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "position": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "power": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "predicated": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "prediction": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "prepared": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "presentation": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "presented": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "preventing": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "price": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "principle": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "private": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "probability": {
+    "COE555.xml": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "problem": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "procedure": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "process": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "processing": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "processor": {
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "producing": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "production": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "proficiency": {
+    "COE201.xml": [
+      "university/department/course"
+    ],
+    "COE211.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "programmable": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "programming": {
+    "COE211.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE312.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/prerequisites/course"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE418.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "progression": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "project": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "property": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "protect": {
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "protection": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "protocol": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "provide": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "provides": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "public": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "purchase": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "purchasing": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "quality": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "query": {
+    "COE418.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "queue": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "queueing": {
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "queuing": {
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "ramus": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "random": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "range": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ranging": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "rdf": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "regard": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "region": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "register": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "regular": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "reinforced": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "related": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "relation": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "relational": {
+    "COE418.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "relationship": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "relative": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "representation": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "required": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "requires": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "resistance": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "resource": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "response": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "restaurant": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "retail": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "retrieval": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "rise": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "risk": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "rizkallah": {
+    "COE312.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE414.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "rjeily": {
+    "ELE430.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ELE535.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ELE537.XML": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "role": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ronald": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "routing": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "saad": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE423.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE424.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE522.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE593.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "safeguard": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "sampling": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "scheduling": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "scheme": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "scope": {
+    "ECO201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "search": {
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "security": {
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "select": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "semantic": {
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "sequential": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "serial": {
+    "COE753.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "series": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "service": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "set": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "shannon": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "shayya": {
+    "COE201.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "shed": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "signal": {
+    "EECE340.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "silicon": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "similarity": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "simple": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "simulate": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "simulated": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "simulating": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "simulation": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "single": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "sketching": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "skill": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "socket": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "software": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE416.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "solution": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "solving": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "specific": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "spirit": {
+    "HOM231.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "spreadsheet": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "sql": {
+    "COE418.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "stability": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "stabilizing": {
+    "ECO202.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "stack": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "standard": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "standing": {
+    "COE431.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "COE593.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "COE599.xml": [
+      "university/department/course/prerequisites/requirement"
+    ]
+  },
+  "starting": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "state": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "statistic": {
+    "COE555.xml": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "storage": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "store": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "storing": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "story": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "strategy": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "stream": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "structure": {
+    "COE312.XML": [
+      "university/department/course"
+    ],
+    "COE321.XML": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE414.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course"
+    ],
+    "COE416.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE535.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course"
+    ],
+    "COE544.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "EECE430.XML": [
+      "university/department/course/prerequisites/course"
+    ]
+  },
+  "structured": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "student": {
+    "COE544.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "study": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "supercomputing": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "superior": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "superscalar": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "surrounding": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "svg": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "switched": {
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "synchronization": {
+    "COE414.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "synchronous": {
+    "COE321.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "syntax": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "synthesis": {
+    "COE424.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "system": {
+    "COE414.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE418.xml": [
+      "university/department/course"
+    ],
+    "COE423.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE425.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE521.xml": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/prerequisites/course"
+    ],
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE340.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/prerequisites/course",
+      "university/department/course"
+    ],
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tabu": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "taif": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tailored": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "takagi": {
+    "XML1.xml": [
+      "department/student"
+    ],
+    "XML2.xml": [
+      "department/student"
+    ],
+    "XML3.xml": [
+      "department/student"
+    ]
+  },
+  "tania": {
+    "ECO201.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ECO202.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "tannir": {
+    "COE526.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "tanzimat": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tasting": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "taxonomy": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "teach": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "technical": {
+    "COE593.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "technique": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE593.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "technology": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tekli": {
+    "COE211.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE416.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE418.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE543.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE544.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "testing": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "theorem": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "theory": {
+    "COE555.xml": [
+      "university/department/course"
+    ],
+    "ECO201.xml": [
+      "university/department/course/description"
+    ],
+    "ELE535.XML": [
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "threat": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "time": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "timing": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tool": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE526.xml": [
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "topic": {
+    "COE423.xml": [
+      "university/department/course/description"
+    ],
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE522.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "topology": {
+    "COE431.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "touch": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "toward": {
+    "COE544.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "towards": {
+    "COE211.XML": [
+      "university/department/course/description"
+    ],
+    "COE312.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "tracing": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "tradeoff": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "transceivers": {
+    "ELE537.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "transfer": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "transform": {
+    "EECE340.XML": [
+      "university/department/course/description"
+    ],
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "transformation": {
+    "ELE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "treatment": {
+    "COE599.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "two": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "type": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "ui": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "understand": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "understanding": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "university": {
+    "COE201.xml": [
+      "university"
+    ],
+    "COE211.XML": [
+      "university"
+    ],
+    "COE312.XML": [
+      "university"
+    ],
+    "COE321.XML": [
+      "university"
+    ],
+    "COE323.XML": [
+      "university"
+    ],
+    "COE414.xml": [
+      "university"
+    ],
+    "COE416.xml": [
+      "university"
+    ],
+    "COE418.xml": [
+      "university"
+    ],
+    "COE423.xml": [
+      "university"
+    ],
+    "COE424.xml": [
+      "university"
+    ],
+    "COE425.xml": [
+      "university"
+    ],
+    "COE431.xml": [
+      "university"
+    ],
+    "COE521.xml": [
+      "university"
+    ],
+    "COE522.xml": [
+      "university"
+    ],
+    "COE526.xml": [
+      "university"
+    ],
+    "COE535.xml": [
+      "university"
+    ],
+    "COE543.xml": [
+      "university"
+    ],
+    "COE544.xml": [
+      "university"
+    ],
+    "COE555.xml": [
+      "university"
+    ],
+    "COE593.xml": [
+      "university"
+    ],
+    "COE599.xml": [
+      "university"
+    ],
+    "COE732.xml": [
+      "university"
+    ],
+    "COE753.xml": [
+      "university"
+    ],
+    "ECO201.xml": [
+      "university"
+    ],
+    "ECO202.xml": [
+      "university"
+    ],
+    "EECE340.XML": [
+      "university"
+    ],
+    "EECE421.XML": [
+      "university"
+    ],
+    "EECE430.XML": [
+      "university"
+    ],
+    "ELE430.XML": [
+      "university"
+    ],
+    "ELE535.XML": [
+      "university"
+    ],
+    "ELE537.XML": [
+      "university"
+    ],
+    "HOM203.xml": [
+      "university"
+    ],
+    "HOM231.xml": [
+      "university"
+    ],
+    "HST231.xml": [
+      "university"
+    ],
+    "HST244.xml": [
+      "university"
+    ]
+  },
+  "unrolling": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "use": {
+    "COE526.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "used": {
+    "COE521.xml": [
+      "university/department/course/description"
+    ],
+    "COE535.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ],
+    "ELE537.XML": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "user": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "using": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ],
+    "COE425.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "validation": {
+    "COE555.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "variety": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "various": {
+    "COE425.xml": [
+      "university/department/course/description"
+    ],
+    "COE599.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "vatican": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "verification": {
+    "COE526.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "verify": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "version": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "vhdl": {
+    "COE424.xml": [
+      "university/department/course/description"
+    ],
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "vintage": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "violation": {
+    "COE732.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "virtual": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "vision": {
+    "COE543.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "viterbi": {
+    "ELE535.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "vliw": {
+    "COE522.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "vlsi": {
+    "COE526.xml": [
+      "university/department/course"
+    ]
+  },
+  "walk": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "war": {
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ],
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "wavelength": {
+    "COE535.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "wdm": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "web": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ],
+    "COE543.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "well": {
+    "COE753.xml": [
+      "university/department/course/description"
+    ],
+    "HOM231.xml": [
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "wide": {
+    "COE535.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "wider": {
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "wine": {
+    "HOM231.xml": [
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course/description",
+      "university/department/course"
+    ]
+  },
+  "wissam": {
+    "COE211.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE312.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE431.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE535.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE555.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE593.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ECO201.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "ECO202.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "word": {
+    "COE201.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "work": {
+    "EECE421.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "working": {
+    "EECE430.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "world": {
+    "HOM231.xml": [
+      "university/department/course/description"
+    ],
+    "HST231.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ],
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "writing": {
+    "COE323.XML": [
+      "university/department/course/description"
+    ]
+  },
+  "year": {
+    "COE431.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "COE593.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "COE599.xml": [
+      "university/department/course/prerequisites/requirement"
+    ],
+    "HST231.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "yield": {
+    "HOM203.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "zahi": {
+    "COE321.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE323.XML": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE414.xml": [
+      "university/department/course/instructors/instructor"
+    ],
+    "COE521.xml": [
+      "university/department/course/instructors/instructor"
+    ]
+  },
+  "zionism": {
+    "HST244.xml": [
+      "university/department/course/description"
+    ]
+  },
+  "zionist": {
+    "HST244.xml": [
+      "university/department/course/description",
+      "university/department/course/description"
+    ]
+  },
+  "zoom": {
+    "HST244.xml": [
+      "university/department/course/description"
     ]
   }
 }

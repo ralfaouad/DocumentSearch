@@ -1,10 +1,15 @@
+from ctypes import util
+from sklearn import neighbors
 import VSM, json, path, utils, TED, os
 import xml.etree.ElementTree as ET
 
-corpus = ["Documents/XML1.xml", "Documents/XML2.xml","Documents/XML3.xml"]
+
+directory = "Documents"
+corpus = [os.path.join(directory,document) for document in os.listdir(directory)]
+
 
 def IR_with_indexing(query, method):
-    # query = VSM.clean_text(query)
+    query = utils.clean_text(query)
     docs = set()
     sims = {}
 
@@ -27,21 +32,19 @@ def IR_with_indexing(query, method):
     if(not docs): return None
     for doc in docs:
         sims[doc] = VSM_query(query, doc, method)
-
     return sims
 
 def IR_without_indexing(query, method):
-    # query = VSM.clean_text(query)
+    query = utils.clean_text(query)
     # TFq = VSM.TF(query)
     sims = {}
 
     for doc in corpus:
-        sims[VSM_query(query, doc, method)] = doc
+        sims[doc] = VSM_query(query, doc, method)
 
     return sims
         
 def VSM_query(query, document, method):
-
     doc = open(document,'r')
     tree = TED.preprocessing(ET.parse(doc).getroot())
 
@@ -63,28 +66,42 @@ def VSM_query(query, document, method):
             vectorq.append(TFq.get(dimension) or 0)
             
             if(dimension in TFd):
-                vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus, "xml", "TB"))
+                vectord.append(TFd[dimension] * VSM.IDFq(dimension))
             else: vectord.append(0.0)
 
-    print(dimensions)
-    print(vectorq)
-    print(doc, vectord)
+    # print(dimensions)
+    # print(vectorq)
+    # print(doc, vectord)
     return utils.cosine(vectorq, vectord) # modify cosine to take sim of contexts by WF
 
 # user = input("Enter query: ")
 # method = input("Enter 1 for TF, or 2 for TF-IDF")
 
-# print(IR_with_indexing("hh", 1))
-print(IR_with_indexing(user, method))
+# print(IR_with_indexing("John", 1))
 
-def KNN(k,dict):
-    neighbors=[]
-    arr = sorted(dict.keys(),reverse=True)
-    
-    for i in range(k):
-       neighbors.append(dict[arr[i]])
-    
+# print(IR_with_indexing(user, method))
+
+def KNN(K,res):
+    sorted_res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1],reverse=True)}
+    neighbors = dict(list(sorted_res.items())[0:K])
     return neighbors
 
+def range(e, res):
+    # if sim >= e add term to neighbors
+    sorted_res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1],reverse=True)}
+    inrange = {}
+    for k,v in sorted_res.items():
+        if v>= e:
+            inrange[k] = v
+        else:
+            break
+    return inrange
+
+def KNN_range(k, e, res):
+    res1 = range(e,res)
+    res2 = KNN(k,res1)
+    return res2
     
-print(IR_with_indexing("John", 1))
+
+# print(KNN(3,))
+# print(KNN_range(2,1,{'gfg' : 10, 'is' : 1, 'best' : 45, 'for' : 4, 'CS' : 5}))
