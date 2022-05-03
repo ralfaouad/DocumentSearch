@@ -1,7 +1,19 @@
-import VSM, json, path, utils, TED, os
-import xml.etree.ElementTree as ET
+# import VSM, json, path, utils, TED, os
+# import xml.etree.ElementTree as ET
+from spellchecker import SpellChecker
 
 corpus = ["Documents/XML1.xml", "Documents/XML2.xml","Documents/XML3.xml"]
+
+def corrector(query):
+    spell = SpellChecker()
+    misspelled = spell.unknown(query.split())
+
+    for word in misspelled:
+        query = query.replace(word, spell.correction(word))
+
+    return query
+
+print(corrector("enfineerinf"))
 
 def IR_with_indexing(query, method):
     # query = VSM.clean_text(query)
@@ -75,7 +87,6 @@ def VSM_query(query, document, method):
 # method = input("Enter 1 for TF, or 2 for TF-IDF")
 
 # print(IR_with_indexing("hh", 1))
-print(IR_with_indexing(user, method))
 
 def KNN(k,dict):
     neighbors=[]
@@ -87,4 +98,4 @@ def KNN(k,dict):
     return neighbors
 
     
-print(IR_with_indexing("John", 1))
+# print(IR_with_indexing("John", 1))
