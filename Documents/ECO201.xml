@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Economics
+    <Department> Economics
         <Course ID = "ECO201"> Microeconomics
             <Instructors>
                 <Instructor> Tania Kallab </Instructor>
@@ -15,5 +15,5 @@
             <Prerequisites>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

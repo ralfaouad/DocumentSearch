@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Computer Engineering
+    <Department> Computer Engineering
         <Course ID = "COE424"> Digital Systems
             <Instructors>
                 <Instructor> Maria Abi Saad </Instructor>
@@ -16,5 +16,5 @@
                 <Course ID = "COE323"> Microprocessors </Course>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

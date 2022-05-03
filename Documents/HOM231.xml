@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Economics
+    <Department> Economics
         <Course ID = "HOM231"> Wine, Spirits and Cigars
             <Instructors>
                 <Instructor> Habib El Khoury </Instructor>
@@ -17,5 +17,5 @@
             <Prerequisites>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

@@ -1,29 +1,5 @@
-import math, json, path, TED, utils
+import math, json, path, TED, utils, os
 import xml.etree.ElementTree as ET
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
-from nltk.stem import WordNetLemmatizer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfVectorizer
-import pandas as pd
-
-def clean_text(text):
-    text = text.lower()
-    # Tokenization
-    tokens = word_tokenize(text)
-    # Removing non alphabetic tokens
-    words = [word for word in tokens if word.isalpha()]
-    # Stop word removal
-    stop_words = set(stopwords.words('english'))
-    words = [w for w in words if not w in stop_words]
-    wnl = WordNetLemmatizer()
-    lemmatized = [wnl.lemmatize(word) for word in words]
-    return (" ").join(lemmatized)
 
 def TF(str):
     TF = {}
@@ -52,11 +28,22 @@ def IDF(term, corpus, input="xml", approach="TC"):
         for document in corpus:
             with open(document,'r') as file:
                 str = file.read()
-            if(term in clean_text(str).split()):
+            if(term in utils.clean_text(str).split()):
                 occurrences += 1
 
     # print("log(",len(corpus),"/",occurrences,")")
     return math.log((len(corpus)+1)/occurrences,10) # Adding 1 to the size of corpus <=> Adding dummy file
+
+def IDFq(term):
+    occurrences = 0
+    index = json.load(open("IndexingTableTags.json", 'r'))
+
+    if(index[term] != None):
+        occurrences = len(index[term])
+
+    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
+    # print("log(",len(corpus),"/",occurrences,")")
+    return math.log(size/occurrences,10)
 
 def TF_IDF(term, document, corpus, input="xml"):
     dict = {}
@@ -69,7 +56,7 @@ def TF_IDF(term, document, corpus, input="xml"):
     else:
         with open(document,'r') as file:
             str = file.read()
-        dict = TF(clean_text(str))
+        dict = TF(utils.clean_text(str))
     
     TF_IDF[term] = dict[term] * IDF(term, corpus, input)
 
@@ -80,8 +67,8 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
     vector1 = []
     vector2 = []
     dimensions = {}
-    text1 = clean_text(text1)
-    text2 = clean_text(text2)
+    text1 = utils.clean_text(text1)
+    text2 = utils.clean_text(text2)
 
     TF1 = TF(text1)
     TF2 = TF(text2)
@@ -174,13 +161,13 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
 # print(VSM_txt(str1, str2, ["Documents/sample1.txt", "Documents/sample2.txt"], 1, 1))
 
 # VSM XML
-doc1 = open("Documents/XML1.xml", 'r')
-doc2 = open("Documents/XML2.xml", 'r')
+doc1 = open("Documents/COE321.XML", 'r')
+doc2 = open("Documents/COE211.XML", 'r')
 
 tree1 = TED.preprocessing(ET.parse(doc1).getroot())
 tree2 = TED.preprocessing(ET.parse(doc2).getroot())
 
-sim = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 1, 0)
+sim = VSM_xml(tree1, tree2, ["Documents/COE321.XML","Documents/COE211.XML"], 0, 0)
 print(sim)
 # sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
 # print(sim2)

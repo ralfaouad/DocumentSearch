@@ -1,0 +1,3470 @@
+{
+  "abbrev": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "abi": [
+    "COE321.XML",
+    "COE423.xml",
+    "COE424.xml",
+    "COE522.xml",
+    "COE593.xml"
+  ],
+  "able": [
+    "COE544.xml"
+  ],
+  "abou": [
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "academic": [
+    "COE544.xml"
+  ],
+  "access": [
+    "COE535.xml"
+  ],
+  "accounting": [
+    "ECO202.xml"
+  ],
+  "acquire": [
+    "COE544.xml",
+    "COE593.xml"
+  ],
+  "addition": [
+    "COE431.xml",
+    "COE522.xml"
+  ],
+  "address": [
+    "COE732.xml",
+    "HST244.xml"
+  ],
+  "advanced": [
+    "COE522.xml",
+    "COE522.xml",
+    "COE522.xml"
+  ],
+  "advantage": [
+    "COE753.xml",
+    "ELE537.XML"
+  ],
+  "agent": [
+    "COE544.xml",
+    "COE544.xml"
+  ],
+  "agile": [
+    "EECE430.XML"
+  ],
+  "agreement": [
+    "HST231.xml"
+  ],
+  "aim": [
+    "HST244.xml"
+  ],
+  "algebra": [
+    "COE321.XML"
+  ],
+  "algorithm": [
+    "COE312.XML",
+    "COE526.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "EECE430.XML",
+    "ELE535.XML"
+  ],
+  "ali": [
+    "EECE430.XML"
+  ],
+  "aligned": [
+    "COE593.xml"
+  ],
+  "allocation": [
+    "ECO201.xml"
+  ],
+  "allow": [
+    "COE544.xml"
+  ],
+  "allowing": [
+    "COE543.xml"
+  ],
+  "allows": [
+    "COE544.xml",
+    "COE593.xml"
+  ],
+  "along": [
+    "COE521.xml"
+  ],
+  "also": [
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "american": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "among": [
+    "HST244.xml"
+  ],
+  "analog": [
+    "EECE340.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "ELE537.XML"
+  ],
+  "analysis": [
+    "COE416.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "EECE340.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE537.XML"
+  ],
+  "analyzing": [
+    "COE555.xml"
+  ],
+  "annealing": [
+    "COE753.xml"
+  ],
+  "ant": [
+    "COE753.xml"
+  ],
+  "antoine": [
+    "COE425.xml"
+  ],
+  "application": [
+    "COE543.xml",
+    "COE543.xml",
+    "COE593.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "ELE430.XML",
+    "ELE430.XML"
+  ],
+  "applied": [
+    "COE544.xml",
+    "ELE535.XML"
+  ],
+  "applying": [
+    "COE732.xml"
+  ],
+  "appreciation": [
+    "HOM231.xml"
+  ],
+  "appropriate": [
+    "COE732.xml"
+  ],
+  "approximate": [
+    "COE544.xml"
+  ],
+  "arab": [
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "architecture": [
+    "COE414.xml",
+    "COE423.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE535.xml",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "area": [
+    "COE535.xml",
+    "COE599.xml",
+    "COE753.xml",
+    "HOM203.xml"
+  ],
+  "arising": [
+    "HST244.xml"
+  ],
+  "arithmetic": [
+    "COE321.XML"
+  ],
+  "array": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE424.xml"
+  ],
+  "art": [
+    "COE543.xml"
+  ],
+  "artificial": [
+    "COE544.xml"
+  ],
+  "ass": [
+    "HST244.xml"
+  ],
+  "assembly": [
+    "COE323.XML",
+    "COE323.XML"
+  ],
+  "assignment": [
+    "COE521.xml"
+  ],
+  "asynchronous": [
+    "COE321.XML"
+  ],
+  "aub": [
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML"
+  ],
+  "automation": [
+    "COE526.xml",
+    "COE526.xml"
+  ],
+  "bachir": [
+    "HST231.xml"
+  ],
+  "base": [
+    "COE543.xml"
+  ],
+  "basic": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE323.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE423.xml",
+    "COE544.xml",
+    "COE753.xml",
+    "EECE340.XML",
+    "ELE537.XML"
+  ],
+  "bazzi": [
+    "EECE421.XML"
+  ],
+  "behavior": [
+    "COE544.xml",
+    "ECO201.xml"
+  ],
+  "beirut": [
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML"
+  ],
+  "benchmarking": [
+    "EECE421.XML"
+  ],
+  "better": [
+    "COE544.xml"
+  ],
+  "bevarage": [
+    "HOM203.xml"
+  ],
+  "beverage": [
+    "HOM203.xml",
+    "HOM203.xml"
+  ],
+  "bilal": [
+    "COE321.XML"
+  ],
+  "binary": [
+    "COE321.XML"
+  ],
+  "block": [
+    "COE535.xml",
+    "COE543.xml",
+    "ELE535.XML"
+  ],
+  "board": [
+    "COE425.xml"
+  ],
+  "boolean": [
+    "COE321.XML"
+  ],
+  "branch": [
+    "EECE421.XML"
+  ],
+  "breaking": [
+    "COE732.xml"
+  ],
+  "british": [
+    "HST244.xml"
+  ],
+  "broad": [
+    "HOM203.xml"
+  ],
+  "brought": [
+    "COE593.xml"
+  ],
+  "building": [
+    "COE535.xml",
+    "COE543.xml"
+  ],
+  "burst": [
+    "COE535.xml"
+  ],
+  "bus": [
+    "COE423.xml"
+  ],
+  "calculus": [
+    "ELE430.XML"
+  ],
+  "capacity": [
+    "ELE535.XML"
+  ],
+  "case": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "century": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "chaddad": [
+    "COE431.xml"
+  ],
+  "chadi": [
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "chain": [
+    "ELE535.XML"
+  ],
+  "challita": [
+    "COE201.xml"
+  ],
+  "chance": [
+    "COE593.xml"
+  ],
+  "channel": [
+    "ELE535.XML"
+  ],
+  "characteristic": [
+    "HOM231.xml"
+  ],
+  "cigar": [
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml"
+  ],
+  "circuit": [
+    "COE321.XML",
+    "COE321.XML",
+    "COE521.xml",
+    "ELE430.XML"
+  ],
+  "clash": [
+    "HST244.xml"
+  ],
+  "classroom": [
+    "COE593.xml"
+  ],
+  "closed": [
+    "COE555.xml"
+  ],
+  "cloud": [
+    "COE522.xml"
+  ],
+  "code": [
+    "COE323.XML",
+    "COE323.XML",
+    "ELE535.XML",
+    "ELE535.XML",
+    "ELE535.XML"
+  ],
+  "coding": [
+    "ELE535.XML"
+  ],
+  "coe": [
+    "COE593.xml",
+    "COE593.xml"
+  ],
+  "coe201": [
+    "COE211.XML",
+    "COE321.XML"
+  ],
+  "coe211": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE418.xml"
+  ],
+  "coe312": [
+    "COE416.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml"
+  ],
+  "coe312 ": [
+    "COE414.xml"
+  ],
+  "coe321": [
+    "COE321.XML",
+    "COE323.XML",
+    "COE526.xml"
+  ],
+  "coe323": [
+    "COE323.XML",
+    "COE414.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE521.xml"
+  ],
+  "coe414": [
+    "COE201.xml",
+    "COE414.xml"
+  ],
+  "coe416": [
+    "COE416.xml"
+  ],
+  "coe418": [
+    "COE418.xml",
+    "COE543.xml"
+  ],
+  "coe423": [
+    "COE423.xml",
+    "COE522.xml"
+  ],
+  "coe424": [
+    "COE424.xml"
+  ],
+  "coe425": [
+    "COE425.xml"
+  ],
+  "coe431": [
+    "COE431.xml",
+    "COE732.xml"
+  ],
+  "coe521": [
+    "COE521.xml"
+  ],
+  "coe522": [
+    "COE522.xml"
+  ],
+  "coe526": [
+    "COE526.xml"
+  ],
+  "coe535": [
+    "COE535.xml"
+  ],
+  "coe543": [
+    "COE543.xml"
+  ],
+  "coe544": [
+    "COE544.xml"
+  ],
+  "coe555": [
+    "COE555.xml"
+  ],
+  "coe593": [
+    "COE593.xml"
+  ],
+  "coe599": [
+    "COE599.xml"
+  ],
+  "coe732": [
+    "COE732.xml"
+  ],
+  "coe753": [
+    "COE753.xml"
+  ],
+  "combinational": [
+    "COE321.XML"
+  ],
+  "communication": [
+    "COE414.xml",
+    "COE732.xml",
+    "EECE340.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "ELE537.XML"
+  ],
+  "community": [
+    "HST231.xml"
+  ],
+  "comparison": [
+    "COE753.xml"
+  ],
+  "compilation": [
+    "COE526.xml"
+  ],
+  "completion": [
+    "EECE430.XML"
+  ],
+  "complex": [
+    "COE425.xml"
+  ],
+  "component": [
+    "COE423.xml",
+    "ELE537.XML",
+    "HOM231.xml"
+  ],
+  "compression": [
+    "ELE535.XML"
+  ],
+  "computation": [
+    "COE753.xml"
+  ],
+  "computer": [
+    "COE201.xml",
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE430.XML"
+  ],
+  "computing": [
+    "COE522.xml",
+    "COE522.xml",
+    "COE753.xml"
+  ],
+  "concentrate": [
+    "HOM231.xml"
+  ],
+  "concept": [
+    "COE424.xml",
+    "COE544.xml",
+    "EECE340.XML",
+    "EECE340.XML",
+    "ELE430.XML",
+    "HOM203.xml",
+    "HOM203.xml"
+  ],
+  "conception": [
+    "HST244.xml"
+  ],
+  "concurrently": [
+    "COE544.xml"
+  ],
+  "configuration": [
+    "COE431.xml"
+  ],
+  "conflict": [
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "considered": [
+    "COE593.xml"
+  ],
+  "considers": [
+    "COE732.xml"
+  ],
+  "construct": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "consumer": [
+    "ECO201.xml"
+  ],
+  "continuous": [
+    "EECE340.XML"
+  ],
+  "control": [
+    "COE323.XML",
+    "EECE430.XML",
+    "HOM203.xml"
+  ],
+  "convolutional": [
+    "ELE535.XML"
+  ],
+  "core": [
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "cost": [
+    "HOM203.xml"
+  ],
+  "costantine": [
+    "EECE430.XML"
+  ],
+  "could": [
+    "HST231.xml"
+  ],
+  "counter": [
+    "COE321.XML"
+  ],
+  "course": [
+    "COE201.xml",
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE323.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO201.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "ECO202.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "cover": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE424.xml",
+    "COE431.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE599.xml",
+    "COE753.xml",
+    "EECE340.XML",
+    "ELE535.XML",
+    "HOM231.xml"
+  ],
+  "coverage": [
+    "COE526.xml",
+    "COE535.xml"
+  ],
+  "covered": [
+    "HOM203.xml"
+  ],
+  "cramer": [
+    "XML1.xml",
+    "XML3.xml"
+  ],
+  "create": [
+    "COE544.xml"
+  ],
+  "created": [
+    "COE555.xml"
+  ],
+  "creation": [
+    "COE414.xml",
+    "HST244.xml"
+  ],
+  "cryptography": [
+    "COE732.xml"
+  ],
+  "culminating": [
+    "HST244.xml"
+  ],
+  "currently": [
+    "ELE537.XML"
+  ],
+  "dani": [
+    "COE526.xml"
+  ],
+  "data": [
+    "COE312.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "EECE430.XML",
+    "ELE535.XML"
+  ],
+  "database": [
+    "COE201.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE543.xml"
+  ],
+  "deal": [
+    "HST231.xml"
+  ],
+  "dealing": [
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "demodulation": [
+    "ELE537.XML"
+  ],
+  "department": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml",
+    "XML1.xml",
+    "XML2.xml",
+    "XML3.xml"
+  ],
+  "deployment": [
+    "EECE430.XML"
+  ],
+  "derandomized": [
+    "COE753.xml"
+  ],
+  "described": [
+    "COE753.xml"
+  ],
+  "describes": [
+    "COE753.xml"
+  ],
+  "description": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "design": [
+    "COE201.xml",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE416.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE555.xml",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE537.XML"
+  ],
+  "designing": [
+    "EECE421.XML"
+  ],
+  "detecting": [
+    "COE732.xml"
+  ],
+  "determination": [
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "developing": [
+    "COE544.xml",
+    "COE544.xml",
+    "COE732.xml"
+  ],
+  "development": [
+    "COE416.xml",
+    "COE599.xml",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "HOM203.xml",
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "device": [
+    "COE321.XML",
+    "COE323.XML",
+    "COE425.xml",
+    "COE521.xml"
+  ],
+  "dft": [
+    "ELE430.XML"
+  ],
+  "different": [
+    "COE521.xml",
+    "COE732.xml"
+  ],
+  "digital": [
+    "COE321.XML",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE425.xml",
+    "COE526.xml",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML"
+  ],
+  "disadvantage": [
+    "COE753.xml",
+    "ELE537.XML"
+  ],
+  "discrete": [
+    "COE321.XML",
+    "EECE340.XML"
+  ],
+  "discussed": [
+    "COE521.xml",
+    "COE555.xml",
+    "COE753.xml"
+  ],
+  "dispossession": [
+    "HST244.xml"
+  ],
+  "division": [
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml"
+  ],
+  "documentation": [
+    "COE416.xml"
+  ],
+  "domain": [
+    "EECE340.XML",
+    "ELE430.XML"
+  ],
+  "dynamic": [
+    "COE522.xml"
+  ],
+  "early": [
+    "HST244.xml"
+  ],
+  "eco201": [
+    "ECO201.xml"
+  ],
+  "eco202": [
+    "ECO202.xml"
+  ],
+  "economics": [
+    "ECO201.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "economy": [
+    "ECO202.xml"
+  ],
+  "eece321": [
+    "EECE421.XML"
+  ],
+  "eece330": [
+    "EECE430.XML"
+  ],
+  "eece390": [
+    "EECE340.XML"
+  ],
+  "eece421": [
+    "EECE340.XML",
+    "EECE421.XML"
+  ],
+  "eece430": [
+    "EECE430.XML"
+  ],
+  "effectiveness": [
+    "ECO202.xml"
+  ],
+  "ehab": [
+    "COE201.xml"
+  ],
+  "el": [
+    "COE425.xml",
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "ele302": [
+    "ELE430.XML"
+  ],
+  "ele430": [
+    "ELE430.XML",
+    "ELE537.XML"
+  ],
+  "ele537": [
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "electrical": [
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "electronic": [
+    "COE526.xml"
+  ],
+  "elia": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "elie": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "embedded": [
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml"
+  ],
+  "emergence": [
+    "HST244.xml"
+  ],
+  "emerging": [
+    "HST244.xml"
+  ],
+  "emir": [
+    "HST231.xml"
+  ],
+  "emphasis": [
+    "COE732.xml",
+    "HOM203.xml"
+  ],
+  "emphasized": [
+    "HST231.xml"
+  ],
+  "empire": [
+    "HST244.xml"
+  ],
+  "employment": [
+    "COE593.xml"
+  ],
+  "enabling": [
+    "COE535.xml"
+  ],
+  "end": [
+    "COE544.xml"
+  ],
+  "endogenously": [
+    "COE555.xml"
+  ],
+  "engineering": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "environment": [
+    "COE544.xml",
+    "COE732.xml"
+  ],
+  "epic": [
+    "EECE421.XML"
+  ],
+  "equipment": [
+    "HOM203.xml"
+  ],
+  "established": [
+    "COE522.xml"
+  ],
+  "estimation": [
+    "COE555.xml"
+  ],
+  "etc": [
+    "COE543.xml"
+  ],
+  "etiquette": [
+    "HOM231.xml"
+  ],
+  "evaluation": [
+    "EECE421.XML"
+  ],
+  "event": [
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "evolution": [
+    "COE423.xml",
+    "COE753.xml",
+    "HST244.xml"
+  ],
+  "examining": [
+    "COE732.xml"
+  ],
+  "example": [
+    "COE521.xml",
+    "COE522.xml"
+  ],
+  "execution": [
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "exercise": [
+    "COE544.xml"
+  ],
+  "existence": [
+    "HST244.xml"
+  ],
+  "experience": [
+    "COE425.xml",
+    "COE593.xml"
+  ],
+  "expose": [
+    "COE593.xml"
+  ],
+  "exposed": [
+    "HOM203.xml"
+  ],
+  "exposure": [
+    "COE593.xml"
+  ],
+  "extensive": [
+    "COE526.xml",
+    "COE593.xml"
+  ],
+  "external": [
+    "HST244.xml"
+  ],
+  "faction": [
+    "HST231.xml"
+  ],
+  "factor": [
+    "HST244.xml"
+  ],
+  "fahed": [
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "fakhr": [
+    "HST231.xml"
+  ],
+  "fashion": [
+    "COE753.xml"
+  ],
+  "fault": [
+    "COE526.xml"
+  ],
+  "fawaz": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "fawwaz": [
+    "COE431.xml",
+    "COE535.xml",
+    "COE555.xml",
+    "COE593.xml"
+  ],
+  "feature": [
+    "COE544.xml"
+  ],
+  "fedayeen": [
+    "HST244.xml"
+  ],
+  "fft": [
+    "ELE430.XML"
+  ],
+  "fifth": [
+    "COE599.xml"
+  ],
+  "figure": [
+    "HST231.xml"
+  ],
+  "filter": [
+    "ELE430.XML"
+  ],
+  "firm": [
+    "ECO201.xml"
+  ],
+  "first": [
+    "HST231.xml"
+  ],
+  "fiscal": [
+    "ECO202.xml"
+  ],
+  "flavor": [
+    "HOM231.xml"
+  ],
+  "flip": [
+    "COE321.XML"
+  ],
+  "flop": [
+    "COE321.XML"
+  ],
+  "flow": [
+    "COE323.XML"
+  ],
+  "focus": [
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "following": [
+    "COE535.xml",
+    "COE555.xml"
+  ],
+  "food": [
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "formalism": [
+    "ELE535.XML"
+  ],
+  "formation": [
+    "HST231.xml"
+  ],
+  "forming": [
+    "COE543.xml"
+  ],
+  "fourier": [
+    "EECE340.XML",
+    "ELE430.XML",
+    "ELE430.XML"
+  ],
+  "fourth": [
+    "COE431.xml",
+    "COE593.xml"
+  ],
+  "france": [
+    "HST231.xml"
+  ],
+  "french": [
+    "HST231.xml"
+  ],
+  "frequency": [
+    "EECE340.XML"
+  ],
+  "frontier": [
+    "HST244.xml"
+  ],
+  "fundamental": [
+    "COE535.xml"
+  ],
+  "fuzzy": [
+    "COE544.xml",
+    "COE544.xml"
+  ],
+  "gaining": [
+    "COE593.xml"
+  ],
+  "gate": [
+    "COE424.xml"
+  ],
+  "geared": [
+    "COE544.xml"
+  ],
+  "generation": [
+    "COE555.xml"
+  ],
+  "genetic": [
+    "COE544.xml",
+    "COE753.xml"
+  ],
+  "give": [
+    "HOM231.xml"
+  ],
+  "given": [
+    "HOM203.xml"
+  ],
+  "gne331": [
+    "COE555.xml"
+  ],
+  "good": [
+    "COE323.XML",
+    "HOM231.xml"
+  ],
+  "gradual": [
+    "HST244.xml"
+  ],
+  "graduate": [
+    "COE593.xml"
+  ],
+  "habib": [
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "haddad": [
+    "COE732.xml"
+  ],
+  "hammoud": [
+    "COE321.XML"
+  ],
+  "hardware": [
+    "COE521.xml",
+    "COE526.xml",
+    "EECE421.XML"
+  ],
+  "hassan": [
+    "EECE421.XML"
+  ],
+  "heuristic": [
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml"
+  ],
+  "hierarchy": [
+    "COE423.xml"
+  ],
+  "high": [
+    "COE522.xml",
+    "EECE421.XML"
+  ],
+  "historical": [
+    "HST244.xml"
+  ],
+  "history": [
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "holocaust": [
+    "HST244.xml"
+  ],
+  "hom231": [
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "hst231": [
+    "HST231.xml"
+  ],
+  "hst244": [
+    "HST244.xml"
+  ],
+  "human": [
+    "COE544.xml"
+  ],
+  "humanity": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "id": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "identified": [
+    "COE593.xml"
+  ],
+  "identity": [
+    "HST231.xml"
+  ],
+  "ii": [
+    "ELE430.XML"
+  ],
+  "imad": [
+    "COE753.xml"
+  ],
+  "imarah": [
+    "HST231.xml",
+    "HST231.xml"
+  ],
+  "impact": [
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "impacting": [
+    "HST244.xml"
+  ],
+  "implementing": [
+    "COE425.xml"
+  ],
+  "improve": [
+    "COE593.xml"
+  ],
+  "include": [
+    "COE423.xml",
+    "COE424.xml",
+    "EECE421.XML",
+    "HST231.xml"
+  ],
+  "includes": [
+    "EECE340.XML",
+    "HOM231.xml"
+  ],
+  "including": [
+    "COE521.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "EECE430.XML",
+    "EECE430.XML"
+  ],
+  "income": [
+    "ECO202.xml",
+    "ECO202.xml"
+  ],
+  "independent": [
+    "COE323.XML"
+  ],
+  "information": [
+    "COE543.xml",
+    "ELE535.XML",
+    "ELE535.XML",
+    "ELE535.XML"
+  ],
+  "initial": [
+    "HST231.xml"
+  ],
+  "inspired": [
+    "COE593.xml"
+  ],
+  "installation": [
+    "COE431.xml"
+  ],
+  "instituting": [
+    "COE732.xml"
+  ],
+  "instruction": [
+    "COE423.xml",
+    "COE522.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "instructor": [
+    "COE201.xml",
+    "COE201.xml",
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "instructors": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "instrument": [
+    "ECO202.xml"
+  ],
+  "intelligence": [
+    "COE544.xml"
+  ],
+  "intelligent": [
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml"
+  ],
+  "intelligently": [
+    "COE544.xml"
+  ],
+  "interaction": [
+    "HST231.xml"
+  ],
+  "interconnection": [
+    "COE423.xml",
+    "COE522.xml"
+  ],
+  "interfacing": [
+    "COE323.XML",
+    "COE521.xml"
+  ],
+  "internal": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "internals": [
+    "COE323.XML"
+  ],
+  "international": [
+    "HST244.xml"
+  ],
+  "internet": [
+    "COE201.xml"
+  ],
+  "introduced": [
+    "COE424.xml",
+    "COE522.xml"
+  ],
+  "introduces": [
+    "COE423.xml",
+    "COE555.xml"
+  ],
+  "introduction": [
+    "COE321.XML",
+    "COE424.xml",
+    "COE521.xml",
+    "COE732.xml",
+    "ELE537.XML"
+  ],
+  "introductory": [
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "HOM203.xml"
+  ],
+  "islamist": [
+    "HST244.xml"
+  ],
+  "israel": [
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "issue": [
+    "COE732.xml"
+  ],
+  "iv": [
+    "ELE430.XML"
+  ],
+  "jennifer": [
+    "COE312.XML",
+    "COE414.xml"
+  ],
+  "jewish": [
+    "HST244.xml"
+  ],
+  "job": [
+    "COE593.xml"
+  ],
+  "joe": [
+    "COE211.XML",
+    "COE416.xml",
+    "COE418.xml",
+    "COE543.xml",
+    "COE544.xml"
+  ],
+  "john": [
+    "XML1.xml",
+    "XML1.xml",
+    "XML2.xml",
+    "XML3.xml",
+    "XML3.xml"
+  ],
+  "joumana": [
+    "COE732.xml"
+  ],
+  "kallab": [
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "karaki": [
+    "EECE340.XML"
+  ],
+  "karam": [
+    "COE599.xml"
+  ],
+  "karim": [
+    "EECE340.XML"
+  ],
+  "key": [
+    "HST231.xml"
+  ],
+  "kfouri": [
+    "COE201.xml"
+  ],
+  "khoury": [
+    "COE425.xml",
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "kibbutz": [
+    "HST244.xml"
+  ],
+  "knowledge": [
+    "COE543.xml",
+    "COE544.xml"
+  ],
+  "lab": [
+    "COE425.xml"
+  ],
+  "laboratory": [
+    "COE425.xml"
+  ],
+  "language": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE323.XML",
+    "COE418.xml",
+    "COE526.xml"
+  ],
+  "laplace": [
+    "ELE430.XML"
+  ],
+  "lau": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "layout": [
+    "COE424.xml",
+    "COE526.xml"
+  ],
+  "lead": [
+    "HST231.xml"
+  ],
+  "leading": [
+    "HST244.xml"
+  ],
+  "lebanese": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "lebanon": [
+    "HST231.xml",
+    "HST231.xml"
+  ],
+  "level": [
+    "COE522.xml",
+    "COE732.xml",
+    "EECE421.XML",
+    "EECE421.XML",
+    "HOM203.xml"
+  ],
+  "liberation": [
+    "HST244.xml"
+  ],
+  "light": [
+    "HST244.xml"
+  ],
+  "lina": [
+    "COE599.xml"
+  ],
+  "linear": [
+    "EECE340.XML"
+  ],
+  "link": [
+    "ELE537.XML"
+  ],
+  "logic": [
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE526.xml",
+    "COE526.xml",
+    "COE544.xml"
+  ],
+  "loop": [
+    "EECE421.XML"
+  ],
+  "louma": [
+    "COE431.xml"
+  ],
+  "machine": [
+    "COE321.XML"
+  ],
+  "macroeconomics": [
+    "ECO202.xml",
+    "ECO202.xml"
+  ],
+  "main": [
+    "COE543.xml"
+  ],
+  "major": [
+    "HOM231.xml"
+  ],
+  "make": [
+    "HOM231.xml"
+  ],
+  "management": [
+    "COE414.xml",
+    "COE414.xml",
+    "COE423.xml",
+    "EECE430.XML",
+    "HOM203.xml"
+  ],
+  "managerial": [
+    "COE732.xml"
+  ],
+  "mandate": [
+    "HST231.xml"
+  ],
+  "manipulating": [
+    "COE323.XML"
+  ],
+  "manipulation": [
+    "COE543.xml"
+  ],
+  "mapping": [
+    "COE424.xml"
+  ],
+  "maria": [
+    "COE321.XML",
+    "COE423.xml",
+    "COE424.xml",
+    "COE522.xml",
+    "COE593.xml"
+  ],
+  "market": [
+    "COE414.xml"
+  ],
+  "markov": [
+    "ELE535.XML"
+  ],
+  "markovian": [
+    "COE555.xml"
+  ],
+  "maronites": [
+    "HST231.xml"
+  ],
+  "match": [
+    "COE593.xml"
+  ],
+  "material": [
+    "COE544.xml"
+  ],
+  "may": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "measure": [
+    "ELE535.XML"
+  ],
+  "mechanism": [
+    "COE423.xml",
+    "COE732.xml"
+  ],
+  "memory": [
+    "COE414.xml",
+    "COE423.xml",
+    "COE521.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "method": [
+    "COE544.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "EECE340.XML"
+  ],
+  "methodology": [
+    "COE526.xml",
+    "EECE430.XML"
+  ],
+  "metro": [
+    "COE535.xml"
+  ],
+  "microcontrollers": [
+    "COE521.xml"
+  ],
+  "microeconomics": [
+    "ECO201.xml"
+  ],
+  "microprocessor": [
+    "COE323.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE521.xml",
+    "EECE421.XML"
+  ],
+  "migration": [
+    "HST244.xml"
+  ],
+  "mirna": [
+    "COE753.xml"
+  ],
+  "model": [
+    "COE424.xml"
+  ],
+  "modeling": [
+    "COE418.xml",
+    "COE431.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "ELE430.XML",
+    "ELE430.XML"
+  ],
+  "modern": [
+    "COE425.xml",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE537.XML"
+  ],
+  "modulation": [
+    "ELE537.XML"
+  ],
+  "monetary": [
+    "ECO202.xml"
+  ],
+  "moving": [
+    "COE323.XML"
+  ],
+  "mth206": [
+    "ELE430.XML"
+  ],
+  "mth207": [
+    "COE321.XML"
+  ],
+  "multiplexed": [
+    "COE535.xml",
+    "COE535.xml"
+  ],
+  "multiplexing": [
+    "COE535.xml"
+  ],
+  "multiprocessing": [
+    "COE522.xml"
+  ],
+  "multithreading": [
+    "COE522.xml"
+  ],
+  "mutasarrifiya": [
+    "HST231.xml"
+  ],
+  "nakad": [
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE521.xml"
+  ],
+  "namely": [
+    "COE555.xml"
+  ],
+  "nascent": [
+    "HST244.xml"
+  ],
+  "national": [
+    "ECO202.xml",
+    "ECO202.xml",
+    "HST231.xml"
+  ],
+  "nature": [
+    "ECO201.xml"
+  ],
+  "need": [
+    "COE593.xml",
+    "COE593.xml",
+    "COE593.xml"
+  ],
+  "network": [
+    "COE431.xml",
+    "COE431.xml",
+    "COE522.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml"
+  ],
+  "networked": [
+    "COE732.xml"
+  ],
+  "networking": [
+    "COE535.xml"
+  ],
+  "neural": [
+    "COE544.xml"
+  ],
+  "new": [
+    "COE599.xml"
+  ],
+  "noise": [
+    "COE544.xml",
+    "ELE535.XML"
+  ],
+  "notation": [
+    "COE424.xml"
+  ],
+  "nuclear": [
+    "HST244.xml"
+  ],
+  "number": [
+    "COE321.XML",
+    "COE555.xml"
+  ],
+  "object": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE418.xml"
+  ],
+  "objective": [
+    "ECO202.xml"
+  ],
+  "ontology": [
+    "COE543.xml"
+  ],
+  "open": [
+    "COE555.xml"
+  ],
+  "operating": [
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml"
+  ],
+  "operation": [
+    "HOM203.xml",
+    "HOM203.xml"
+  ],
+  "operational": [
+    "COE732.xml",
+    "COE732.xml"
+  ],
+  "optical": [
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml"
+  ],
+  "optimization": [
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml"
+  ],
+  "organization": [
+    "EECE421.XML",
+    "HST244.xml"
+  ],
+  "oriented": [
+    "COE418.xml"
+  ],
+  "origin": [
+    "HOM231.xml"
+  ],
+  "ottoman": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "outbreak": [
+    "HST231.xml"
+  ],
+  "outside": [
+    "HST231.xml"
+  ],
+  "overview": [
+    "COE414.xml",
+    "COE543.xml",
+    "ELE537.XML"
+  ],
+  "owl": [
+    "COE543.xml"
+  ],
+  "packet": [
+    "COE535.xml"
+  ],
+  "pact": [
+    "HST231.xml"
+  ],
+  "pairing": [
+    "HOM231.xml"
+  ],
+  "palestine": [
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "palestinian": [
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "parallel": [
+    "COE753.xml",
+    "COE753.xml"
+  ],
+  "parallelism": [
+    "COE522.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "part": [
+    "COE544.xml",
+    "ELE537.XML"
+  ],
+  "particular": [
+    "COE535.xml",
+    "COE593.xml"
+  ],
+  "pattern": [
+    "EECE430.XML"
+  ],
+  "perceived": [
+    "COE732.xml"
+  ],
+  "perceiving": [
+    "COE544.xml"
+  ],
+  "performance": [
+    "COE522.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "period": [
+    "HST231.xml"
+  ],
+  "pertaining": [
+    "COE593.xml"
+  ],
+  "pic": [
+    "COE521.xml"
+  ],
+  "pipelined": [
+    "COE423.xml",
+    "COE522.xml"
+  ],
+  "pipelining": [
+    "COE424.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "place": [
+    "HST231.xml"
+  ],
+  "planning": [
+    "HOM203.xml"
+  ],
+  "player": [
+    "HST244.xml"
+  ],
+  "policy": [
+    "ECO202.xml",
+    "ECO202.xml"
+  ],
+  "polity": [
+    "HST231.xml"
+  ],
+  "position": [
+    "COE323.XML"
+  ],
+  "power": [
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "predicated": [
+    "EECE421.XML"
+  ],
+  "prediction": [
+    "EECE421.XML"
+  ],
+  "prepared": [
+    "COE544.xml"
+  ],
+  "prerequisites": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "presentation": [
+    "COE201.xml",
+    "COE544.xml"
+  ],
+  "presented": [
+    "COE521.xml"
+  ],
+  "preventing": [
+    "COE732.xml"
+  ],
+  "price": [
+    "ECO201.xml"
+  ],
+  "principle": [
+    "ECO202.xml",
+    "EECE421.XML",
+    "ELE537.XML",
+    "ELE537.XML"
+  ],
+  "private": [
+    "COE732.xml"
+  ],
+  "probability": [
+    "COE555.xml"
+  ],
+  "problem": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE593.xml"
+  ],
+  "procedure": [
+    "HOM231.xml"
+  ],
+  "process": [
+    "COE414.xml",
+    "COE526.xml",
+    "EECE430.XML"
+  ],
+  "processing": [
+    "COE201.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "EECE340.XML"
+  ],
+  "processor": [
+    "COE521.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "EECE421.XML"
+  ],
+  "producing": [
+    "HOM231.xml"
+  ],
+  "production": [
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "professor": [
+    "XML1.xml",
+    "XML3.xml"
+  ],
+  "proficiency": [
+    "COE201.xml",
+    "COE211.XML",
+    "COE321.XML"
+  ],
+  "programmable": [
+    "COE321.XML"
+  ],
+  "programming": [
+    "COE211.XML",
+    "COE211.XML",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE418.xml",
+    "COE431.xml"
+  ],
+  "progression": [
+    "HST244.xml"
+  ],
+  "project": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE521.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE593.xml",
+    "COE753.xml",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "HST244.xml"
+  ],
+  "property": [
+    "EECE340.XML"
+  ],
+  "protect": [
+    "COE732.xml",
+    "COE732.xml"
+  ],
+  "protection": [
+    "COE414.xml"
+  ],
+  "protocol": [
+    "COE431.xml"
+  ],
+  "provide": [
+    "COE414.xml"
+  ],
+  "provides": [
+    "COE321.XML",
+    "COE414.xml",
+    "COE425.xml",
+    "COE521.xml",
+    "COE543.xml"
+  ],
+  "public": [
+    "COE732.xml"
+  ],
+  "purchase": [
+    "HOM231.xml"
+  ],
+  "purchasing": [
+    "HOM203.xml"
+  ],
+  "quality": [
+    "HOM231.xml"
+  ],
+  "query": [
+    "COE418.xml"
+  ],
+  "queue": [
+    "COE555.xml"
+  ],
+  "queueing": [
+    "COE555.xml",
+    "COE555.xml",
+    "COE555.xml"
+  ],
+  "queuing": [
+    "COE555.xml",
+    "COE555.xml"
+  ],
+  "ramus": [
+    "COE201.xml"
+  ],
+  "random": [
+    "COE753.xml"
+  ],
+  "range": [
+    "COE753.xml",
+    "HOM203.xml"
+  ],
+  "ranging": [
+    "COE521.xml",
+    "COE544.xml"
+  ],
+  "rdf": [
+    "COE543.xml"
+  ],
+  "regard": [
+    "COE555.xml"
+  ],
+  "region": [
+    "HOM231.xml"
+  ],
+  "register": [
+    "COE321.XML",
+    "COE424.xml"
+  ],
+  "regular": [
+    "COE321.XML"
+  ],
+  "reinforced": [
+    "COE593.xml"
+  ],
+  "related": [
+    "COE543.xml",
+    "EECE340.XML"
+  ],
+  "relation": [
+    "HST231.xml"
+  ],
+  "relational": [
+    "COE418.xml"
+  ],
+  "relationship": [
+    "COE522.xml",
+    "HST244.xml"
+  ],
+  "relative": [
+    "ECO202.xml",
+    "ELE537.XML"
+  ],
+  "representation": [
+    "COE321.XML",
+    "COE543.xml",
+    "EECE340.XML"
+  ],
+  "required": [
+    "COE593.xml"
+  ],
+  "requirement": [
+    "COE431.xml",
+    "COE593.xml",
+    "COE599.xml"
+  ],
+  "requires": [
+    "EECE430.XML"
+  ],
+  "resistance": [
+    "COE544.xml"
+  ],
+  "resource": [
+    "ECO201.xml"
+  ],
+  "response": [
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "restaurant": [
+    "HOM203.xml",
+    "HOM231.xml"
+  ],
+  "retail": [
+    "HOM231.xml"
+  ],
+  "retrieval": [
+    "COE543.xml"
+  ],
+  "rise": [
+    "HST231.xml",
+    "HST231.xml"
+  ],
+  "risk": [
+    "COE732.xml"
+  ],
+  "rizkallah": [
+    "COE312.XML",
+    "COE414.xml"
+  ],
+  "rjeily": [
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "role": [
+    "HST231.xml"
+  ],
+  "ronald": [
+    "COE201.xml"
+  ],
+  "routing": [
+    "COE424.xml"
+  ],
+  "saad": [
+    "COE321.XML",
+    "COE423.xml",
+    "COE424.xml",
+    "COE522.xml",
+    "COE593.xml"
+  ],
+  "safeguard": [
+    "COE732.xml"
+  ],
+  "sampling": [
+    "EECE340.XML"
+  ],
+  "scheduling": [
+    "COE414.xml",
+    "COE522.xml",
+    "COE522.xml"
+  ],
+  "scheme": [
+    "COE732.xml"
+  ],
+  "scope": [
+    "ECO201.xml"
+  ],
+  "search": [
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml"
+  ],
+  "security": [
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml"
+  ],
+  "select": [
+    "COE753.xml"
+  ],
+  "semantic": [
+    "COE543.xml",
+    "COE543.xml",
+    "COE543.xml"
+  ],
+  "sequential": [
+    "COE321.XML"
+  ],
+  "serial": [
+    "COE753.xml",
+    "COE753.xml",
+    "COE753.xml"
+  ],
+  "series": [
+    "COE544.xml",
+    "ELE430.XML"
+  ],
+  "service": [
+    "HOM203.xml"
+  ],
+  "set": [
+    "COE423.xml",
+    "COE544.xml",
+    "COE544.xml"
+  ],
+  "shannon": [
+    "ELE535.XML"
+  ],
+  "shayya": [
+    "COE201.xml"
+  ],
+  "shed": [
+    "HST244.xml"
+  ],
+  "signal": [
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "silicon": [
+    "COE526.xml"
+  ],
+  "similarity": [
+    "COE543.xml"
+  ],
+  "simple": [
+    "COE521.xml"
+  ],
+  "simulate": [
+    "COE424.xml"
+  ],
+  "simulated": [
+    "COE753.xml"
+  ],
+  "simulating": [
+    "COE544.xml"
+  ],
+  "simulation": [
+    "COE431.xml",
+    "COE526.xml",
+    "COE555.xml",
+    "COE555.xml"
+  ],
+  "single": [
+    "COE555.xml"
+  ],
+  "sketching": [
+    "EECE430.XML"
+  ],
+  "skill": [
+    "COE593.xml"
+  ],
+  "socket": [
+    "COE431.xml"
+  ],
+  "software": [
+    "COE201.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE521.xml",
+    "COE544.xml",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML"
+  ],
+  "solution": [
+    "COE544.xml"
+  ],
+  "solving": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "specific": [
+    "COE593.xml"
+  ],
+  "spirit": [
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml"
+  ],
+  "spreadsheet": [
+    "COE201.xml"
+  ],
+  "sql": [
+    "COE418.xml"
+  ],
+  "stability": [
+    "EECE340.XML"
+  ],
+  "stabilizing": [
+    "ECO202.xml"
+  ],
+  "stack": [
+    "COE323.XML"
+  ],
+  "standard": [
+    "COE431.xml"
+  ],
+  "standing": [
+    "COE431.xml",
+    "COE593.xml",
+    "COE599.xml"
+  ],
+  "starting": [
+    "HST244.xml"
+  ],
+  "state": [
+    "COE321.XML",
+    "COE543.xml",
+    "HST244.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "statistic": [
+    "COE555.xml"
+  ],
+  "storage": [
+    "COE522.xml",
+    "HOM231.xml"
+  ],
+  "store": [
+    "HOM231.xml"
+  ],
+  "storing": [
+    "COE323.XML"
+  ],
+  "story": [
+    "EECE430.XML"
+  ],
+  "strategy": [
+    "COE753.xml"
+  ],
+  "stream": [
+    "ELE535.XML"
+  ],
+  "structure": [
+    "COE312.XML",
+    "COE321.XML",
+    "COE414.xml",
+    "COE414.xml",
+    "COE416.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "EECE430.XML"
+  ],
+  "structured": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "student": [
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE593.xml",
+    "COE753.xml",
+    "EECE421.XML",
+    "EECE430.XML",
+    "HOM203.xml",
+    "XML1.xml",
+    "XML2.xml",
+    "XML3.xml"
+  ],
+  "study": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "supercomputing": [
+    "COE522.xml"
+  ],
+  "superior": [
+    "HOM231.xml"
+  ],
+  "superscalar": [
+    "COE522.xml",
+    "EECE421.XML",
+    "EECE421.XML"
+  ],
+  "surrounding": [
+    "COE544.xml",
+    "HST244.xml"
+  ],
+  "svg": [
+    "COE543.xml"
+  ],
+  "switched": [
+    "COE535.xml",
+    "COE535.xml"
+  ],
+  "synchronization": [
+    "COE414.xml"
+  ],
+  "synchronous": [
+    "COE321.XML"
+  ],
+  "syntax": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "synthesis": [
+    "COE424.xml",
+    "COE424.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE526.xml"
+  ],
+  "system": [
+    "COE414.xml",
+    "COE414.xml",
+    "COE414.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE425.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE543.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "HOM203.xml"
+  ],
+  "tabu": [
+    "COE753.xml"
+  ],
+  "taif": [
+    "HST231.xml"
+  ],
+  "tailored": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "takagi": [
+    "XML1.xml",
+    "XML2.xml",
+    "XML3.xml"
+  ],
+  "tania": [
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "tannir": [
+    "COE526.xml"
+  ],
+  "tanzimat": [
+    "HST231.xml"
+  ],
+  "tasting": [
+    "HOM231.xml"
+  ],
+  "taxonomy": [
+    "COE543.xml"
+  ],
+  "teach": [
+    "EECE430.XML"
+  ],
+  "technical": [
+    "COE593.xml",
+    "COE732.xml"
+  ],
+  "technique": [
+    "COE423.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE543.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "ELE537.XML"
+  ],
+  "technology": [
+    "COE424.xml",
+    "COE535.xml",
+    "COE543.xml"
+  ],
+  "tekli": [
+    "COE211.XML",
+    "COE416.xml",
+    "COE418.xml",
+    "COE543.xml",
+    "COE544.xml"
+  ],
+  "testing": [
+    "COE431.xml",
+    "EECE430.XML"
+  ],
+  "theorem": [
+    "ELE535.XML"
+  ],
+  "theory": [
+    "COE555.xml",
+    "ECO201.xml",
+    "ELE535.XML",
+    "ELE535.XML",
+    "ELE537.XML"
+  ],
+  "threat": [
+    "COE732.xml"
+  ],
+  "time": [
+    "EECE340.XML",
+    "ELE430.XML"
+  ],
+  "timing": [
+    "COE424.xml"
+  ],
+  "tool": [
+    "COE425.xml",
+    "COE526.xml",
+    "EECE430.XML",
+    "EECE430.XML",
+    "EECE430.XML"
+  ],
+  "topic": [
+    "COE423.xml",
+    "COE424.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE535.xml",
+    "COE555.xml",
+    "COE599.xml",
+    "EECE421.XML"
+  ],
+  "topology": [
+    "COE431.xml"
+  ],
+  "touch": [
+    "COE535.xml"
+  ],
+  "toward": [
+    "COE544.xml"
+  ],
+  "towards": [
+    "COE211.XML",
+    "COE312.XML"
+  ],
+  "tracing": [
+    "HST231.xml"
+  ],
+  "tradeoff": [
+    "COE424.xml"
+  ],
+  "transceivers": [
+    "ELE537.XML"
+  ],
+  "transfer": [
+    "COE424.xml"
+  ],
+  "transform": [
+    "EECE340.XML",
+    "ELE430.XML"
+  ],
+  "transformation": [
+    "ELE430.XML"
+  ],
+  "treatment": [
+    "COE599.xml"
+  ],
+  "two": [
+    "COE555.xml",
+    "HST244.xml"
+  ],
+  "type": [
+    "COE521.xml",
+    "COE732.xml"
+  ],
+  "ui": [
+    "EECE430.XML"
+  ],
+  "understand": [
+    "EECE430.XML"
+  ],
+  "understanding": [
+    "COE732.xml",
+    "HOM231.xml"
+  ],
+  "university": [
+    "COE201.xml",
+    "COE201.xml",
+    "COE211.XML",
+    "COE211.XML",
+    "COE312.XML",
+    "COE312.XML",
+    "COE321.XML",
+    "COE321.XML",
+    "COE323.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE414.xml",
+    "COE416.xml",
+    "COE416.xml",
+    "COE418.xml",
+    "COE418.xml",
+    "COE423.xml",
+    "COE423.xml",
+    "COE424.xml",
+    "COE424.xml",
+    "COE425.xml",
+    "COE425.xml",
+    "COE431.xml",
+    "COE431.xml",
+    "COE521.xml",
+    "COE521.xml",
+    "COE522.xml",
+    "COE522.xml",
+    "COE526.xml",
+    "COE526.xml",
+    "COE535.xml",
+    "COE535.xml",
+    "COE543.xml",
+    "COE543.xml",
+    "COE544.xml",
+    "COE544.xml",
+    "COE555.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "COE599.xml",
+    "COE732.xml",
+    "COE732.xml",
+    "COE753.xml",
+    "COE753.xml",
+    "ECO201.xml",
+    "ECO201.xml",
+    "ECO202.xml",
+    "ECO202.xml",
+    "EECE340.XML",
+    "EECE340.XML",
+    "EECE421.XML",
+    "EECE421.XML",
+    "EECE430.XML",
+    "EECE430.XML",
+    "ELE430.XML",
+    "ELE430.XML",
+    "ELE535.XML",
+    "ELE535.XML",
+    "ELE537.XML",
+    "ELE537.XML",
+    "HOM203.xml",
+    "HOM203.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "unrolling": [
+    "EECE421.XML"
+  ],
+  "use": [
+    "COE526.xml",
+    "COE526.xml",
+    "EECE430.XML"
+  ],
+  "used": [
+    "COE521.xml",
+    "COE535.xml",
+    "EECE421.XML",
+    "ELE537.XML",
+    "ELE537.XML"
+  ],
+  "user": [
+    "EECE430.XML"
+  ],
+  "using": [
+    "COE323.XML",
+    "COE425.xml"
+  ],
+  "validation": [
+    "COE555.xml"
+  ],
+  "variety": [
+    "COE753.xml"
+  ],
+  "various": [
+    "COE425.xml",
+    "COE599.xml"
+  ],
+  "vatican": [
+    "HST231.xml"
+  ],
+  "verification": [
+    "COE526.xml"
+  ],
+  "verify": [
+    "COE424.xml"
+  ],
+  "version": [
+    "EECE430.XML"
+  ],
+  "vhdl": [
+    "COE424.xml",
+    "EECE421.XML"
+  ],
+  "vintage": [
+    "HOM231.xml"
+  ],
+  "violation": [
+    "COE732.xml"
+  ],
+  "virtual": [
+    "EECE421.XML"
+  ],
+  "vision": [
+    "COE543.xml"
+  ],
+  "viterbi": [
+    "ELE535.XML"
+  ],
+  "vliw": [
+    "COE522.xml"
+  ],
+  "vlsi": [
+    "COE526.xml"
+  ],
+  "walk": [
+    "COE753.xml"
+  ],
+  "war": [
+    "HST231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "wavelength": [
+    "COE535.xml",
+    "COE535.xml",
+    "COE535.xml"
+  ],
+  "wdm": [
+    "COE535.xml"
+  ],
+  "web": [
+    "COE201.xml",
+    "COE543.xml",
+    "COE543.xml"
+  ],
+  "well": [
+    "COE753.xml",
+    "HOM231.xml",
+    "HST244.xml"
+  ],
+  "wide": [
+    "COE535.xml"
+  ],
+  "wider": [
+    "HST231.xml"
+  ],
+  "wine": [
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml",
+    "HOM231.xml"
+  ],
+  "wissam": [
+    "COE211.XML",
+    "COE312.XML",
+    "COE431.xml",
+    "COE535.xml",
+    "COE555.xml",
+    "COE593.xml",
+    "ECO201.xml",
+    "ECO202.xml"
+  ],
+  "word": [
+    "COE201.xml"
+  ],
+  "work": [
+    "EECE421.XML"
+  ],
+  "working": [
+    "EECE430.XML"
+  ],
+  "world": [
+    "HOM231.xml",
+    "HST231.xml",
+    "HST231.xml",
+    "HST244.xml"
+  ],
+  "writing": [
+    "COE323.XML"
+  ],
+  "year": [
+    "COE431.xml",
+    "COE593.xml",
+    "COE599.xml",
+    "HST231.xml"
+  ],
+  "yield": [
+    "HOM203.xml"
+  ],
+  "zahi": [
+    "COE321.XML",
+    "COE323.XML",
+    "COE414.xml",
+    "COE521.xml"
+  ],
+  "zionism": [
+    "HST244.xml"
+  ],
+  "zionist": [
+    "HST244.xml",
+    "HST244.xml"
+  ],
+  "zoom": [
+    "HST244.xml"
+  ]
+}

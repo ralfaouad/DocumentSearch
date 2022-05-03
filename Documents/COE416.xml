@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Computer Engineering
+    <Department> Computer Engineering
         <Course ID = "COE416"> Software Engineering 
             <Instructors>
                 <Instructor> Joe Tekli </Instructor>
@@ -13,5 +13,5 @@
                 <Course ID = "COE312"> Data Structures </Course>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

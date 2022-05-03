@@ -1,5 +1,5 @@
 <University abbrev = "LAU"> Lebanese American University
-    <Deparment> Humanities
+    <Department> Humanities
         <Course ID = "HST244"> History of the Arab-Israeli Conflict
             <Instructors>
                 <Instructor> Elie Elias </Instructor>
@@ -23,5 +23,5 @@
             <Prerequisites>
             </Prerequisites>
         </Course>
-    </Deparment>
+    </Department>
 </University>

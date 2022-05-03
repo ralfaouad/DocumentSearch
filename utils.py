@@ -1,8 +1,27 @@
 import math
-from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances, manhattan_distances
-from sklearn.feature_selection import r_regression
 import numpy as np
-from scipy.spatial import distance
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+
+def clean_text(text):
+    text = text.lower()
+    # Tokenization
+    tokens = word_tokenize(text)
+    # Removing non alphabetic tokens
+    words = [word for word in tokens if word.isalpha()]
+    # Stop word removal
+    stop_words = set(stopwords.words('english'))
+    words = [w for w in words if not w in stop_words]
+    wnl = WordNetLemmatizer()
+    lemmatized = [wnl.lemmatize(word) for word in words]
+    return (" ").join(lemmatized)
 
 def cosine(v1, v2):
     num = denom = denom1 = denom2 =  0
@@ -141,4 +160,5 @@ def binarySearch(L, target):
 # print(e_cosine())
 # print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
 
-    print(dict)
+    # print(dict)
+print(sim_context("Department/Student","Department/Professor"))
