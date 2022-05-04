@@ -53,11 +53,14 @@ def IR_without_indexing(query, method):
     sims = {}
 
     for doc in corpus:
-        sims[doc] = VSM_query(query, doc, method)
-    tr = {x:y for x,y in sims.items() if y!= 0}
-    return tr
+    #     sims[doc] = VSM_query(query, doc, method)
+    # tr = {x:y for x,y in sims.items() if y!= 0}
+    # return tr
+        sims[doc] = VSM_query(query, doc, method, False)
+
+    return sims
         
-def VSM_query(query, document, method):
+def VSM_query(query, document, method, indexing=True):
     doc = open(document,'r')
     tree = TED.preprocessing(ET.parse(doc).getroot())
 
@@ -78,9 +81,14 @@ def VSM_query(query, document, method):
         for dimension in dimensions:
             vectorq.append(TFq.get(dimension) or 0)
             
-            if(dimension in TFd):
-                vectord.append(TFd[dimension] * VSM.IDFq(dimension))
-            else: vectord.append(0.0)
+            if(indexing):
+                if(dimension in TFd):
+                    vectord.append(TFd[dimension] * VSM.IDFq(dimension))
+                else: vectord.append(0.0)
+            else:
+                if(dimension in TFd):
+                    vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus, input="xml", approach="TB")) # No referring to indexing table
+                else: vectord.append(0.0)
 
     # print(dimensions)
     # print(vectorq)
