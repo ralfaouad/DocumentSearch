@@ -31,10 +31,7 @@ def cosine(v1, v2):
         denom1+= v1[i]**2
         denom2+= v2[i]**2
     denom = math.sqrt(denom1*denom2)
-    # print(num,"/",denom)
     return float(num/denom)
-
-# print(cosine([1,1,1,1,0,0,0,0,0],[1,0,2,2,1,1,0,0,0]))
     
 def PCC(v1, v2):
     sum1 = sum(v1)
@@ -47,10 +44,7 @@ def PCC(v1, v2):
         denom1 += (v1[i]-mean1)**2
         denom2 += (v2[i]-mean2)**2
     denom = math.sqrt(denom1*denom2)
-    # print(num,"/", denom)
     return num/denom
-
-# print(PCC([1,1,0,0,0,0],[2,2,1,0,0,0]))
 
 def euclidian(v1,v2):
     dist = 0
@@ -85,7 +79,6 @@ def e_cosine(dimensions, v1 , v2):
 
     for i in range(0, len(dimensions)):
         dimension = dimensions[i]
-        print("DIMENSION: ",dimension)
         term = dimension.split(",")[0]
         context = dimension.split(",")[1]
 
@@ -100,7 +93,6 @@ def e_cosine(dimensions, v1 , v2):
         term = dimension.split(",")[0]
         context = dimension.split(",")[1]
         numc = 0
-        print(term, context)
         for key, val in dict[term].items():
             b = sim_context(context, key)
             print(v1[i], "*", v2[val], "*", b, "+")
@@ -111,7 +103,6 @@ def e_cosine(dimensions, v1 , v2):
         denom1+= float(v1[i])**2
         denom2+= float(v2[i])**2
     denom = math.sqrt(denom1*denom2)
-    print(num,"/",denom)
     return num/denom
 
 def WF(c1, c2):
@@ -137,27 +128,18 @@ def WF(c1, c2):
     
             
 def sim_context(c1, c2):
-    print("c1: ",c1)
-    print("c2: ",c2)
     if c1==c2: return 1
     c1 = c1.split("/")
     c2 = c2.split("/")
-    print("c1 after split: ",c1)
-    print("c2 after: ",c2)
     # WF
     Dist = np.ndarray(shape=(len(c1)+1,len(c2)+1))
     Dist[0][0] = 0
-
-    print(pd.DataFrame(Dist))
 
     for i in range(1,len(c1)+1):
         Dist[i][0] = Dist[i-1][0] + costDel(c1[i-1])
     for j in range(1,len(c2)+1):
         Dist[0][j] = Dist[0][j-1] + costIns(c2[j-1])
-
-    # print(pd.DataFrame(Dist))
-    
-    
+        
     for i in range(1,len(c1)+1):
         for j in range(1,len(c2)+1):
             Dist[i][j] = min(
@@ -189,11 +171,5 @@ def binarySearch(L, target):
             start = middle + 1
         else:
             return middle
-
-# print(e_cosine())
-# print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
-
-    # print(dict)
-print(sim_context("University","University/Department/Course/Description"))
 
 

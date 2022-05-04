@@ -1,9 +1,9 @@
 import os
 import json, TED, path
 import xml.etree.ElementTree as ET
-import regex as re
-import utils
 import collections
+
+# In this file: Everything related to Indexing Tables
 
 directory = 'Documents'
 
@@ -22,6 +22,10 @@ def process_XML(filename, indexing_table):
     sorted_index = collections.OrderedDict(sorted(indexing_table.items()))
     return sorted_index
 
+def save_toJSON(indexing_table):
+    with open('IndexingTable.json', 'w') as f:
+        json.dump(indexing_table, f, indent=2)
+
 def process_XML_TB(filename, indexing_table):
     doc = open(directory + "/" + filename,'r')
     tree = TED.preprocessing(ET.parse(doc).getroot())
@@ -36,23 +40,6 @@ def process_XML_TB(filename, indexing_table):
 
 def save_toJSON_TB(indexing_table):
     with open('IndexingTableTags.json', 'w') as f:
-        json.dump(indexing_table, f, indent=2)
-
-# def process_TXT(filename):
-#     with open(directory + "/" + filename,'r') as file:
-#         str = file.read()
-
-#     terms = clean_text(str).split()
-#     term_freq = TF(" ".join(terms))
-
-#     for term in terms:
-#         if(term in indexing_table):
-#             indexing_table[term][filename] =  term_freq[term]
-#         else:
-#             indexing_table[term] = {filename : term_freq[term]}
-
-def save_toJSON(indexing_table):
-    with open('IndexingTable.json', 'w') as f:
         json.dump(indexing_table, f, indent=2)
 
 # Add file to directory -> Update Indexing Table
@@ -84,5 +71,4 @@ def compute_indexing_table():
     save_toJSON(tr)
     save_toJSON_TB(tb)
 
-# delete("XML3.xml")
-compute_indexing_table()
+# compute_indexing_table()

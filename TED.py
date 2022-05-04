@@ -4,8 +4,6 @@ import regex as re
 import time
 import utils
 
-
-
 # STEP 1: Document Preprocessing
 def preprocessing(elt,depth=0,path=""):
     if elt is None:
@@ -194,11 +192,6 @@ def TED_Nierman(A,B):
                 delete = int(Dist[i-1][j])+int(costs_del[re.split('@|#|&',listA[i-2].tag)[0]])
                 insert = int(Dist[i][j-1])+int(costs_ins[re.split('@|#|&',listB[j-2].tag)[0]])
                 Dist[i][j] = min(insert,delete)
-    # for i  in range(len(Dist)):
-    #     for j in range(len(Dist[i])):
-    #         print( Dist[i][j],end="\t"*2)
-    #     print()
-
     return(int(Dist[M+1][N+1]))
 
 def TED(A,B):
@@ -207,25 +200,10 @@ def TED(A,B):
     distance = TED_Nierman(A,B)
     print("dist: ",distance)
     end = time.time()
-    # similarity = str(float(1/(1+distance)))
     delay = end-start
     print("t",delay)
     return distance
 
-# doc1 = open("UploadedDocuments/SampleDoc1_original_v1.xml", 'r')
-# doc2 = open("UploadedDocuments/SampleDoc1_original.xml", 'r')
-
-# tree1 = preprocessing(ET.parse(doc1).getroot())
-# tree2 = preprocessing(ET.parse(doc2).getroot())
-
-# for x in tree1.iter():
-#     print(x)
-
-# for x in tree2.iter():
-#     print(x)
-# print("CD: ",costs_del)
-# print("CI: ",costs_ins)
-# print(TED(tree1,tree2))
 
 
 
