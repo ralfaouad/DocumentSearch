@@ -85,7 +85,7 @@ def VSM_query(query, document, method, indexing=True):
                 else: vectord.append(0.0)
             else:
                 if(dimension in TFd):
-                    vectord.append(TFd[dimension] * VSM.IDF(dimension)) # No referring to indexing table
+                    vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus, input="xml", approach="TB")) # No referring to indexing table
                 else: vectord.append(0.0)
 
     # print(dimensions)
