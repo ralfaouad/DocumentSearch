@@ -6,6 +6,7 @@ import TED, VSM
 import xml.etree.ElementTree as ET 
 import os
 import utils
+import audio
 
 # Configurations
 app = Flask(__name__)
@@ -232,12 +233,12 @@ def search():
 def getfile(filename):
     return send_file(os.path.join("Documents",filename))
 
-# @app.route("/Speak",methods=["GET","POST"])
-# def speak():
-#     if request.method == "POST":
-#         query = audio.speech2text()
-#         print(query)
-#     return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
+@app.route("/Speak",methods=["GET","POST"])
+def speak():
+    if request.method == "POST":
+        query = audio.speech2text()
+        print(query)
+    return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
 
 @app.route("/visualize.html",methods=["GET"])
 def visualize():
