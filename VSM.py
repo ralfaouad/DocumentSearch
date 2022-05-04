@@ -46,6 +46,17 @@ def IDFq(term):
     # print("log(",len(corpus),"/",occurrences,")")
     return math.log(size/occurrences,10)
 
+def IDFqxml(term):
+    occurrences = 0
+    index = json.load(open("IndexingTable.json", 'r'))
+
+    if(index[term] != None):
+        occurrences = len(index[term])
+
+    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
+    # print("log(",len(corpus),"/",occurrences,")")
+    return math.log(size/occurrences,10)
+
 def TF_IDF(term, document, corpus, input="xml"):
     dict = {}
     TF_IDF = {}

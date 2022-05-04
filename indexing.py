@@ -14,14 +14,10 @@ def process_XML(filename, indexing_table):
     terms = path.TC(tree)
 
     for term in terms:
-        word = re.split(',',term)[0]
-        pth = re.split(',',term)[1]
-        if(word in indexing_table):
-            if(filename in indexing_table[word]):
-                indexing_table[word][filename].append(pth)
-            else: indexing_table[word][filename] = [pth]
+        if(term in indexing_table):
+            (indexing_table[term]).append(filename)
         else:
-            indexing_table[word] = { filename : [pth] }
+            indexing_table[term] = [filename]
     sorted_index = collections.OrderedDict(sorted(indexing_table.items()))
     return sorted_index
 
