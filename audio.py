@@ -9,6 +9,9 @@ def speech2text():
     with sr.Microphone() as source:
         audio_data = r.record(source, duration=3)
         print("Recognizing...")
-        text = r.recognize_google(audio_data)
-        return text
+        try:
+            text = r.recognize_google(audio_data)
+        except:
+            text = None
+        return text or None
 

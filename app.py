@@ -238,7 +238,7 @@ def speak():
     if request.method == "POST":
         query = audio.speech2text()
         print(query)
-    return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
+    return render_template("search.html",query="",lenresults=0,results={},time="",qry=query or "")
 
 @app.route("/visualize.html",methods=["GET"])
 def visualize():

@@ -109,7 +109,6 @@ def WF(c1, c2):
     c1 = clean_text(c1)
     c2 = clean_text(c2)
 
-    if c1==c2: return 1
     c1 = list(c1)
     c2 = list(c2)
     # WF
