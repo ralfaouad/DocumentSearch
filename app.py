@@ -13,7 +13,7 @@ app.config['UPLOAD_FOLDER'] = 'UploadedDocuments'
 app.config['MAX_CONTENT_PATH'] = 1024
 
 # Main Page
-@app.route("/")
+@app.route("/",methods=["GET"])
 def home():
     return render_template("index.html")
 
@@ -234,6 +234,14 @@ def getfile(filename):
 #         query = audio.speech2text()
 #         print(query)
 #     return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
+
+@app.route("/visualize.html",methods=["GET"])
+def visualize():
+    return render_template("visualize.html")
+
+@app.route("/<pic>",methods=["GET"])
+def show(pic):
+    return send_file(pic)
 
 if __name__ == '__main__':
     app.run()    
