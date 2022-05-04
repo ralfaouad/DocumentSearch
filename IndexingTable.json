@@ -1,4 +1,28 @@
 {
+  "1943,university/department/course/description": [
+    "HST231.xml"
+  ],
+  "1948,university/department/course/description": [
+    "HST244.xml"
+  ],
+  "1958,university/department/course/description": [
+    "HST231.xml"
+  ],
+  "1975,university/department/course/description": [
+    "HST231.xml"
+  ],
+  "1989,university/department/course/description": [
+    "HST231.xml"
+  ],
+  "19th,university/department/course/description": [
+    "HST244.xml"
+  ],
+  "20th,university/department/course/description": [
+    "HST231.xml"
+  ],
+  "68hc12,university/department/course/description": [
+    "COE521.xml"
+  ],
   "abi,university/department/course/instructors/instructor": [
     "COE321.XML",
     "COE423.xml",

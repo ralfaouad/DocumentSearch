@@ -71,4 +71,4 @@ def compute_indexing_table():
     save_toJSON(tr)
     save_toJSON_TB(tb)
 
-# compute_indexing_table()
+compute_indexing_table()

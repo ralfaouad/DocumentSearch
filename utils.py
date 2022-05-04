@@ -16,7 +16,7 @@ def clean_text(text):
     # Tokenization
     tokens = word_tokenize(text)
     # Removing non alphabetic tokens
-    words = [word for word in tokens if word.isalpha()]
+    words = [word for word in tokens if word.isalnum()]
     # Stop word removal
     stop_words = set(stopwords.words('english'))
     words = [w for w in words if not w in stop_words]
@@ -106,6 +106,9 @@ def e_cosine(dimensions, v1 , v2):
     return num/denom
 
 def WF(c1, c2):
+    c1 = clean_text(c1)
+    c2 = clean_text(c2)
+
     if c1==c2: return 1
     c1 = list(c1)
     c2 = list(c2)
@@ -171,5 +174,3 @@ def binarySearch(L, target):
             start = middle + 1
         else:
             return middle
-
-

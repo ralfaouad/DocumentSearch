@@ -117,9 +117,7 @@ def VSM_qXML(treeA, treeB, method):
         
     else:
         for dimension in dimensions:
-            if(dimension in TCF1):
-                vector1.append(TCF1[dimension] * IDFqxml(dimension))
-            else: vector1.append(0.0)
+            vector1.append(TCF1.get(dimension) or 0)
             
             if(dimension in TCF2):
                 vector2.append(TCF2[dimension] * IDFqxml(dimension))
