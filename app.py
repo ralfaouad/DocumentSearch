@@ -13,6 +13,10 @@ app.config['UPLOAD_FOLDER'] = 'UploadedDocuments'
 app.config['MAX_CONTENT_PATH'] = 1024
 
 # Main Page
+@app.route("/index.html")
+def index():
+    return render_template("index.html")
+
 @app.route("/",methods=["GET"])
 def home():
     return render_template("index.html")
@@ -72,7 +76,7 @@ def compare():
                 teddist = TED.TED(treeA,treeB)
                 tedsim = 1/(1+teddist)
                 # ! TEDSIM2 TO ADD TO FRONT
-                tedsim2 = 1 - (teddist/(len(list(treeA.iter())))+len(list(treeB.iter())))
+                tedsim2 = 1 - (teddist/(len(list(treeA.iter()))+len(list(treeB.iter()))))
                 endTED=time.time()
                 tedtime = endTED-startTED
 
