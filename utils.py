@@ -111,6 +111,27 @@ def e_cosine(dimensions, v1 , v2):
     denom = math.sqrt(denom1*denom2)
     print(num,"/",denom)
     return num/denom
+
+def WF(c1, c2):
+    if c1==c2: return 1
+    c1 = list(c1)
+    c2 = list(c2)
+    # WF
+    Dist = np.ndarray(shape=(len(c1),len(c2)))
+    Dist[0] = 0
+    for i in range(1,len(c1)):
+        Dist[i][0] = Dist[i-1][0] + costDel(c1[i])
+    for j in range(1,len(c2)):
+        Dist[0][j] = Dist[0][j-1] + costIns(c2[j])
+    
+    for i in range(1,len(c1)):
+        for j in range(1,len(c2)):
+            Dist[i][j] = min(
+                Dist[i-1][j-1] + costUpd(c1[i],c2[j]),
+                Dist[i-1][j] + costDel(c1[i]),
+                Dist[i][j-1] + costIns(c2[j])
+            )
+    return Dist[i][j]
     
             
 def sim_context(c1, c2):
@@ -161,4 +182,6 @@ def binarySearch(L, target):
 # print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
 
     # print(dict)
-print(sim_context("Department/Student","Department/Professor"))
+# print(sim_context("Department/Student","Department/Professor"))
+print(WF("Hi there","Hithor"))
+

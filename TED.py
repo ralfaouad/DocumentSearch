@@ -207,10 +207,10 @@ def TED(A,B):
     distance = TED_Nierman(A,B)
     print("dist: ",distance)
     end = time.time()
-    similarity = str(float(1/(1+distance)))
+    # similarity = str(float(1/(1+distance)))
     delay = end-start
     print("t",delay)
-    return similarity
+    return distance
 
 # doc1 = open("UploadedDocuments/SampleDoc1_original_v1.xml", 'r')
 # doc2 = open("UploadedDocuments/SampleDoc1_original.xml", 'r')

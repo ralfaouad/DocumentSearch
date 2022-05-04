@@ -1,13 +1,11 @@
-import collections
-import audio
 import time
-from unittest import result
 from flask import Flask, render_template, request, send_file
 from werkzeug.utils import secure_filename
-from IR import KNN, IR_with_indexing, IR_without_indexing
+from IR import KNN, IR_with_indexing, IR_without_indexing, KNN_range
 import TED, VSM
 import xml.etree.ElementTree as ET 
 import os
+import utils
 
 # Configurations
 app = Flask(__name__)
@@ -47,7 +45,16 @@ def compare():
             vsmsim = VSM.VSM_txt(str1,str2,[path1,path2],weight,sim)
             end = time.time()
             vsmtime = end-start
-            return render_template("compare.html", tedsim="",vsmsim=vsmsim,vsmtime=vsmtime)
+
+            start = time.time()
+            teddist = utils.WF(str1,str2)
+            tedsim = 1/(1+teddist)
+            #! ADD TEDSIM2 TO FRONT
+            tedsim2 = 1 - (teddist/(len(str1)+len(str2)))
+            end = time.time()
+            tedtime = end-start
+
+            return render_template("compare.html",vsmsim=vsmsim,vsmtime=vsmtime,tedsim=tedsim,tedsim2=tedsim2, tedtime=tedtime)
 
         # XML Comparison
         else:
@@ -62,7 +69,10 @@ def compare():
                 startTED = time.time()
                 treeA = TED.preprocessing(ET.parse(path1).getroot())
                 treeB = TED.preprocessing(ET.parse(path2).getroot())
-                tedsim = TED.TED(treeA,treeB)
+                teddist = TED.TED(treeA,treeB)
+                tedsim = 1/(1+teddist)
+                # ! TEDSIM2 TO ADD TO FRONT
+                tedsim2 = 1 - (teddist/(len(list(treeA.iter())))+len(list(treeB.iter())))
                 endTED=time.time()
                 tedtime = endTED-startTED
 
@@ -71,74 +81,80 @@ def compare():
                 vsmsim = VSM.VSM_xml(treeA, treeB, [path1,path2], weight, sim)
                 endvsm = time.time()
                 vsmtime = endvsm-startvsm
-                return render_template("compare.html", tedsim=tedsim,vsmsim=vsmsim,vsmtime=vsmtime,tedtime=tedtime)
+                return render_template("compare.html", tedsim=tedsim, tedsim2=tedsim2,vsmsim=vsmsim,vsmtime=vsmtime,tedtime=tedtime)
 
     return render_template("compare.html", tedsim="-", vsmsim="-",vsmtime="-",tedtime="-")
-    # return render_template("compare.html",tedsim=tedsim, vsmsim=vsmsim,vsmtime=vsmtime)
+
 
  # Search Engine   
 @app.route("/search.html", methods = ['GET','POST'])
 def search():
     if request.method == "POST":
-        q = request.form['q']
-        print(q)
-        indexing = request.form.getlist("indexing")
-        if(indexing):
-            # !!! TODO CHANGE 1 TO INPUT FROM Front
-            # method = int(request.form["options"])
-            # print("METHOD: ",method)
-            start = time.time()
-            results = IR_with_indexing(q,1) or {}
-            end = time.time()
-            delay = end-start
-            
-            Knn = request.form['K']
-            lenresults = len(results)
-            nb = lenresults
-            if Knn != "All":
-                nb = int(Knn)
+        if request.form['q']:
+            q = request.form['q']
+            print(q)
+            indexing = request.form.getlist("indexing")
+            if(indexing):
+                m = int(request.form['options'])
+                start = time.time()
+                results = IR_with_indexing(q,m) or {}
+                end = time.time()
+                delay = end-start
+                
+                Knn = request.form['K']
+                lenresults = len(results)
+                nb = lenresults
+                if Knn != "All":
+                    nb = int(Knn)
+                range = float(request.form['range'] or 0)
 
-            lenresults = nb
+                afterKNN = KNN_range(e=range,k=nb,res=results)
+                keys = list(afterKNN.keys())
+                lenresults=len(keys)
+                filenames = [key.split("\\")[1] for key in keys]
+                descriptions = [ET.parse(key).getroot().find(".//Description").text for key in keys]
 
-            afterKNN = KNN(nb,results)
-            keys = list(afterKNN.keys())
-            filenames = [key.split("\\")[1] for key in keys]
-            descriptions = [ET.parse(key).getroot().find(".//Description").text for key in keys]
+                tr = dict(zip(filenames,descriptions))
+                return render_template("search.html",query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\",K=Knn)
+            else:
+                m = int(request.form['options'])
+                start = time.time()
+                results = IR_without_indexing(q,m) or {}
+                end = time.time()
+                delay = end-start
+                
+                Knn = request.form['K']
+                lenresults = len(results)
+                nb = lenresults
+                if Knn != "All":
+                    nb = int(Knn)
 
-            tr = dict(zip(filenames,descriptions))
+                range = float(request.form['range'] or 0) 
 
-           
-            # tr = collections.OrderedDict(tr)
-            return render_template("search.html",query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\",K=Knn)
+                afterKNN = KNN_range(e=range,k=nb,res=results)
+                keys = list(afterKNN.keys())
+                lenresults=len(keys)
+                filenames = [key.split("\\")[1] for key in keys]
+                descriptions = []
+                for key in keys:
+                    try:
+                        descriptions.append(ET.parse(key).getroot().find(".//Description").text)
+                    except:
+                        descriptions.append("No Description")
+
+                tr = dict(zip(filenames,descriptions))
+
+                
+                return render_template("search.html", query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\")
         else:
+            if request.files['xmlfile']:
+                q = request.files['xmlfile']
+                filename = secure_filename(q.filename)
+                path = os.path.join(app.config['UPLOAD_FOLDER'],filename)
+                q.save(path)
 
-            start = time.time()
-            results = IR_without_indexing(q,1) or {}
-            end = time.time()
-            delay = end-start
-            
-            Knn = request.form['K']
-            lenresults = len(results)
-            nb = lenresults
-            if Knn != "All":
-                nb = int(Knn)
-
-            lenresults = nb
-
-            afterKNN = KNN(nb,results)
-            keys = list(afterKNN.keys())
-            filenames = [key.split("\\")[1] for key in keys]
-            descriptions = []
-            for key in keys:
-                try:
-                    descriptions.append(ET.parse(key).getroot().find(".//Description").text)
-                except:
-                    descriptions.append("No Description")
-
-            tr = dict(zip(filenames,descriptions))
-
-            
-            return render_template("search.html", query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\")
+                # Compare using term context
+                
     else:
         return render_template("search.html",query="",lenresults=0,results={},time="")
     
@@ -147,12 +163,12 @@ def search():
 def getfile(filename):
     return send_file(os.path.join("Documents",filename))
 
-@app.route("/Speak",methods=["GET","POST"])
-def speak():
-    if request.method == "POST":
-        query = audio.speech2text()
-        print(query)
-    return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
+# @app.route("/Speak",methods=["GET","POST"])
+# def speak():
+#     if request.method == "POST":
+#         query = audio.speech2text()
+#         print(query)
+#     return render_template("search.html",query="",lenresults=0,results={},time="",qry=query)
 
 if __name__ == '__main__':
     app.run()    

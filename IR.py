@@ -1,8 +1,7 @@
 # import VSM, json, path, utils, TED, os
 # import xml.etree.ElementTree as ET
-from spellchecker import SpellChecker
-from ctypes import util
-from sklearn import neighbors
+#! from spellchecker import SpellChecker
+
 import VSM, json, path, utils, TED, os
 import xml.etree.ElementTree as ET
 
@@ -20,7 +19,7 @@ def corrector(query):
 
     return query
 
-print(corrector("enfineerinf"))
+# print(corrector("enfineerinf"))
 
 def IR_with_indexing(query, method):
     query = utils.clean_text(query)
@@ -55,8 +54,8 @@ def IR_without_indexing(query, method):
 
     for doc in corpus:
         sims[doc] = VSM_query(query, doc, method)
-
-    return sims
+    tr = {x:y for x,y in sims.items() if y!= 0}
+    return tr
         
 def VSM_query(query, document, method):
     doc = open(document,'r')
