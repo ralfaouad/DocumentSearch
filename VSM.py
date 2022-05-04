@@ -1,4 +1,4 @@
-import math, json, path, TED, utils, os
+import math, path, TED, utils
 import xml.etree.ElementTree as ET
 import pandas as pd
 
@@ -32,30 +32,7 @@ def IDF(term, corpus, input="xml", approach="TC"):
             if(term in utils.clean_text(str).split()):
                 occurrences += 1
 
-    # print("log(",len(corpus),"/",occurrences,")")
     return math.log((len(corpus)+1)/occurrences,10) # Adding 1 to the size of corpus <=> Adding dummy file
-
-def IDFq(term):
-    occurrences = 0
-    index = json.load(open("IndexingTableTags.json", 'r'))
-
-    if(index[term] != None):
-        occurrences = len(index[term])
-
-    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
-    # print("log(",len(corpus),"/",occurrences,")")
-    return math.log(size/occurrences,10)
-
-def IDFqxml(term):
-    occurrences = 0
-    index = json.load(open("IndexingTable.json", 'r'))
-
-    if(index[term] != None):
-        occurrences = len(index[term])
-
-    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
-    # print("log(",len(corpus),"/",occurrences,")")
-    return math.log(size/occurrences,10)
 
 def TF_IDF(term, document, corpus, input="xml"):
     dict = {}
@@ -99,9 +76,10 @@ def VSM_txt(text1, text2, corpus, i = 1, m = 0):
             if(dimension in TF2):
                 vector2.append(TF_IDF(dimension, corpus[1], corpus, "text"))
             else: vector2.append(0.0)
-    print(dimensions)
-    print("V1: ", vector1)
-    print("V2: ", vector2)
+
+    df = pd.DataFrame(list(zip(vector1, vector2)), index = dimensions, columns =['Vector1', 'Vector2'])
+    print("Original DataFrame :")
+    df
     
     if m == 0:
         similarity = utils.cosine(vector1, vector2)
@@ -121,7 +99,7 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     vector1 = []
     vector2 = []
     dimensions = {}
-    # Content will be cleaned in the preprocessing
+    # Content was cleaned in the preprocessing
 
     tc1 = path.TC(treeA)
     tc2 = path.TC(treeB)
@@ -145,22 +123,10 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
                 vector2.append(TCF2[dimension] * IDF(dimension, corpus))
             else: vector2.append(0.0)
 
-    # print("dimensions: ", dimensions)
-    # print("V1: ", vector1)
-    # print("V2: ", vector2)
     df = pd.DataFrame(list(zip(vector1, vector2)), index = dimensions, columns =['Vector1', 'Vector2'])
     print("Original DataFrame :")
-    df      
-    
-    result = df.to_html()
-    # HTML(df.to_html(classes='table table-stripped'))
-    print(result)
-    # display(df)
+    df
 
-    # print("dimensions: ", dimensions)
-    # print("V1: ", vector1)
-    # print("V2: ", vector2)
-    print(df)
     if m == 0:
         similarity = utils.e_cosine(dimensions, vector1, vector2)
     elif m == 1:
@@ -174,25 +140,4 @@ def VSM_xml(treeA, treeB, corpus, i = 1, m = 0):
     else: similarity = utils.dice(vector1, vector2)
 
     return similarity
-   
-
-# VSM text files
-# with open("Documents/sample1.txt",'r') as file1:
-#         str1 = file1.read()
-# with open("Documents/sample2.txt",'r') as file2:
-#         str2 = file2.read()
-
-# print(VSM_txt(str1, str2, ["Documents/sample1.txt", "Documents/sample2.txt"], 1, 1))
-
-# VSM XML
-doc1 = open("Documents/COE321.XML", 'r')
-doc2 = open("Documents/COE211.XML", 'r')
-
-tree1 = TED.preprocessing(ET.parse(doc1).getroot())
-tree2 = TED.preprocessing(ET.parse(doc2).getroot())
-
-sim = VSM_xml(tree1, tree2, ["Documents/COE321.XML","Documents/COE211.XML"], 0, 0)
-print(sim)
-# sim2 = VSM_xml(tree1, tree2, ["Documents/XML1.xml","Documents/XML2.xml"], 0, 0)
-# print(sim2)
 

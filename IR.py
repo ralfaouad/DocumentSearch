@@ -1,25 +1,8 @@
-import VSM, json, path, utils, TED, os
-# import xml.etree.ElementTree as ET
-#! from spellchecker import SpellChecker
-
-import VSM, json, path, utils, TED, os
+import VSM, json, path, utils, TED, os, math
 import xml.etree.ElementTree as ET
-
 
 directory = "Documents"
 corpus = [os.path.join(directory,document) for document in os.listdir(directory)]
-
-
-def corrector(query):
-    spell = SpellChecker()
-    misspelled = spell.unknown(query.split())
-
-    for word in misspelled:
-        query = query.replace(word, spell.correction(word))
-
-    return query
-
-# print(corrector("enfineerinf"))
 
 def IR_with_indexing(query, method):
     query = utils.clean_text(query)
@@ -28,11 +11,6 @@ def IR_with_indexing(query, method):
 
     with open("IndexingTableTags.json",'r') as file:
         index = json.load(file)
-
-    # for word in query.split():
-    #     if(word in index.keys()):    # Suggestion: Binary Search for optimzation
-    #         for doc in index[word].keys():
-    #             docs.add(os.path.join("Documents", doc))
 
     # BinarySearch for each term of the query in the Indexing Table
     for word in query.split():
@@ -49,82 +27,12 @@ def IR_with_indexing(query, method):
 
 def IR_without_indexing(query, method):
     query = utils.clean_text(query)
-    # TFq = VSM.TF(query)
     sims = {}
 
     for doc in corpus:
-    #     sims[doc] = VSM_query(query, doc, method)
-    # tr = {x:y for x,y in sims.items() if y!= 0}
-    # return tr
         sims[doc] = VSM_query(query, doc, method, False)
-
-    return sims
-        
-def VSM_query(query, document, method, indexing=True):
-    doc = open(document,'r')
-    tree = TED.preprocessing(ET.parse(doc).getroot())
-
-    TFq = VSM.TF(query)
-    tb = path.tag_based(tree)
-    TFd = VSM.TF(" ".join(tb))
-    dimensions = list(TFq.keys() | TFd.keys())
-
-    vectorq = []
-    vectord = []
-
-    if(method == 0):
-        for dimension in dimensions:
-            vectorq.append(TFq.get(dimension) or 0)
-            vectord.append(TFd.get(dimension) or 0)
-        
-    else:
-        for dimension in dimensions:
-            vectorq.append(TFq.get(dimension) or 0)
-            
-            if(indexing):
-                if(dimension in TFd):
-                    vectord.append(TFd[dimension] * VSM.IDFq(dimension))
-                else: vectord.append(0.0)
-            else:
-                if(dimension in TFd):
-                    vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus, input="xml", approach="TB")) # No referring to indexing table
-                else: vectord.append(0.0)
-
-    # print(dimensions)
-    # print(vectorq)
-    # print(doc, vectord)
-    return utils.cosine(vectorq, vectord) # modify cosine to take sim of contexts by WF
-
-def VSM_qXML(treeA, treeB, method):
-    vector1 = []
-    vector2 = []
-    dimensions = {}
-    # Content will be cleaned in the preprocessing
-
-    tc1 = path.TC(treeA)
-    tc2 = path.TC(treeB)
-
-    TCF1 = VSM.TF(" ".join(tc1))
-    TCF2 = VSM.TF(" ".join(tc2))
-    dimensions = list(TCF1.keys() | TCF2.keys())
-
-    if(method == 0):
-        for dimension in dimensions:
-            vector1.append(TCF1.get(dimension) or 0)
-            vector2.append(TCF2.get(dimension) or 0)
-        
-    else:
-        for dimension in dimensions:
-            if(dimension in TCF1):
-                vector1.append(TCF1[dimension] * VSM.IDFqxml(dimension))
-            else: vector1.append(0.0)
-            
-            if(dimension in TCF2):
-                vector2.append(TCF2[dimension] * VSM.IDFqxml(dimension))
-            else: vector2.append(0.0)
-    
-    similarity = utils.e_cosine(dimensions, vector1, vector2)
-    return similarity
+        tr = {x:y for x,y in sims.items() if y!= 0}
+    return tr
 
 def IR_with_indexingXML(tree, method):
     tc = path.TC(tree)
@@ -156,14 +64,90 @@ def IR_without_indexingXML(tree, method):
         sims[doc] = VSM.VSM_xml(tree, treeB, corpus, method)
 
     return sims
-# user = input("Enter query: ")
-# method = input("Enter 1 for TF, or 2 for TF-IDF")
 
-# print(IR_with_indexing("hh", 1))
-# print(IR_with_indexing("John", 1))
+def VSM_query(query, document, method, indexing=True):
+    doc = open(document,'r')
+    tree = TED.preprocessing(ET.parse(doc).getroot())
 
-# print(IR_with_indexing(user, method))
+    TFq = VSM.TF(query)
+    tb = path.tag_based(tree)
+    TFd = VSM.TF(" ".join(tb))
+    dimensions = list(TFq.keys() | TFd.keys())
 
+    vectorq = []
+    vectord = []
+
+    if(method == 0):
+        for dimension in dimensions:
+            vectorq.append(TFq.get(dimension) or 0)
+            vectord.append(TFd.get(dimension) or 0)
+        
+    else:
+        for dimension in dimensions:
+            vectorq.append(TFq.get(dimension) or 0)
+            
+            if(indexing):
+                if(dimension in TFd):
+                    vectord.append(TFd[dimension] * IDFq(dimension))
+                else: vectord.append(0.0)
+            else:
+                if(dimension in TFd):
+                    vectord.append(TFd[dimension] * VSM.IDF(dimension, corpus, input="xml", approach="TB")) # No referring to indexing table
+                else: vectord.append(0.0)
+
+    return utils.cosine(vectorq, vectord) # modify cosine to take sim of contexts by WF
+
+def VSM_qXML(treeA, treeB, method):
+    vector1 = []
+    vector2 = []
+    dimensions = {}
+    # Content will be cleaned in the preprocessing
+
+    tc1 = path.TC(treeA)
+    tc2 = path.TC(treeB)
+
+    TCF1 = VSM.TF(" ".join(tc1))
+    TCF2 = VSM.TF(" ".join(tc2))
+    dimensions = list(TCF1.keys() | TCF2.keys())
+
+    if(method == 0):
+        for dimension in dimensions:
+            vector1.append(TCF1.get(dimension) or 0)
+            vector2.append(TCF2.get(dimension) or 0)
+        
+    else:
+        for dimension in dimensions:
+            if(dimension in TCF1):
+                vector1.append(TCF1[dimension] * IDFqxml(dimension))
+            else: vector1.append(0.0)
+            
+            if(dimension in TCF2):
+                vector2.append(TCF2[dimension] * IDFqxml(dimension))
+            else: vector2.append(0.0)
+    
+    similarity = utils.e_cosine(dimensions, vector1, vector2)
+    return similarity
+
+def IDFq(term):
+    occurrences = 0
+    index = json.load(open("IndexingTableTags.json", 'r'))
+
+    if(index[term] != None):
+        occurrences = len(index[term])
+
+    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
+    return math.log(size/occurrences,10)
+
+def IDFqxml(term):
+    occurrences = 0
+    index = json.load(open("IndexingTable.json", 'r'))
+
+    if(index[term] != None):
+        occurrences = len(index[term])
+
+    size= len([name for name in os.listdir("Documents") if os.path.isfile(os.path.join("Documents",name))])
+    return math.log(size/occurrences,10)
+    
 def KNN(K,res):
     sorted_res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1],reverse=True)}
     neighbors = dict(list(sorted_res.items())[0:K])
@@ -184,8 +168,3 @@ def KNN_range(k, e, res):
     res1 = range(e,res)
     res2 = KNN(k,res1)
     return res2
-    
-# print(IR_with_indexing("John", 1))
-
-# print(KNN(3,))
-# print(KNN_range(2,1,{'gfg' : 10, 'is' : 1, 'best' : 45, 'for' : 4, 'CS' : 5}))
