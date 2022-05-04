@@ -15,7 +15,7 @@
 
             <Prerequisites>
                 <Course ID = "COE323"> Microprocessors </Course>
-                <Course ID = "COE312 "> Data Structures </Course>
+                <Course ID = "COE312"> Data Structures </Course>
             </Prerequisites>
         </Course>
     </Department>

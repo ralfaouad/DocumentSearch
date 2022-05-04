@@ -37,7 +37,7 @@ def IR_with_indexing(query, method):
     # BinarySearch for each term of the query in the Indexing Table
     for word in query.split():
         if utils.binarySearch(list(index.keys()),word) is not None:
-            for doc in index[word].keys():
+            for doc in index[word]:
                 docs.add(os.path.join("Documents",doc))
         else:
             print("Term not found")
@@ -116,7 +116,7 @@ def VSM_qXML(treeA, treeB, method):
     else:
         for dimension in dimensions:
             if(dimension in TCF1):
-                vector1.append(TCF1[dimension] * VSM.IDFqxmlIDF(dimension))
+                vector1.append(TCF1[dimension] * VSM.IDFqxml(dimension))
             else: vector1.append(0.0)
             
             if(dimension in TCF2):
@@ -135,10 +135,9 @@ def IR_with_indexingXML(tree, method):
         index = json.load(file)
 
     # BinarySearch for each term of the query in the Indexing Table
-    for term_context in tc:
-        term = term_context.split(",")[0]
+    for term in tc:
         if utils.binarySearch(list(index.keys()),term) is not None:
-            for doc in index[term].keys():
+            for doc in index[term]:
                 docs.add(os.path.join("Documents",doc))
         else:
             print("Term not found")

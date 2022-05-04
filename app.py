@@ -1,7 +1,7 @@
 import time
 from flask import Flask, render_template, request, send_file
 from werkzeug.utils import secure_filename
-from IR import KNN, IR_with_indexing, IR_without_indexing, KNN_range
+from IR import KNN, IR_with_indexing, IR_with_indexingXML, IR_without_indexing, IR_without_indexingXML, KNN_range
 import TED, VSM
 import xml.etree.ElementTree as ET 
 import os
@@ -94,8 +94,8 @@ def search():
             q = request.form['q']
             print(q)
             indexing = request.form.getlist("indexing")
+            m = int(request.form['options'])
             if(indexing):
-                m = int(request.form['options'])
                 start = time.time()
                 results = IR_with_indexing(q,m) or {}
                 end = time.time()
@@ -152,7 +152,72 @@ def search():
                 filename = secure_filename(q.filename)
                 path = os.path.join(app.config['UPLOAD_FOLDER'],filename)
                 q.save(path)
+                print("q: ",q)
 
+                tree = TED.preprocessing(ET.parse(path).getroot())
+                print("tree: ",tree)
+
+                indexing = request.form.getlist("indexing")
+                m = int(request.form['options'])
+
+                if (indexing):
+                    # results = IR_with_indexingXML(tree,m)
+                    # print(results)
+                    # return render_template("search.html", query="",lenresults=0,results={},time="")
+
+                    start = time.time()
+                    results = IR_with_indexingXML(tree,m) or {}
+                    end = time.time()
+                    delay = end-start
+                    
+                    Knn = request.form['K']
+                    lenresults = len(results)
+                    nb = lenresults
+                    if Knn != "All":
+                        nb = int(Knn)
+                    range = float(request.form['range'] or 0)
+
+                    afterKNN = KNN_range(e=range,k=nb,res=results)
+                    keys = list(afterKNN.keys())
+                    lenresults=len(keys)
+                    filenames = [key.split("\\")[1] for key in keys]
+                    descriptions = [ET.parse(key).getroot().find(".//Description").text for key in keys]
+
+                    tr = dict(zip(filenames,descriptions))
+                    return render_template("search.html",query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\",K=Knn)
+                
+
+                else:
+                              m = int(request.form['options'])
+                start = time.time()
+                results = IR_without_indexingXML(tree,m) or {}
+                end = time.time()
+                delay = end-start
+                
+                Knn = request.form['K']
+                lenresults = len(results)
+                nb = lenresults
+                if Knn != "All":
+                    nb = int(Knn)
+
+                range = float(request.form['range'] or 0) 
+
+                afterKNN = KNN_range(e=range,k=nb,res=results)
+                keys = list(afterKNN.keys())
+                lenresults=len(keys)
+                filenames = [key.split("\\")[1] for key in keys]
+                descriptions = []
+                for key in keys:
+                    try:
+                        descriptions.append(ET.parse(key).getroot().find(".//Description").text)
+                    except:
+                        descriptions.append("No Description")
+
+                tr = dict(zip(filenames,descriptions))
+
+                
+                return render_template("search.html", query=q,lenresults=lenresults,results=tr,time=delay,initial=results,directory="Documents\\")
+                    
                 # Compare using term context
                 
     else:

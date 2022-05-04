@@ -36,8 +36,6 @@
     "HST244.xml"
   ],
   "advanced,university/department/course/description": [
-    "COE522.xml",
-    "COE522.xml",
     "COE522.xml"
   ],
   "advantage,university/department/course/description": [
@@ -45,7 +43,6 @@
     "ELE537.XML"
   ],
   "agent,university/department/course/description": [
-    "COE544.xml",
     "COE544.xml"
   ],
   "agile,university/department/course/description": [
@@ -68,10 +65,6 @@
     "COE526.xml",
     "COE543.xml",
     "COE544.xml",
-    "COE544.xml",
-    "COE753.xml",
-    "COE753.xml",
-    "COE753.xml",
     "COE753.xml",
     "ELE535.XML"
   ],
@@ -101,7 +94,6 @@
     "COE521.xml"
   ],
   "also,university/department/course/description": [
-    "HST244.xml",
     "HST244.xml"
   ],
   "american,university": [
@@ -145,8 +137,6 @@
     "HST244.xml"
   ],
   "analog,university/department/course/description": [
-    "ELE537.XML",
-    "ELE537.XML",
     "ELE537.XML"
   ],
   "analog,university/department/course/prerequisites/course": [
@@ -155,9 +145,7 @@
   "analysis,university/department/course/description": [
     "COE416.xml",
     "COE526.xml",
-    "COE526.xml",
     "EECE340.XML",
-    "ELE430.XML",
     "ELE430.XML",
     "ELE537.XML"
   ],
@@ -180,8 +168,6 @@
   "application,university/department/course/description": [
     "COE543.xml",
     "COE753.xml",
-    "COE753.xml",
-    "ELE430.XML",
     "ELE430.XML"
   ],
   "applied,university/department/course/description": [
@@ -202,9 +188,6 @@
   ],
   "arab,university/department/course/description": [
     "HST231.xml",
-    "HST244.xml",
-    "HST244.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "architecture,university/department/course": [
@@ -217,7 +200,6 @@
     "COE521.xml",
     "COE522.xml",
     "COE535.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "architecture,university/department/course/prerequisites/course": [
@@ -250,7 +232,6 @@
     "HST244.xml"
   ],
   "assembly,university/department/course/description": [
-    "COE323.XML",
     "COE323.XML"
   ],
   "assignment,university/department/course/description": [
@@ -279,7 +260,6 @@
   "basic,university/department/course/description": [
     "COE211.XML",
     "COE312.XML",
-    "COE323.XML",
     "COE323.XML",
     "COE414.xml",
     "COE423.xml",
@@ -310,7 +290,6 @@
     "HOM203.xml"
   ],
   "beverage,university/department/course/description": [
-    "HOM203.xml",
     "HOM203.xml"
   ],
   "bilal,university/department/course/instructors/instructor": [
@@ -396,11 +375,9 @@
     "HOM231.xml"
   ],
   "cigar,university/department/course/description": [
-    "HOM231.xml",
     "HOM231.xml"
   ],
   "circuit,university/department/course/description": [
-    "COE321.XML",
     "COE321.XML",
     "COE521.xml"
   ],
@@ -421,9 +398,6 @@
   ],
   "code,university/department/course/description": [
     "COE323.XML",
-    "COE323.XML",
-    "ELE535.XML",
-    "ELE535.XML",
     "ELE535.XML"
   ],
   "coding,university/department/course": [
@@ -448,10 +422,8 @@
     "COE321.XML",
     "COE418.xml"
   ],
-  "coe312 ,university/department/course/prerequisites/course/id": [
-    "COE414.xml"
-  ],
   "coe312,university/department/course/prerequisites/course/id": [
+    "COE414.xml",
     "COE416.xml",
     "COE535.xml",
     "COE543.xml",
@@ -548,8 +520,6 @@
     "COE732.xml",
     "EECE340.XML",
     "ELE535.XML",
-    "ELE537.XML",
-    "ELE537.XML",
     "ELE537.XML"
   ],
   "community,university/department/course/description": [
@@ -617,18 +587,14 @@
   ],
   "computer,university/department/course/description": [
     "COE423.xml",
-    "COE423.xml",
     "COE521.xml",
     "COE544.xml",
     "COE599.xml",
-    "COE732.xml",
-    "COE732.xml",
     "COE732.xml"
   ],
   "computer,university/department/course/prerequisites/course": [
     "COE211.XML",
     "COE312.XML",
-    "COE321.XML",
     "COE321.XML",
     "COE418.xml",
     "COE522.xml",
@@ -636,7 +602,6 @@
     "EECE421.XML"
   ],
   "computing,university/department/course/description": [
-    "COE522.xml",
     "COE522.xml",
     "COE753.xml"
   ],
@@ -649,7 +614,6 @@
   "concept,university/department/course/description": [
     "COE424.xml",
     "COE544.xml",
-    "EECE340.XML",
     "EECE340.XML",
     "ELE430.XML",
     "HOM203.xml"
@@ -694,7 +658,6 @@
     "ELE535.XML"
   ],
   "core,university/department/course/description": [
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "cost,university/department/course/description": [
@@ -716,7 +679,6 @@
     "COE321.XML",
     "COE323.XML",
     "COE414.xml",
-    "COE414.xml",
     "COE416.xml",
     "COE418.xml",
     "COE423.xml",
@@ -724,37 +686,24 @@
     "COE425.xml",
     "COE431.xml",
     "COE521.xml",
-    "COE521.xml",
     "COE522.xml",
     "COE526.xml",
     "COE535.xml",
     "COE543.xml",
     "COE544.xml",
-    "COE544.xml",
-    "COE544.xml",
-    "COE544.xml",
     "COE555.xml",
     "COE593.xml",
     "COE599.xml",
     "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "COE753.xml",
     "COE753.xml",
     "ECO201.xml",
-    "ECO201.xml",
     "ECO202.xml",
-    "ECO202.xml",
-    "EECE340.XML",
     "EECE340.XML",
     "EECE421.XML",
-    "EECE430.XML",
     "EECE430.XML",
     "HOM203.xml",
     "HOM231.xml",
     "HST231.xml",
-    "HST244.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "cover,university/department/course/description": [
@@ -772,7 +721,6 @@
     "COE526.xml",
     "COE535.xml",
     "COE543.xml",
-    "COE544.xml",
     "COE544.xml",
     "COE599.xml",
     "COE753.xml",
@@ -821,8 +769,6 @@
     "COE323.XML",
     "COE418.xml",
     "COE543.xml",
-    "COE543.xml",
-    "COE543.xml",
     "COE544.xml",
     "COE555.xml",
     "ELE535.XML"
@@ -840,8 +786,6 @@
   ],
   "database,university/department/course/description": [
     "COE201.xml",
-    "COE418.xml",
-    "COE418.xml",
     "COE418.xml"
   ],
   "database,university/department/course/prerequisites/course": [
@@ -883,15 +827,12 @@
     "COE416.xml",
     "COE423.xml",
     "COE424.xml",
-    "COE424.xml",
     "COE425.xml",
-    "COE521.xml",
     "COE521.xml",
     "COE522.xml",
     "COE526.xml",
     "COE555.xml",
     "EECE421.XML",
-    "EECE430.XML",
     "EECE430.XML",
     "ELE430.XML",
     "ELE537.XML"
@@ -912,7 +853,6 @@
   ],
   "developing,university/department/course/description": [
     "COE544.xml",
-    "COE544.xml",
     "COE732.xml"
   ],
   "development,university/department/course": [
@@ -922,11 +862,7 @@
     "COE416.xml",
     "COE599.xml",
     "EECE430.XML",
-    "EECE430.XML",
-    "EECE430.XML",
-    "EECE430.XML",
     "HST231.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "device,university/department/course/description": [
@@ -953,7 +889,6 @@
     "COE526.xml",
     "ELE430.XML",
     "ELE535.XML",
-    "ELE537.XML",
     "ELE537.XML"
   ],
   "disadvantage,university/department/course/description": [
@@ -975,8 +910,6 @@
     "HST244.xml"
   ],
   "division,university/department/course/description": [
-    "COE535.xml",
-    "COE535.xml",
     "COE535.xml"
   ],
   "documentation,university/department/course/description": [
@@ -1181,7 +1114,6 @@
   ],
   "event,university/department/course/description": [
     "HST231.xml",
-    "HST231.xml",
     "HST244.xml"
   ],
   "evolution,university/department/course/description": [
@@ -1197,7 +1129,6 @@
     "COE522.xml"
   ],
   "execution,university/department/course/description": [
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "exercise,university/department/course/description": [
@@ -1308,9 +1239,6 @@
   ],
   "food,university/department/course/description": [
     "HOM203.xml",
-    "HOM203.xml",
-    "HOM203.xml",
-    "HOM203.xml",
     "HOM231.xml"
   ],
   "formalism,university/department/course/description": [
@@ -1324,7 +1252,6 @@
   ],
   "fourier,university/department/course/description": [
     "EECE340.XML",
-    "ELE430.XML",
     "ELE430.XML"
   ],
   "fourth,university/department/course/prerequisites/requirement": [
@@ -1347,7 +1274,6 @@
     "COE535.xml"
   ],
   "fuzzy,university/department/course/description": [
-    "COE544.xml",
     "COE544.xml"
   ],
   "gaining,university/department/course/description": [
@@ -1407,8 +1333,6 @@
     "COE753.xml"
   ],
   "heuristic,university/department/course/description": [
-    "COE753.xml",
-    "COE753.xml",
     "COE753.xml"
   ],
   "hierarchy,university/department/course/description": [
@@ -1470,7 +1394,6 @@
   ],
   "impact,university/department/course/description": [
     "HST231.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "impacting,university/department/course/description": [
@@ -1495,13 +1418,10 @@
   "including,university/department/course/description": [
     "COE521.xml",
     "COE732.xml",
-    "COE732.xml",
     "COE753.xml",
-    "EECE430.XML",
     "EECE430.XML"
   ],
   "income,university/department/course/description": [
-    "ECO202.xml",
     "ECO202.xml"
   ],
   "independent,university/department/course/description": [
@@ -1512,7 +1432,6 @@
   ],
   "information,university/department/course/description": [
     "COE543.xml",
-    "ELE535.XML",
     "ELE535.XML"
   ],
   "initial,university/department/course/description": [
@@ -1530,7 +1449,6 @@
   "instruction,university/department/course/description": [
     "COE423.xml",
     "COE522.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "instrument,university/department/course/description": [
@@ -1545,8 +1463,6 @@
   ],
   "intelligent,university/department/course/description": [
     "COE543.xml",
-    "COE544.xml",
-    "COE544.xml",
     "COE544.xml"
   ],
   "intelligently,university/department/course/description": [
@@ -1601,9 +1517,6 @@
     "HST244.xml"
   ],
   "israel,university/department/course/description": [
-    "HST244.xml",
-    "HST244.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "issue,university/department/course/description": [
@@ -1767,7 +1680,6 @@
     "HST244.xml"
   ],
   "lebanese,university/department/course/description": [
-    "HST231.xml",
     "HST231.xml"
   ],
   "lebanon,university/department/course": [
@@ -1779,7 +1691,6 @@
   "level,university/department/course/description": [
     "COE522.xml",
     "COE732.xml",
-    "EECE421.XML",
     "EECE421.XML",
     "HOM203.xml"
   ],
@@ -1802,10 +1713,6 @@
     "COE321.XML"
   ],
   "logic,university/department/course/description": [
-    "COE321.XML",
-    "COE321.XML",
-    "COE321.XML",
-    "COE321.XML",
     "COE321.XML",
     "COE526.xml",
     "COE544.xml"
@@ -1839,7 +1746,6 @@
     "HOM231.xml"
   ],
   "management,university/department/course/description": [
-    "COE414.xml",
     "COE414.xml",
     "COE423.xml",
     "EECE430.XML",
@@ -1900,12 +1806,10 @@
     "COE414.xml",
     "COE423.xml",
     "COE521.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "method,university/department/course/description": [
     "COE544.xml",
-    "COE753.xml",
     "COE753.xml",
     "EECE340.XML"
   ],
@@ -1948,8 +1852,6 @@
     "COE418.xml",
     "COE431.xml",
     "COE555.xml",
-    "COE555.xml",
-    "ELE430.XML",
     "ELE430.XML"
   ],
   "modern,university/department/course/description": [
@@ -1974,7 +1876,6 @@
     "COE321.XML"
   ],
   "multiplexed,university/department/course/description": [
-    "COE535.xml",
     "COE535.xml"
   ],
   "multiplexing,university/department/course/description": [
@@ -2003,15 +1904,12 @@
   ],
   "national,university/department/course/description": [
     "ECO202.xml",
-    "ECO202.xml",
     "HST231.xml"
   ],
   "nature,university/department/course/description": [
     "ECO201.xml"
   ],
   "need,university/department/course/description": [
-    "COE593.xml",
-    "COE593.xml",
     "COE593.xml"
   ],
   "network,university/department/course": [
@@ -2023,15 +1921,8 @@
     "COE431.xml",
     "COE522.xml",
     "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
     "COE544.xml",
     "COE555.xml",
-    "COE555.xml",
-    "COE732.xml",
-    "COE732.xml",
     "COE732.xml"
   ],
   "network,university/department/course/prerequisites/course": [
@@ -2081,33 +1972,24 @@
     "COE414.xml"
   ],
   "operating,university/department/course/description": [
-    "COE414.xml",
     "COE414.xml"
   ],
   "operation,university/department/course/description": [
-    "HOM203.xml",
     "HOM203.xml"
   ],
   "operational,university/department/course/description": [
-    "COE732.xml",
     "COE732.xml"
   ],
   "optical,university/department/course": [
     "COE535.xml"
   ],
   "optical,university/department/course/description": [
-    "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
-    "COE535.xml",
     "COE535.xml"
   ],
   "optimization,university/department/course": [
     "COE753.xml"
   ],
   "optimization,university/department/course/description": [
-    "COE753.xml",
     "COE753.xml"
   ],
   "organization,university/department/course/description": [
@@ -2150,21 +2032,16 @@
     "HOM231.xml"
   ],
   "palestine,university/department/course/description": [
-    "HST244.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "palestinian,university/department/course/description": [
-    "HST244.xml",
     "HST244.xml"
   ],
   "parallel,university/department/course/description": [
-    "COE753.xml",
     "COE753.xml"
   ],
   "parallelism,university/department/course/description": [
     "COE522.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "part,university/department/course/description": [
@@ -2188,7 +2065,6 @@
     "COE522.xml"
   ],
   "performance,university/department/course/description": [
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "period,university/department/course/description": [
@@ -2206,7 +2082,6 @@
   ],
   "pipelining,university/department/course/description": [
     "COE424.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "place,university/department/course/description": [
@@ -2219,7 +2094,6 @@
     "HST244.xml"
   ],
   "policy,university/department/course/description": [
-    "ECO202.xml",
     "ECO202.xml"
   ],
   "polity,university/department/course/description": [
@@ -2257,7 +2131,6 @@
   "principle,university/department/course/description": [
     "ECO202.xml",
     "EECE421.XML",
-    "ELE537.XML",
     "ELE537.XML"
   ],
   "private,university/department/course/description": [
@@ -2292,8 +2165,6 @@
   ],
   "processor,university/department/course/description": [
     "COE521.xml",
-    "COE521.xml",
-    "COE521.xml",
     "COE522.xml",
     "EECE421.XML"
   ],
@@ -2319,10 +2190,6 @@
   ],
   "programming,university/department/course/description": [
     "COE211.XML",
-    "COE211.XML",
-    "COE211.XML",
-    "COE312.XML",
-    "COE312.XML",
     "COE312.XML",
     "COE431.xml"
   ],
@@ -2339,11 +2206,9 @@
     "COE312.XML",
     "COE521.xml",
     "COE544.xml",
-    "COE544.xml",
     "COE593.xml",
     "COE753.xml",
     "EECE421.XML",
-    "EECE430.XML",
     "EECE430.XML",
     "HST244.xml"
   ],
@@ -2351,7 +2216,6 @@
     "EECE340.XML"
   ],
   "protect,university/department/course/description": [
-    "COE732.xml",
     "COE732.xml"
   ],
   "protection,university/department/course/description": [
@@ -2392,11 +2256,9 @@
     "COE555.xml"
   ],
   "queueing,university/department/course/description": [
-    "COE555.xml",
     "COE555.xml"
   ],
   "queuing,university/department/course/description": [
-    "COE555.xml",
     "COE555.xml"
   ],
   "ramus,university/department/course/instructors/instructor": [
@@ -2468,7 +2330,6 @@
     "ECO201.xml"
   ],
   "response,university/department/course/description": [
-    "HST244.xml",
     "HST244.xml"
   ],
   "restaurant,university/department/course/description": [
@@ -2482,7 +2343,6 @@
     "COE543.xml"
   ],
   "rise,university/department/course/description": [
-    "HST231.xml",
     "HST231.xml"
   ],
   "risk,university/department/course/description": [
@@ -2521,7 +2381,6 @@
   ],
   "scheduling,university/department/course/description": [
     "COE414.xml",
-    "COE522.xml",
     "COE522.xml"
   ],
   "scheme,university/department/course/description": [
@@ -2531,37 +2390,24 @@
     "ECO201.xml"
   ],
   "search,university/department/course/description": [
-    "COE753.xml",
-    "COE753.xml",
     "COE753.xml"
   ],
   "security,university/department/course": [
     "COE732.xml"
   ],
   "security,university/department/course/description": [
-    "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
     "COE732.xml"
   ],
   "select,university/department/course/description": [
     "COE753.xml"
   ],
   "semantic,university/department/course/description": [
-    "COE543.xml",
-    "COE543.xml",
     "COE543.xml"
   ],
   "sequential,university/department/course/description": [
     "COE321.XML"
   ],
   "serial,university/department/course/description": [
-    "COE753.xml",
-    "COE753.xml",
     "COE753.xml"
   ],
   "series,university/department/course/description": [
@@ -2573,7 +2419,6 @@
   ],
   "set,university/department/course/description": [
     "COE423.xml",
-    "COE544.xml",
     "COE544.xml"
   ],
   "shannon,university/department/course/description": [
@@ -2591,10 +2436,6 @@
   ],
   "signal,university/department/course/description": [
     "EECE340.XML",
-    "EECE340.XML",
-    "EECE340.XML",
-    "EECE340.XML",
-    "ELE430.XML",
     "ELE430.XML",
     "ELE535.XML"
   ],
@@ -2623,7 +2464,6 @@
   "simulation,university/department/course/description": [
     "COE431.xml",
     "COE526.xml",
-    "COE555.xml",
     "COE555.xml"
   ],
   "single,university/department/course/description": [
@@ -2648,9 +2488,6 @@
     "COE521.xml",
     "COE544.xml",
     "EECE421.XML",
-    "EECE421.XML",
-    "EECE430.XML",
-    "EECE430.XML",
     "EECE430.XML"
   ],
   "solution,university/department/course/description": [
@@ -2667,7 +2504,6 @@
     "HOM231.xml"
   ],
   "spirit,university/department/course/description": [
-    "HOM231.xml",
     "HOM231.xml"
   ],
   "spreadsheet,university/department/course/description": [
@@ -2699,8 +2535,6 @@
   "state,university/department/course/description": [
     "COE321.XML",
     "COE543.xml",
-    "HST244.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "statistic,university/department/course/prerequisites/course": [
@@ -2747,9 +2581,6 @@
   ],
   "student,university/department/course/description": [
     "COE544.xml",
-    "COE544.xml",
-    "COE544.xml",
-    "COE544.xml",
     "COE593.xml",
     "COE753.xml",
     "EECE421.XML",
@@ -2768,7 +2599,6 @@
   ],
   "superscalar,university/department/course/description": [
     "COE522.xml",
-    "EECE421.XML",
     "EECE421.XML"
   ],
   "surrounding,university/department/course/description": [
@@ -2779,7 +2609,6 @@
     "COE543.xml"
   ],
   "switched,university/department/course/description": [
-    "COE535.xml",
     "COE535.xml"
   ],
   "synchronization,university/department/course/description": [
@@ -2794,11 +2623,6 @@
   ],
   "synthesis,university/department/course/description": [
     "COE424.xml",
-    "COE424.xml",
-    "COE526.xml",
-    "COE526.xml",
-    "COE526.xml",
-    "COE526.xml",
     "COE526.xml"
   ],
   "system,university/department/course": [
@@ -2813,28 +2637,17 @@
   ],
   "system,university/department/course/description": [
     "COE414.xml",
-    "COE414.xml",
-    "COE423.xml",
     "COE423.xml",
     "COE424.xml",
     "COE425.xml",
     "COE521.xml",
     "COE522.xml",
-    "COE522.xml",
     "COE526.xml",
     "COE555.xml",
-    "COE555.xml",
     "COE732.xml",
-    "COE732.xml",
-    "COE732.xml",
-    "EECE340.XML",
-    "EECE340.XML",
-    "EECE340.XML",
     "EECE340.XML",
     "EECE421.XML",
     "EECE430.XML",
-    "ELE430.XML",
-    "ELE430.XML",
     "ELE430.XML",
     "ELE535.XML",
     "ELE537.XML",
@@ -2885,17 +2698,11 @@
   "technique,university/department/course/description": [
     "COE423.xml",
     "COE522.xml",
-    "COE522.xml",
     "COE543.xml",
-    "COE555.xml",
-    "COE555.xml",
     "COE555.xml",
     "COE593.xml",
     "COE732.xml",
-    "COE732.xml",
     "COE753.xml",
-    "EECE421.XML",
-    "EECE421.XML",
     "EECE421.XML",
     "ELE537.XML"
   ],
@@ -2940,8 +2747,6 @@
   "tool,university/department/course/description": [
     "COE425.xml",
     "COE526.xml",
-    "EECE430.XML",
-    "EECE430.XML",
     "EECE430.XML"
   ],
   "topic,university/department/course": [
@@ -3051,14 +2856,12 @@
   ],
   "use,university/department/course/description": [
     "COE526.xml",
-    "COE526.xml",
     "EECE430.XML"
   ],
   "used,university/department/course/description": [
     "COE521.xml",
     "COE535.xml",
     "EECE421.XML",
-    "ELE537.XML",
     "ELE537.XML"
   ],
   "user,university/department/course/description": [
@@ -3123,14 +2926,9 @@
   ],
   "war,university/department/course/description": [
     "HST231.xml",
-    "HST231.xml",
-    "HST231.xml",
-    "HST244.xml",
     "HST244.xml"
   ],
   "wavelength,university/department/course/description": [
-    "COE535.xml",
-    "COE535.xml",
     "COE535.xml"
   ],
   "wdm,university/department/course/description": [
@@ -3138,7 +2936,6 @@
   ],
   "web,university/department/course/description": [
     "COE201.xml",
-    "COE543.xml",
     "COE543.xml"
   ],
   "well,university/department/course/description": [
@@ -3156,12 +2953,6 @@
     "HOM231.xml"
   ],
   "wine,university/department/course/description": [
-    "HOM231.xml",
-    "HOM231.xml",
-    "HOM231.xml",
-    "HOM231.xml",
-    "HOM231.xml",
-    "HOM231.xml",
     "HOM231.xml"
   ],
   "wissam,university/department/course/instructors/instructor": [
@@ -3185,7 +2976,6 @@
   ],
   "world,university/department/course/description": [
     "HOM231.xml",
-    "HST231.xml",
     "HST231.xml",
     "HST244.xml"
   ],
@@ -3213,7 +3003,6 @@
     "HST244.xml"
   ],
   "zionist,university/department/course/description": [
-    "HST244.xml",
     "HST244.xml"
   ],
   "zoom,university/department/course/description": [

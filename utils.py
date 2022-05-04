@@ -4,6 +4,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import pandas as pd
 
 # nltk.download('punkt')
 # nltk.download('stopwords')
@@ -84,6 +85,7 @@ def e_cosine(dimensions, v1 , v2):
 
     for i in range(0, len(dimensions)):
         dimension = dimensions[i]
+        print("DIMENSION: ",dimension)
         term = dimension.split(",")[0]
         context = dimension.split(",")[1]
 
@@ -135,23 +137,33 @@ def WF(c1, c2):
     
             
 def sim_context(c1, c2):
+    print("c1: ",c1)
+    print("c2: ",c2)
     if c1==c2: return 1
     c1 = c1.split("/")
     c2 = c2.split("/")
+    print("c1 after split: ",c1)
+    print("c2 after: ",c2)
     # WF
-    Dist = np.ndarray(shape=(len(c1),len(c2)))
-    Dist[0] = 0
-    for i in range(1,len(c1)):
-        Dist[i][0] = Dist[i-1][0] + costDel(c1[i])
-    for j in range(1,len(c2)):
-        Dist[0][j] = Dist[0][j-1] + costIns(c2[j])
+    Dist = np.ndarray(shape=(len(c1)+1,len(c2)+1))
+    Dist[0][0] = 0
+
+    print(pd.DataFrame(Dist))
+
+    for i in range(1,len(c1)+1):
+        Dist[i][0] = Dist[i-1][0] + costDel(c1[i-1])
+    for j in range(1,len(c2)+1):
+        Dist[0][j] = Dist[0][j-1] + costIns(c2[j-1])
+
+    # print(pd.DataFrame(Dist))
     
-    for i in range(1,len(c1)):
-        for j in range(1,len(c2)):
+    
+    for i in range(1,len(c1)+1):
+        for j in range(1,len(c2)+1):
             Dist[i][j] = min(
-                Dist[i-1][j-1] + costUpd(c1[i],c2[j]),
-                Dist[i-1][j] + costDel(c1[i]),
-                Dist[i][j-1] + costIns(c2[j])
+                Dist[i-1][j-1] + costUpd(c1[i-1],c2[j-1]),
+                Dist[i-1][j] + costDel(c1[i-1]),
+                Dist[i][j-1] + costIns(c2[j-1])
             )
     return 1/(1+Dist[i][j])
 
@@ -182,6 +194,6 @@ def binarySearch(L, target):
 # print(binarySearch(["Cramer","John","Takagi"],"Cramer"))
 
     # print(dict)
-# print(sim_context("Department/Student","Department/Professor"))
-print(WF("Hi there","Hithor"))
+print(sim_context("University","University/Department/Course/Description"))
+
 

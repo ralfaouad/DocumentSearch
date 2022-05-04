@@ -15,7 +15,8 @@ def process_XML(filename, indexing_table):
 
     for term in terms:
         if(term in indexing_table):
-            (indexing_table[term]).append(filename)
+            if filename not in indexing_table[term]:
+                (indexing_table[term]).append(filename)
         else:
             indexing_table[term] = [filename]
     sorted_index = collections.OrderedDict(sorted(indexing_table.items()))
